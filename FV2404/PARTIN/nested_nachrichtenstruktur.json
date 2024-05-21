@@ -1,1252 +1,1252 @@
 {
-  "header_linie": null,
-  "segmente": [
-    {
-      "zaehler": "0010",
-      "nr": "00001",
-      "bezeichnung": "UNH",
-      "standard_status": "M",
-      "bdew_status": "M",
-      "standard_maximale_wiederholungen": 1,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 0,
-      "inhalt": "Nachrichten-Kopfsegment"
-    },
-    {
-      "zaehler": "0020",
-      "nr": "00002",
-      "bezeichnung": "BGM",
-      "standard_status": "M",
-      "bdew_status": "M",
-      "standard_maximale_wiederholungen": 1,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 0,
-      "inhalt": "Beginn der Nachricht"
-    },
-    {
-      "zaehler": "0030",
-      "nr": "00003",
-      "bezeichnung": "DTM",
-      "standard_status": "M",
-      "bdew_status": "M",
-      "standard_maximale_wiederholungen": 5,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 1,
-      "inhalt": "Nachrichtendatum"
-    },
-    {
-      "zaehler": "0140",
-      "nr": "00012",
-      "bezeichnung": "UNS",
-      "standard_status": "M",
-      "bdew_status": "M",
-      "standard_maximale_wiederholungen": 1,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 0,
-      "inhalt": "Abschnitts-Kontrollsegment"
-    },
-    {
-      "zaehler": "0650",
-      "nr": "00061",
-      "bezeichnung": "UNT",
-      "standard_status": "M",
-      "bdew_status": "M",
-      "standard_maximale_wiederholungen": 1,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 0,
-      "inhalt": "Nachrichten-Endesegment"
-    }
-  ],
-  "segmentgruppen": [
-    {
-      "header_linie": {
-        "zaehler": "0060",
-        "nr": null,
-        "bezeichnung": "SG1",
-        "standard_status": "C",
-        "bdew_status": "R",
-        "standard_maximale_wiederholungen": 5,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Pr\u00fcfidentifiktor"
-      },
-      "segmente": [
+    "header_linie": null,
+    "segmente": [
         {
-          "zaehler": "0070",
-          "nr": "00004",
-          "bezeichnung": "RFF",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Pr\u00fcfidentifikator"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0060",
-        "nr": null,
-        "bezeichnung": "SG1",
-        "standard_status": "C",
-        "bdew_status": "R",
-        "standard_maximale_wiederholungen": 5,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Version / G\u00fcltig Ab"
-      },
-      "segmente": [
-        {
-          "zaehler": "0070",
-          "nr": "00005",
-          "bezeichnung": "RFF",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Versionsnummer"
+            "zaehler": "0010",
+            "nr": "00001",
+            "bezeichnung": "UNH",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Nachrichten-Kopfsegment"
         },
         {
-          "zaehler": "0080",
-          "nr": "00006",
-          "bezeichnung": "DTM",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "G\u00fcltig Ab"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0060",
-        "nr": null,
-        "bezeichnung": "SG1",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 5,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Vorg\u00e4ngerversion"
-      },
-      "segmente": [
-        {
-          "zaehler": "0070",
-          "nr": "00007",
-          "bezeichnung": "RFF",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Vorg\u00e4ngerversion"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0090",
-        "nr": null,
-        "bezeichnung": "SG2",
-        "standard_status": "C",
-        "bdew_status": "R",
-        "standard_maximale_wiederholungen": 2,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "MP-ID Absender"
-      },
-      "segmente": [
-        {
-          "zaehler": "0100",
-          "nr": "00008",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "MP-ID Absender"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0110",
-            "nr": null,
-            "bezeichnung": "SG3",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
+            "zaehler": "0020",
+            "nr": "00002",
+            "bezeichnung": "BGM",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
             "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0120",
-              "nr": "00009",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0130",
-              "nr": "00010",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 5,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0090",
-        "nr": null,
-        "bezeichnung": "SG2",
-        "standard_status": "C",
-        "bdew_status": "R",
-        "standard_maximale_wiederholungen": 2,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "MP-ID Empf\u00e4nger"
-      },
-      "segmente": [
-        {
-          "zaehler": "0100",
-          "nr": "00011",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "MP-ID Empf\u00e4nger"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Unternehmensinformationen"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00013",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Adresse des Unternehmens"
+            "ebene": 0,
+            "inhalt": "Beginn der Nachricht"
         },
         {
-          "zaehler": "0180",
-          "nr": "00014",
-          "bezeichnung": "FII",
-          "standard_status": "C",
-          "bdew_status": "R",
-          "standard_maximale_wiederholungen": 10,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Bankverbindung"
+            "zaehler": "0030",
+            "nr": "00003",
+            "bezeichnung": "DTM",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 5,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Nachrichtendatum"
         },
         {
-          "zaehler": "0200",
-          "nr": "00015",
-          "bezeichnung": "FTX",
-          "standard_status": "C",
-          "bdew_status": "R",
-          "standard_maximale_wiederholungen": 9,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Internetseite (URL)"
+            "zaehler": "0140",
+            "nr": "00012",
+            "bezeichnung": "UNS",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Abschnitts-Kontrollsegment"
         },
         {
-          "zaehler": "0200",
-          "nr": "00016",
-          "bezeichnung": "FTX",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 9,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Gericht und Handelsregister-Nummer"
+            "zaehler": "0650",
+            "nr": "00061",
+            "bezeichnung": "UNT",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Nachrichten-Endesegment"
         }
-      ],
-      "segmentgruppen": [
+    ],
+    "segmentgruppen": [
         {
-          "header_linie": {
-            "zaehler": "0260",
-            "nr": null,
-            "bezeichnung": "SG6",
-            "standard_status": "C",
-            "bdew_status": "R",
-            "standard_maximale_wiederholungen": 15,
-            "bdew_maximale_wiederholungen": 2,
-            "ebene": 2,
-            "inhalt": "Steuernummer, Umsatzsteuernummer"
-          },
-          "segmente": [
-            {
-              "zaehler": "0270",
-              "nr": "00017",
-              "bezeichnung": "RFF",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Steuernummer, Umsatzsteuernummer"
-            }
-          ],
-          "segmentgruppen": []
+            "header_linie": {
+                "zaehler": "0060",
+                "nr": null,
+                "bezeichnung": "SG1",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 5,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Pr\u00fcfidentifiktor"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0070",
+                    "nr": "00004",
+                    "bezeichnung": "RFF",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Pr\u00fcfidentifikator"
+                }
+            ],
+            "segmentgruppen": []
         },
         {
-          "header_linie": {
-            "zaehler": "0260",
-            "nr": null,
-            "bezeichnung": "SG6",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 15,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Faxnummer"
-          },
-          "segmente": [
-            {
-              "zaehler": "0270",
-              "nr": "00018",
-              "bezeichnung": "RFF",
-              "standard_status": "M",
-              "bdew_status": "D",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Faxnummer"
-            }
-          ],
-          "segmentgruppen": []
+            "header_linie": {
+                "zaehler": "0060",
+                "nr": null,
+                "bezeichnung": "SG1",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 5,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Version / G\u00fcltig Ab"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0070",
+                    "nr": "00005",
+                    "bezeichnung": "RFF",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Versionsnummer"
+                },
+                {
+                    "zaehler": "0080",
+                    "nr": "00006",
+                    "bezeichnung": "DTM",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "G\u00fcltig Ab"
+                }
+            ],
+            "segmentgruppen": []
         },
         {
-          "header_linie": {
-            "zaehler": "0490",
-            "nr": null,
-            "bezeichnung": "SG12",
-            "standard_status": "C",
-            "bdew_status": "R",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Erreichbarkeit an Werktagen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0500",
-              "nr": "00019",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Erreichbarkeit an Werktagen"
+            "header_linie": {
+                "zaehler": "0060",
+                "nr": null,
+                "bezeichnung": "SG1",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 5,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Vorg\u00e4ngerversion"
             },
-            {
-              "zaehler": "0540",
-              "nr": "00020",
-              "bezeichnung": "DTM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 9,
-              "bdew_maximale_wiederholungen": 6,
-              "ebene": 3,
-              "inhalt": "Erreichbarkeit"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Ansprechpartner \u00dcbertragungsweg / Datenaustausch"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00021",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Anschrift Ansprechpartner \u00dcbertragungsweg /\nDatenaustausch"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0290",
-            "nr": null,
-            "bezeichnung": "SG7",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0300",
-              "nr": "00022",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0310",
-              "nr": "00023",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 3,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Ansprechpartner Rahmenvertr\u00e4ge"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00024",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Anschrift Ansprechpartner Rahmenvertr\u00e4ge"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0290",
-            "nr": null,
-            "bezeichnung": "SG7",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0300",
-              "nr": "00025",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0310",
-              "nr": "00026",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 3,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Ansprechpartner K\u00fcndigungsprozess"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00027",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Anschrift Ansprechpartner K\u00fcndigungsprozess"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0290",
-            "nr": null,
-            "bezeichnung": "SG7",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0300",
-              "nr": "00028",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0310",
-              "nr": "00029",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 3,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Ansprechpartner Wechselprozesse"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00030",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Anschrift Ansprechpartner Wechselprozesse"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0290",
-            "nr": null,
-            "bezeichnung": "SG7",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0300",
-              "nr": "00031",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0310",
-              "nr": "00032",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 3,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Ansprechpartner Stammdatenprozesse"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00033",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Anschrift Ansprechpartner\nStammdatenprozesse"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0290",
-            "nr": null,
-            "bezeichnung": "SG7",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0300",
-              "nr": "00034",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0310",
-              "nr": "00035",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 3,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Ansprechpartner Einspeiseprozesse"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00036",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Anschrift Ansprechpartner Einspeiseprozesse"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0290",
-            "nr": null,
-            "bezeichnung": "SG7",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0300",
-              "nr": "00037",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0310",
-              "nr": "00038",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 3,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Ansprechpartner Abrechnungsprozesse"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00039",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Anschrift Ansprechpartner\nAbrechnungsprozesse"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0290",
-            "nr": null,
-            "bezeichnung": "SG7",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0300",
-              "nr": "00040",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0310",
-              "nr": "00041",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 3,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Ansprechpartner MMMA Prozesse"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00042",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Anschrift Ansprechpartner MMMA-Prozesse"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0290",
-            "nr": null,
-            "bezeichnung": "SG7",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0300",
-              "nr": "00043",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0310",
-              "nr": "00044",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 3,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Ansprechpartner Bewegungsdaten"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00045",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Anschrift Bewegungsdaten"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0290",
-            "nr": null,
-            "bezeichnung": "SG7",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0300",
-              "nr": "00046",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0310",
-              "nr": "00047",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 3,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Ansprechpartner Prozesse zur Unterbrechung und\nWiederherstellung der Anschlussnutzung"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00048",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Anschrift Ansprechpartner Prozesse zur\nUnterbrechung und Wiederherstellung der\nAnschlussnutzung"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0290",
-            "nr": null,
-            "bezeichnung": "SG7",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0300",
-              "nr": "00049",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0310",
-              "nr": "00050",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 3,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Ansprechpartner Bilanzierungsprozesse /\nBilanzkreismanagement"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00051",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Anschrift Ansprechpartner\nBilanzierungsprozesse / Bilanzkreismanagement"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0290",
-            "nr": null,
-            "bezeichnung": "SG7",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0300",
-              "nr": "00052",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0310",
-              "nr": "00053",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 3,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Ansprechpartner Technischer Netzanschluss f\u00fcr\nNeuanlagen und Anlagenumbau"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00054",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Name und Anschrift Ansprechpartner Technischer\nNetzanschluss f\u00fcr Neuanlagen und Anlagenumbau"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0290",
-            "nr": null,
-            "bezeichnung": "SG7",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0300",
-              "nr": "00055",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0310",
-              "nr": "00056",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 3,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0150",
-        "nr": null,
-        "bezeichnung": "SG4",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Kommunikationsparameter f\u00fcr die Information zu einem\nSteuerbefehl (API)"
-      },
-      "segmente": [
-        {
-          "zaehler": "0160",
-          "nr": "00057",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Kommunikationsparameter f\u00fcr die Information zu einem\nSteuerbefehl (API)"
+            "segmente": [
+                {
+                    "zaehler": "0070",
+                    "nr": "00007",
+                    "bezeichnung": "RFF",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Vorg\u00e4ngerversion"
+                }
+            ],
+            "segmentgruppen": []
         },
         {
-          "zaehler": "0200",
-          "nr": "00058",
-          "bezeichnung": "FTX",
-          "standard_status": "C",
-          "bdew_status": "R",
-          "standard_maximale_wiederholungen": 9,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Zieladresse URI"
+            "header_linie": {
+                "zaehler": "0090",
+                "nr": null,
+                "bezeichnung": "SG2",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 2,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "MP-ID Absender"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0100",
+                    "nr": "00008",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "MP-ID Absender"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0110",
+                        "nr": null,
+                        "bezeichnung": "SG3",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0120",
+                            "nr": "00009",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0130",
+                            "nr": "00010",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 5,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
         },
         {
-          "zaehler": "0200",
-          "nr": "00059",
-          "bezeichnung": "FTX",
-          "standard_status": "C",
-          "bdew_status": "R",
-          "standard_maximale_wiederholungen": 9,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Zertifikatsaussteller (Issuer)"
+            "header_linie": {
+                "zaehler": "0090",
+                "nr": null,
+                "bezeichnung": "SG2",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 2,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "MP-ID Empf\u00e4nger"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0100",
+                    "nr": "00011",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "MP-ID Empf\u00e4nger"
+                }
+            ],
+            "segmentgruppen": []
         },
         {
-          "zaehler": "0200",
-          "nr": "00060",
-          "bezeichnung": "FTX",
-          "standard_status": "C",
-          "bdew_status": "R",
-          "standard_maximale_wiederholungen": 9,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Zertifikatsnutzer (Subject)"
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Unternehmensinformationen"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00013",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Adresse des Unternehmens"
+                },
+                {
+                    "zaehler": "0180",
+                    "nr": "00014",
+                    "bezeichnung": "FII",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 10,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Bankverbindung"
+                },
+                {
+                    "zaehler": "0200",
+                    "nr": "00015",
+                    "bezeichnung": "FTX",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 9,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Internetseite (URL)"
+                },
+                {
+                    "zaehler": "0200",
+                    "nr": "00016",
+                    "bezeichnung": "FTX",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 9,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Gericht und Handelsregister-Nummer"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0260",
+                        "nr": null,
+                        "bezeichnung": "SG6",
+                        "standard_status": "C",
+                        "bdew_status": "R",
+                        "standard_maximale_wiederholungen": 15,
+                        "bdew_maximale_wiederholungen": 2,
+                        "ebene": 2,
+                        "inhalt": "Steuernummer, Umsatzsteuernummer"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0270",
+                            "nr": "00017",
+                            "bezeichnung": "RFF",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Steuernummer, Umsatzsteuernummer"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0260",
+                        "nr": null,
+                        "bezeichnung": "SG6",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 15,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Faxnummer"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0270",
+                            "nr": "00018",
+                            "bezeichnung": "RFF",
+                            "standard_status": "M",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Faxnummer"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0490",
+                        "nr": null,
+                        "bezeichnung": "SG12",
+                        "standard_status": "C",
+                        "bdew_status": "R",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Erreichbarkeit an Werktagen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0500",
+                            "nr": "00019",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Erreichbarkeit an Werktagen"
+                        },
+                        {
+                            "zaehler": "0540",
+                            "nr": "00020",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 6,
+                            "ebene": 3,
+                            "inhalt": "Erreichbarkeit"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Ansprechpartner \u00dcbertragungsweg / Datenaustausch"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00021",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Anschrift Ansprechpartner \u00dcbertragungsweg /\nDatenaustausch"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0290",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0300",
+                            "nr": "00022",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0310",
+                            "nr": "00023",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 3,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Ansprechpartner Rahmenvertr\u00e4ge"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00024",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Anschrift Ansprechpartner Rahmenvertr\u00e4ge"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0290",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0300",
+                            "nr": "00025",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0310",
+                            "nr": "00026",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 3,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Ansprechpartner K\u00fcndigungsprozess"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00027",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Anschrift Ansprechpartner K\u00fcndigungsprozess"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0290",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0300",
+                            "nr": "00028",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0310",
+                            "nr": "00029",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 3,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Ansprechpartner Wechselprozesse"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00030",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Anschrift Ansprechpartner Wechselprozesse"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0290",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0300",
+                            "nr": "00031",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0310",
+                            "nr": "00032",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 3,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Ansprechpartner Stammdatenprozesse"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00033",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Anschrift Ansprechpartner\nStammdatenprozesse"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0290",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0300",
+                            "nr": "00034",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0310",
+                            "nr": "00035",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 3,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Ansprechpartner Einspeiseprozesse"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00036",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Anschrift Ansprechpartner Einspeiseprozesse"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0290",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0300",
+                            "nr": "00037",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0310",
+                            "nr": "00038",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 3,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Ansprechpartner Abrechnungsprozesse"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00039",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Anschrift Ansprechpartner\nAbrechnungsprozesse"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0290",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0300",
+                            "nr": "00040",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0310",
+                            "nr": "00041",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 3,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Ansprechpartner MMMA Prozesse"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00042",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Anschrift Ansprechpartner MMMA-Prozesse"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0290",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0300",
+                            "nr": "00043",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0310",
+                            "nr": "00044",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 3,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Ansprechpartner Bewegungsdaten"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00045",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Anschrift Bewegungsdaten"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0290",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0300",
+                            "nr": "00046",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0310",
+                            "nr": "00047",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 3,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Ansprechpartner Prozesse zur Unterbrechung und\nWiederherstellung der Anschlussnutzung"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00048",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Anschrift Ansprechpartner Prozesse zur\nUnterbrechung und Wiederherstellung der\nAnschlussnutzung"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0290",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0300",
+                            "nr": "00049",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0310",
+                            "nr": "00050",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 3,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Ansprechpartner Bilanzierungsprozesse /\nBilanzkreismanagement"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00051",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Anschrift Ansprechpartner\nBilanzierungsprozesse / Bilanzkreismanagement"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0290",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0300",
+                            "nr": "00052",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0310",
+                            "nr": "00053",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 3,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Ansprechpartner Technischer Netzanschluss f\u00fcr\nNeuanlagen und Anlagenumbau"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00054",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Name und Anschrift Ansprechpartner Technischer\nNetzanschluss f\u00fcr Neuanlagen und Anlagenumbau"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0290",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0300",
+                            "nr": "00055",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0310",
+                            "nr": "00056",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 3,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Kommunikationsparameter f\u00fcr die Information zu einem\nSteuerbefehl (API)"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00057",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Kommunikationsparameter f\u00fcr die Information zu einem\nSteuerbefehl (API)"
+                },
+                {
+                    "zaehler": "0200",
+                    "nr": "00058",
+                    "bezeichnung": "FTX",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 9,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Zieladresse URI"
+                },
+                {
+                    "zaehler": "0200",
+                    "nr": "00059",
+                    "bezeichnung": "FTX",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 9,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Zertifikatsaussteller (Issuer)"
+                },
+                {
+                    "zaehler": "0200",
+                    "nr": "00060",
+                    "bezeichnung": "FTX",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 9,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Zertifikatsnutzer (Subject)"
+                }
+            ],
+            "segmentgruppen": []
         }
-      ],
-      "segmentgruppen": []
-    }
-  ]
+    ]
 }
