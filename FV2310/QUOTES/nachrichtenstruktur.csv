@@ -1,0 +1,151 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00001,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00002,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00003,DTM,M,M,35,1,1,Nachrichtendatum
+0030,00004,DTM,M,D,35,1,1,Datum zum geplanten Leistungsbeginn
+0030,00005,DTM,M,D,35,1,1,Ausführungsdatum
+0030,00006,DTM,M,D,35,1,1,Beginn zum (nächstmöglichen Termin)
+0030,00007,DTM,M,D,35,1,1,"Erforderliche Zeitspanne zur Einrichtung der
+Übermittlung von Werten ab Bestellung"
+0030,00008,DTM,M,D,35,1,1,Gültigkeitsdauer (Bindungsfrist des Angebots)
+0060,00009,IMD,C,D,999,1,1,Produkt-/Leistungsbeschreibung
+0080,00010,FTX,C,D,99,1,1,Allgemeine Information (Feld für allgemeine Hinweise)
+0100,,SG1,C,D,9999,1,1,Referenz der Anfrage
+0110,00011,RFF,M,M,1,1,1,Nachrichtennummer der Anfrage
+0100,,SG1,C,R,9999,1,1,Prüfidentifikator
+0110,00012,RFF,M,M,1,1,1,Prüfidentifikator
+0200,,SG4,C,D,5,1,1,Währungsangaben
+0210,00013,CUX,M,M,1,1,1,Währungsangaben
+0530,,SG11,C,R,99,1,1,MP-ID Absender
+0540,00014,NAD,M,M,1,1,1,MP-ID Absender
+0640,,SG14,C,R,5,1,2,Kontaktinformationen
+0650,00015,CTA,M,M,1,1,2,Ansprechpartner
+0660,00016,COM,C,R,5,5,3,Kommunikationsverbindung
+0530,,SG11,C,R,99,1,1,MP-ID Empfänger
+0540,00017,NAD,M,M,1,1,1,MP-ID Empfänger
+0530,,SG11,C,R,99,1,1,"Liefer-, bzw. Bezugsort"
+0540,00018,NAD,M,M,1,1,1,"Liefer-, bzw. Bezugsort"
+0550,00019,LOC,C,R,99,1,2,Meldepunkt
+1060,,SG27,M,D,200000,200000,1,Positionsteil
+1070,00020,LIN,M,M,1,1,1,Positionsdaten
+1080,00021,PIA,C,D,25,1,2,Zusätzliche Produktidentifikation
+1090,00022,IMD,C,D,99,1,2,Produkt-/Leistungsbeschreibung
+1110,00023,QTY,C,D,99,1,2,Menge
+1110,00024,QTY,C,D,99,1,2,zeitliche Mengenangaben
+1140,00025,DTM,C,D,35,1,2,Baujahr/Jahr des In Verkehrs bringen
+1140,00026,DTM,C,D,35,1,2,Eichgültigkeitsdauer bis
+1150,00027,GIN,C,D,1000,3,2,Herstellernummer
+1180,00028,FTX,C,D,99,1,2,Allgemeine Information (Feld für allgemeine Hinweise)
+1230,,SG28,C,D,999,1,2,Zähleinrichtung
+1240,00029,CCI,M,M,1,1,2,Zähleinrichtung
+1250,00030,CAV,C,R,10,1,3,Zähleinrichtung/Zählertyp
+1250,00031,CAV,C,D,10,1,3,Zähleinrichtung/Zählergröße (Gas)
+1250,00032,CAV,C,D,10,1,3,Zähleinrichtung/Tarifanzahl
+1250,00033,CAV,C,D,10,1,3,Zähleinrichtung/Energierichtung
+1230,,SG28,C,D,999,1,2,Wandler
+1240,00034,CCI,M,M,1,1,2,Wandler
+1250,00035,CAV,C,R,10,1,3,Wandlertyp und Faktor
+1230,,SG28,C,D,999,1,2,Mengenumwerter
+1240,00036,CCI,M,M,1,1,2,Mengenumwerter
+1250,00037,CAV,C,R,10,1,3,Mengenumwertertyp
+1230,,SG28,C,D,999,1,2,Kommunikationseinrichtung
+1240,00038,CCI,M,M,1,1,2,Kommunikationseinrichtung
+1250,00039,CAV,C,R,10,1,3,Kommunikationseinrichtung
+1230,,SG28,C,D,999,1,2,Technische Steuereinrichtung
+1240,00040,CCI,M,M,1,1,2,Technische Steuereinrichtung
+1250,00041,CAV,C,R,10,1,3,Technische Steuereinrichtung
+1230,,SG28,C,D,999,1,2,Smartmeter-Gateway
+1240,00042,CCI,M,M,1,1,2,Smartmeter-Gateway
+1230,,SG28,C,D,999,1,2,Steuerbox
+1240,00043,CCI,M,M,1,1,2,Steuerbox
+1230,,SG28,C,D,999,1,2,Befestigungsart
+1240,00044,CCI,M,M,1,1,2,Befestigungsart
+1250,00045,CAV,C,R,10,1,3,Befestigungsart
+1230,,SG28,C,D,999,1,2,Messwerterfassung
+1240,00046,CCI,M,M,1,1,2,Messwerterfassung
+1250,00047,CAV,C,R,10,1,3,Messwerterfassung
+1270,,SG29,C,D,100,1,2,Geldbetrag zur Position
+1280,00048,MOA,M,M,1,1,2,Geldbetrag
+1360,,SG31,C,D,99,1,2,Preisangabe zur Position
+1370,00049,PRI,M,M,1,1,2,Preisangaben
+1420,,SG32,C,D,9999,9999,2,Gerätenummer
+1430,00050,RFF,M,M,1,1,2,Gerätenummer
+1420,,SG32,C,D,9999,9999,2,Referenz auf ID weiterer Marktlokationen
+1430,00051,RFF,M,M,1,1,2,Referenz auf ID weiterer Marktlokationen
+1420,,SG32,C,D,9999,9999,2,Referenz auf veröffentlichte Preisliste
+1430,00052,RFF,M,M,1,1,2,Referenz auf einen veröffentlichten Preiskatalog
+1840,,SG42,C,D,999,1,2,Beteiligter Marktpartner MP-ID
+1850,00053,NAD,M,M,1,1,2,Beteiligter Marktpartner MP-ID
+1060,,SG27,M,D,200000,2,1,Erforderliches Messprodukt der Marktlokation
+1070,00054,LIN,M,M,1,1,1,Erforderliches Messprodukt der Marktlokation
+1080,00055,PIA,C,R,25,1,2,Erforderliches Messprodukt der Marktlokation
+1080,00056,PIA,C,R,25,1,2,Artikel-ID
+1080,00057,PIA,C,D,25,1,2,Erforderliche OBIS-Kennzahl der Marktlokation
+1270,,SG29,C,R,100,1,2,Geldbetrag zur Position
+1280,00058,MOA,M,M,1,1,2,Geldbetrag
+1360,,SG31,C,R,99,1,2,Preisangabe zur Position
+1370,00059,PRI,M,M,1,1,2,Preisangaben
+1060,,SG27,M,D,200000,2,1,Erforderliches Messprodukt der Tranche
+1070,00060,LIN,M,M,1,1,1,Erforderliches Messprodukt der Tranche
+1080,00061,PIA,C,R,25,1,2,Erforderliches Messprodukt der Tranche
+1080,00062,PIA,C,R,25,1,2,Artikel-ID
+1080,00063,PIA,C,D,25,1,2,Erforderliche OBIS-Kennzahl der Tranche
+1270,,SG29,C,R,100,1,2,Geldbetrag zur Position
+1280,00064,MOA,M,M,1,1,2,Geldbetrag
+1360,,SG31,C,R,99,1,2,Preisangabe zur Position
+1370,00065,PRI,M,M,1,1,2,Preisangaben
+1060,,SG27,M,D,200000,2,1,Erforderliches Messprodukt der Messlokation
+1070,00066,LIN,M,M,1,1,1,Erforderliches Messprodukt der Messlokation
+1080,00067,PIA,C,R,25,1,2,Erforderliches Messprodukt der Messlokation
+1080,00068,PIA,C,R,25,1,2,Artikel-ID
+1080,00069,PIA,C,D,25,1,2,Erforderliche OBIS-Kennzahl der Messlokation
+1270,,SG29,C,R,100,1,2,Geldbetrag zur Position
+1280,00070,MOA,M,M,1,1,2,Geldbetrag
+1360,,SG31,C,R,99,1,2,Preisangabe zur Position
+1370,00071,PRI,M,M,1,1,2,Preisangaben
+1060,,SG27,M,D,200000,2,1,Erforderliches Messprodukt der Netzlokation
+1070,00072,LIN,M,M,1,1,1,Erforderliches Messprodukt der Netzlokation
+1080,00073,PIA,C,R,25,1,2,Erforderliches Messprodukt der Netzlokation
+1080,00074,PIA,C,R,25,1,2,Artikel-ID
+1080,00075,PIA,C,D,25,1,2,Erforderliche OBIS-Kennzahl der Netzlokation
+1270,,SG29,C,R,100,1,2,Geldbetrag zur Position
+1280,00076,MOA,M,M,1,1,2,Geldbetrag
+1360,,SG31,C,R,99,1,2,Preisangabe zur Position
+1370,00077,PRI,M,M,1,1,2,Preisangaben
+1060,,SG27,M,D,200000,1,1,Erforderliches Produkt Schaltzeitdefinitionen
+1070,00078,LIN,M,M,1,1,1,Erforderliches Produkt Schaltzeitdefinitionen
+1080,00079,PIA,C,R,25,1,2,Erforderliches Produkt Schaltzeitdefinitionen
+1080,00080,PIA,C,R,25,3,2,Artikel-ID
+1230,,SG28,C,R,999,1,2,Zugeordnete Schaltzeitdefinition
+1240,00081,CCI,M,M,1,1,2,Zugeordnete Schaltzeitdefinition
+1060,,SG27,M,D,200000,1,1,Erforderliches Produkt Leistungskurvendefinitionen
+1070,00082,LIN,M,M,1,1,1,Erforderliches Produkt Leistungskurvendefinitionen
+1080,00083,PIA,C,R,25,1,2,Erforderliches Produkt Leistungskurvendefinitionen
+1080,00084,PIA,C,R,25,3,2,Artikel-ID
+1230,,SG28,C,R,999,1,2,Zugeordnete Leistungskurvendefinitionen
+1240,00085,CCI,M,M,1,1,2,Zugeordnete Leistungskurvendefinition
+1060,,SG27,M,D,200000,1,1,Erforderliches Produkt Ad-hoc-Steuerkanal
+1070,00086,LIN,M,M,1,1,1,Erforderliches Produkt Ad-hoc-Steuerkanal
+1080,00087,PIA,C,R,25,1,2,Erforderliches Produkt Ad-hoc-Steuerkanal
+1080,00088,PIA,C,R,25,3,2,Artikel-ID
+1060,,SG27,M,D,200000,1,1,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+Backend"
+1070,00089,LIN,M,M,1,1,1,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+Backend"
+1080,00090,PIA,C,R,25,1,2,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+Backend"
+1080,00091,PIA,C,R,25,3,2,Artikel-ID
+1060,,SG27,M,D,200000,1,1,"Erforderliches Produkt Konfigurationserlaubnis für
+Werte nach Typ 2 aus SMGW"
+1070,00092,LIN,M,M,1,1,1,"Erforderliches Produkt Konfigurationserlaubnis für Werte
+nach Typ 2 aus SMGW"
+1080,00093,PIA,C,R,25,1,2,"Erforderliches Produkt Konfigurationserlaubnis für Werte
+nach Typ 2 aus SMGW"
+1080,00094,PIA,C,R,25,3,2,Artikel-ID
+1230,,SG28,C,R,999,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
+1240,00095,CCI,M,M,1,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
+1230,,SG28,C,D,999,999,2,Schwellwerte
+1240,00096,CCI,M,M,1,1,2,Schwellwerte
+2270,00097,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
+2280,00098,MOA,C,D,15,1,1,Summenbetrag (netto)
+2340,00099,UNT,M,M,1,1,0,Nachrichten-Endesegment

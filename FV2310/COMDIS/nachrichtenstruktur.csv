@@ -1,0 +1,21 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00001,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00002,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00003,RFF,C,R,9,1,1,Prüfidentifikator
+0040,00004,DTM,C,R,9,1,1,Dokumentendatum
+0050,00005,CUX,C,D,9,1,1,Währungsangaben
+0060,,SG1,C,R,99,1,1,MP-ID Absender
+0070,00006,NAD,M,M,1,1,1,MP-ID Absender
+0080,00007,CTA,C,R,1,1,2,Ansprechpartner
+0090,00008,COM,C,R,5,5,2,Kommunikationsverbindung
+0060,,SG1,C,R,99,1,1,MP-ID Empfänger
+0070,00009,NAD,M,M,1,1,1,MP-ID Empfänger
+0100,,SG2,C,R,9999,9999,1,Dokument-/Nachricht-Einzelheiten
+0110,00010,DOC,M,M,1,1,1,Dokument-/Nachricht-Einzelheiten
+0130,00011,MOA,C,D,2,1,2,angeforderter Betrag
+0140,,SG3,C,R,9,1,2,Begründung der Korrektheit
+0150,00012,AJT,M,M,1,1,2,Begründung der Korrektheit
+0160,00013,FTX,C,D,9,1,3,"Begründung Richtigkeit mit Angabe einer
+Nachrichtenreferenz"
+0160,00014,FTX,C,D,9,1,3,Begründung Richtigkeit mit Angabe von Freitext
+0260,00015,UNT,M,M,1,1,0,Nachrichten-Endesegment
