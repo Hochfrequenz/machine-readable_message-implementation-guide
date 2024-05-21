@@ -1,0 +1,90 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00003,UNH,M,M,1,1,0,Nachrichtenanfang
+0020,00004,BGM,M,M,1,1,0,Rechnungsnummer
+0030,00005,DTM,M,M,35,1,1,Nachrichtendatum
+0030,00006,DTM,M,R,35,1,1,Bearbeitungs-/Verarbeitungsdatum
+0030,00007,DTM,M,D,35,1,1,Abrechnungszeitraum Beginn
+0030,00008,DTM,M,D,35,1,1,Abrechnungszeitraum Ende
+0030,00009,DTM,M,D,35,1,1,vorläufiger Abrechnungszeitraum Beginn
+0030,00010,DTM,M,D,35,1,1,vorläufiger Abrechnungszeitraum Ende
+0030,00011,DTM,M,D,35,1,1,Ausführungsdatum
+0030,00012,DTM,M,D,35,1,1,Beginn Bilanzierung
+0030,00013,DTM,M,D,35,1,1,Ende Netznutzung
+0060,00014,IMD,C,R,1,1,0,Rechnungstyp
+0070,00015,FTX,C,D,99,1,1,Meldeinformationen
+0090,00016,GEI,C,D,10,8,1,Spezifikation der Sonderrechnung
+0120,,SG1,C,R,99999,1,1,Prüfidentifikator
+0130,00017,RFF,M,M,1,1,1,Prüfidentifikator
+0120,,SG1,C,D,99999,1,1,Referenz auf Ursprungsrechnungsnummer
+0130,00018,RFF,M,M,1,1,1,Referenz auf Ursprungsrechnungsnummer
+0140,00019,DTM,C,R,5,1,2,Referenzdatum
+0120,,SG1,C,D,99999,1,1,Referenz auf Nummer des zugehörigen Dokuments
+0130,00020,RFF,M,M,1,1,1,Referenz auf Nummer des zugehörigen Dokuments
+0220,,SG2,C,R,99,1,1,Absender
+0230,00021,NAD,M,M,1,1,1,Name und Anschrift des Nachrichtensenders
+0270,,SG3,C,R,9999,1,2,"Steuernummer, Umsatzsteuernummer"
+0280,00022,RFF,M,M,1,1,2,"Steuernummer, Umsatzsteuernummer"
+0330,,SG5,C,O,5,1,2,Ansprechpartner
+0340,00023,CTA,M,M,1,1,2,Ansprechpartner
+0350,00024,COM,C,R,5,5,3,Kommunikationsverbindung
+0220,,SG2,C,R,99,1,1,Empfänger
+0230,00025,NAD,M,M,1,1,1,Name und Anschrift des Nachrichtenempfängers
+0270,,SG3,C,D,9999,1,2,"Steuernummer, Umsatzsteuernummer"
+0280,00026,RFF,M,M,1,1,2,"Steuernummer, Umsatzsteuernummer"
+0220,,SG2,C,D,99,1,1,Lieferanschrift
+0230,00027,NAD,M,M,1,1,1,Adresse der Markt- oder Messlokation
+0240,00028,LOC,C,R,25,1,2,Meldepunkt
+0220,,SG2,C,D,99,1,1,Netzbetreiberkonto
+0230,00029,NAD,M,M,1,1,1,Netzbetreiberkontonummer
+0400,,SG7,C,R,99,1,1,Währung
+0410,00030,CUX,M,M,1,1,1,Währungsangaben
+0430,,SG8,C,R,10,1,1,Fälligkeitsdatum
+0440,00031,PYT,M,M,1,1,1,Zahlungsbedingungen
+0450,00032,DTM,C,R,5,1,2,Fälligkeitsdatum
+1090,,SG26,C,D,9999999,9999999,1,Rechnungspositionen
+1100,00033,LIN,M,M,1,1,1,Positionsdaten
+1150,00034,QTY,C,D,5,1,2,energetische Mengenangaben
+1150,00035,QTY,C,D,5,1,2,zeitliche Mengenangaben
+1150,00036,QTY,C,D,5,1,2,Korrekturfaktor
+1180,00037,DTM,C,D,35,1,2,Positionsbezogener Abrechnungszeitraum Beginn
+1180,00038,DTM,C,D,35,1,2,Positionsbezogener Abrechnungszeitraum Ende
+1180,00039,DTM,C,D,35,1,2,Ausführungsdatum
+1250,,SG27,C,R,99,1,2,Positionsnettobetrag
+1260,00040,MOA,M,M,1,1,2,Positionsnettobetrag
+1250,,SG27,C,D,99,1,2,Gesamtzu- oder abschlagsbetrag
+1260,00041,MOA,M,M,1,1,2,Gesamtzu- oder abschlagsbetrag
+1330,,SG29,C,D,25,1,2,Preis
+1340,00042,PRI,M,M,1,1,2,Preis
+1550,,SG34,C,R,99,1,2,Steuersatz (Position)
+1560,00043,TAX,M,M,1,1,2,Umsatzsteuer der Position
+1720,,SG39,C,D,30,2,2,Abschlag
+1730,00044,ALC,M,M,1,1,2,Abschlag
+1800,,SG41,C,R,1,1,3,Prozentangabe des Abschlags
+1810,00045,PCD,M,M,1,1,3,Prozentangabe des Abschlags
+1830,,SG42,C,D,2,1,3,Bemessungsgrundlage des Gemeinderabatts
+1840,00046,MOA,M,M,1,1,3,Bemessungsgrundlage des Gemeinderabatts
+1830,,SG42,C,D,2,1,3,Gemeinderabatt der Position
+1840,00047,MOA,M,M,1,1,3,Gemeinderabatt der Position
+1720,,SG39,C,D,30,3,2,Zuschlag
+1730,00048,ALC,M,M,1,1,2,Zuschlag
+1800,,SG41,C,R,1,1,3,Prozentangabe des Zuschlags
+1810,00049,PCD,M,M,1,1,3,Prozentangabe des Zuschlags
+2180,00050,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
+2200,,SG50,M,R,100,1,1,Rechnungsbetrag (inkl. USt.)
+2210,00051,MOA,M,M,1,1,1,Rechnungsbetrag
+2200,,SG50,M,D,100,20,1,Vorausbezahlter Betrag (inkl. USt.)
+2210,00052,MOA,M,M,1,1,1,Vorausbezahlter Betrag
+2220,,SG51,C,D,1,1,2,Referenz auf Vorgängerrechnung
+2230,00053,RFF,M,R,1,1,2,Referenz auf Vorgängerrechnung
+2240,00054,DTM,C,R,5,1,3,Datum der Vorgängerrechnung
+2200,,SG50,M,D,100,1,1,Gemeinderabatt
+2210,00055,MOA,M,M,1,1,1,Gemeinderabatt
+2200,,SG50,M,R,100,1,1,Fälliger Betrag (inkl. USt.)
+2210,00056,MOA,M,M,1,1,1,Fälliger Betrag
+2250,,SG52,C,R,10,10,1,Steuerangaben u. -mengen (Summen)
+2260,00057,TAX,M,M,1,1,1,Umsatzsteuer der Rechnung
+2270,00058,MOA,C,D,9,1,2,Vorausbezahlter Betrag (steuersatzbezogen)
+2270,00059,MOA,C,D,9,1,2,Vorausbezahlte Steuern (steuersatzbezogen)
+2270,00060,MOA,C,R,9,1,2,Besteuerungsgrundlage (steuersatzbezogen)
+2270,00061,MOA,C,R,9,1,2,Steuerbetrag (steuersatzbezogen)
+2330,00062,UNT,M,M,1,1,0,Nachrichtenende
