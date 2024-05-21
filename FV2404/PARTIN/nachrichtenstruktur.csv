@@ -1,0 +1,109 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00001,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00002,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00003,DTM,M,M,5,1,1,Nachrichtendatum
+0060,,SG1,C,R,5,1,1,Prüfidentifiktor
+0070,00004,RFF,M,M,1,1,1,Prüfidentifikator
+0060,,SG1,C,R,5,1,1,Version / Gültig Ab
+0070,00005,RFF,M,M,1,1,1,Versionsnummer
+0080,00006,DTM,C,D,1,1,2,Gültig Ab
+0060,,SG1,C,D,5,1,1,Vorgängerversion
+0070,00007,RFF,M,M,1,1,1,Vorgängerversion
+0090,,SG2,C,R,2,1,1,MP-ID Absender
+0100,00008,NAD,M,M,1,1,1,MP-ID Absender
+0110,,SG3,C,D,5,1,2,Kontaktinformationen
+0120,00009,CTA,M,M,1,1,2,Ansprechpartner
+0130,00010,COM,C,R,5,5,3,Kommunikationsverbindung
+0090,,SG2,C,R,2,1,1,MP-ID Empfänger
+0100,00011,NAD,M,M,1,1,1,MP-ID Empfänger
+0140,00012,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
+0150,,SG4,C,D,200000,1,1,Unternehmensinformationen
+0160,00013,NAD,M,M,1,1,1,Name und Adresse des Unternehmens
+0180,00014,FII,C,R,10,1,2,Bankverbindung
+0200,00015,FTX,C,R,9,1,2,Internetseite (URL)
+0200,00016,FTX,C,D,9,1,2,Gericht und Handelsregister-Nummer
+0260,,SG6,C,R,15,2,2,"Steuernummer, Umsatzsteuernummer"
+0270,00017,RFF,M,M,1,1,2,"Steuernummer, Umsatzsteuernummer"
+0260,,SG6,C,D,15,1,2,Faxnummer
+0270,00018,RFF,M,D,1,1,2,Faxnummer
+0490,,SG12,C,R,999,1,2,Erreichbarkeit an Werktagen
+0500,00019,CCI,M,M,1,1,2,Erreichbarkeit an Werktagen
+0540,00020,DTM,C,R,9,6,3,Erreichbarkeit
+0150,,SG4,C,D,200000,1,1,Ansprechpartner Übertragungsweg / Datenaustausch
+0160,00021,NAD,M,M,1,1,1,"Name und Anschrift Ansprechpartner Übertragungsweg /
+Datenaustausch"
+0290,,SG7,C,D,5,1,2,Kontaktinformationen
+0300,00022,CTA,M,M,1,1,2,Ansprechpartner
+0310,00023,COM,C,R,5,3,3,Kommunikationsverbindung
+0150,,SG4,C,D,200000,1,1,Ansprechpartner Rahmenverträge
+0160,00024,NAD,M,M,1,1,1,Name und Anschrift Ansprechpartner Rahmenverträge
+0290,,SG7,C,D,5,1,2,Kontaktinformationen
+0300,00025,CTA,M,M,1,1,2,Ansprechpartner
+0310,00026,COM,C,R,5,3,3,Kommunikationsverbindung
+0150,,SG4,C,D,200000,1,1,Ansprechpartner Kündigungsprozess
+0160,00027,NAD,M,M,1,1,1,Name und Anschrift Ansprechpartner Kündigungsprozess
+0290,,SG7,C,D,5,1,2,Kontaktinformationen
+0300,00028,CTA,M,M,1,1,2,Ansprechpartner
+0310,00029,COM,C,R,5,3,3,Kommunikationsverbindung
+0150,,SG4,C,D,200000,1,1,Ansprechpartner Wechselprozesse
+0160,00030,NAD,M,M,1,1,1,Name und Anschrift Ansprechpartner Wechselprozesse
+0290,,SG7,C,D,5,1,2,Kontaktinformationen
+0300,00031,CTA,M,M,1,1,2,Ansprechpartner
+0310,00032,COM,C,R,5,3,3,Kommunikationsverbindung
+0150,,SG4,C,D,200000,1,1,Ansprechpartner Stammdatenprozesse
+0160,00033,NAD,M,M,1,1,1,"Name und Anschrift Ansprechpartner
+Stammdatenprozesse"
+0290,,SG7,C,D,5,1,2,Kontaktinformationen
+0300,00034,CTA,M,M,1,1,2,Ansprechpartner
+0310,00035,COM,C,R,5,3,3,Kommunikationsverbindung
+0150,,SG4,C,D,200000,1,1,Ansprechpartner Einspeiseprozesse
+0160,00036,NAD,M,M,1,1,1,Name und Anschrift Ansprechpartner Einspeiseprozesse
+0290,,SG7,C,D,5,1,2,Kontaktinformationen
+0300,00037,CTA,M,M,1,1,2,Ansprechpartner
+0310,00038,COM,C,R,5,3,3,Kommunikationsverbindung
+0150,,SG4,C,D,200000,1,1,Ansprechpartner Abrechnungsprozesse
+0160,00039,NAD,M,M,1,1,1,"Name und Anschrift Ansprechpartner
+Abrechnungsprozesse"
+0290,,SG7,C,D,5,1,2,Kontaktinformationen
+0300,00040,CTA,M,M,1,1,2,Ansprechpartner
+0310,00041,COM,C,R,5,3,3,Kommunikationsverbindung
+0150,,SG4,C,D,200000,1,1,Ansprechpartner MMMA Prozesse
+0160,00042,NAD,M,M,1,1,1,Name und Anschrift Ansprechpartner MMMA-Prozesse
+0290,,SG7,C,D,5,1,2,Kontaktinformationen
+0300,00043,CTA,M,M,1,1,2,Ansprechpartner
+0310,00044,COM,C,R,5,3,3,Kommunikationsverbindung
+0150,,SG4,C,D,200000,1,1,Ansprechpartner Bewegungsdaten
+0160,00045,NAD,M,M,1,1,1,Name und Anschrift Bewegungsdaten
+0290,,SG7,C,D,5,1,2,Kontaktinformationen
+0300,00046,CTA,M,M,1,1,2,Ansprechpartner
+0310,00047,COM,C,R,5,3,3,Kommunikationsverbindung
+0150,,SG4,C,D,200000,1,1,"Ansprechpartner Prozesse zur Unterbrechung und
+Wiederherstellung der Anschlussnutzung"
+0160,00048,NAD,M,M,1,1,1,"Name und Anschrift Ansprechpartner Prozesse zur
+Unterbrechung und Wiederherstellung der
+Anschlussnutzung"
+0290,,SG7,C,D,5,1,2,Kontaktinformationen
+0300,00049,CTA,M,M,1,1,2,Ansprechpartner
+0310,00050,COM,C,R,5,3,3,Kommunikationsverbindung
+0150,,SG4,C,D,200000,1,1,"Ansprechpartner Bilanzierungsprozesse /
+Bilanzkreismanagement"
+0160,00051,NAD,M,M,1,1,1,"Name und Anschrift Ansprechpartner
+Bilanzierungsprozesse / Bilanzkreismanagement"
+0290,,SG7,C,D,5,1,2,Kontaktinformationen
+0300,00052,CTA,M,M,1,1,2,Ansprechpartner
+0310,00053,COM,C,R,5,3,3,Kommunikationsverbindung
+0150,,SG4,C,D,200000,1,1,"Ansprechpartner Technischer Netzanschluss für
+Neuanlagen und Anlagenumbau"
+0160,00054,NAD,M,M,1,1,1,"Name und Anschrift Ansprechpartner Technischer
+Netzanschluss für Neuanlagen und Anlagenumbau"
+0290,,SG7,C,D,5,1,2,Kontaktinformationen
+0300,00055,CTA,M,M,1,1,2,Ansprechpartner
+0310,00056,COM,C,R,5,3,3,Kommunikationsverbindung
+0150,,SG4,C,D,200000,1,1,"Kommunikationsparameter für die Information zu einem
+Steuerbefehl (API)"
+0160,00057,NAD,M,M,1,1,1,"Kommunikationsparameter für die Information zu einem
+Steuerbefehl (API)"
+0200,00058,FTX,C,R,9,1,2,Zieladresse URI
+0200,00059,FTX,C,R,9,1,2,Zertifikatsaussteller (Issuer)
+0200,00060,FTX,C,R,9,1,2,Zertifikatsnutzer (Subject)
+0650,00061,UNT,M,M,1,1,0,Nachrichten-Endesegment
