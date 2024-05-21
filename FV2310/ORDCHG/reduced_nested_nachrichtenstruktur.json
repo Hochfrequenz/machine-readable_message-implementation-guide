@@ -1,0 +1,155 @@
+{
+    "header_linie": null,
+    "segmente": [
+        {
+            "zaehler": "0010",
+            "nr": "00001",
+            "bezeichnung": "UNH",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Nachrichten-Kopfsegment"
+        },
+        {
+            "zaehler": "0020",
+            "nr": "00002",
+            "bezeichnung": "BGM",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Beginn der Nachricht"
+        },
+        {
+            "zaehler": "0030",
+            "nr": "00003",
+            "bezeichnung": "DTM",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 35,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Nachrichtendatum"
+        },
+        {
+            "zaehler": "2380",
+            "nr": "00011",
+            "bezeichnung": "UNS",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Abschnitts-Kontrollsegment"
+        },
+        {
+            "zaehler": "2450",
+            "nr": "00012",
+            "bezeichnung": "UNT",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Nachrichten-Endesegment"
+        }
+    ],
+    "segmentgruppen": [
+        {
+            "header_linie": {
+                "zaehler": "0090",
+                "nr": null,
+                "bezeichnung": "SG1",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 9999,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Referenz der Anfrage/Bestellung"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0100",
+                    "nr": "00006",
+                    "bezeichnung": "RFF",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Pr\u00fcfidentifikator"
+                }
+            ],
+            "segmentgruppen": []
+        },
+        {
+            "header_linie": {
+                "zaehler": "0150",
+                "nr": null,
+                "bezeichnung": "SG3",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "MP-ID Absender"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0160",
+                    "nr": "00010",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "MP-ID Empf\u00e4nger"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0250",
+                        "nr": null,
+                        "bezeichnung": "SG6",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0260",
+                            "nr": "00008",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0270",
+                            "nr": "00009",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 5,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        }
+    ]
+}

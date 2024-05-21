@@ -1,0 +1,206 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00001,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00002,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00003,DTM,M,M,35,1,1,Nachrichtendatum
+0030,00004,DTM,M,D,35,1,1,Ausführungsdatum
+0030,00005,DTM,M,D,35,1,1,verschobener Abmeldetermin
+0030,00006,DTM,M,D,35,1,1,Betrachtungszeitintervall
+0030,00007,DTM,M,D,35,1,1,Beginn zum (nächstmöglichen Termin)
+0060,00008,IMD,C,D,999,1,1,Abonnement
+0060,00009,IMD,C,D,999,1,1,Produkt-/Leistungsbeschreibung
+0060,00010,IMD,C,D,999,1,1,Bestellung Zählzeitdefinition
+0060,00011,IMD,C,D,999,1,1,Lieferrichtung
+0070,00012,FTX,C,D,99,1,1,Reklamation von normierten Profilen bzw. Profilscharen
+0090,,SG1,C,D,9999,1,1,Referenz Nachrichtennummer
+0100,00013,RFF,M,M,1,1,1,Referenz Nachrichtennummer
+0090,,SG1,C,D,9999,1,1,Referenz Vorgangsnummer
+0100,00014,RFF,M,M,1,1,1,Referenz Vorgangsnummer
+0090,,SG1,C,D,9999,1,1,Referenz auf Redispatch-Maßnahme
+0100,00015,RFF,M,M,1,1,1,ID der Redispatch-Maßnahme
+0090,,SG1,C,D,9999,1,1,"Referenznummer des Vorgangs der Anmeldung nach
+WiM"
+0100,00016,RFF,M,M,1,1,1,"Referenznummer des Vorgangs der Anmeldung nach
+WiM"
+0090,,SG1,C,D,9999,1,1,"Referenznummer der Nachricht der betroffenen Antwort
+auf Bestellung "
+0100,00017,RFF,M,M,1,1,1,"Referenznummer der Nachricht der betroffenen Antwort
+auf Bestellung "
+0090,,SG1,C,D,9999,1,1,"Referenznummer des Vorgangs der betroffenen Antwort
+auf Bestellung"
+0100,00018,RFF,M,M,1,1,1,"Referenznummer des Vorgangs der betroffenen Antwort
+auf Bestellung"
+0090,,SG1,C,R,9999,1,1,Prüfidentifikator
+0100,00019,RFF,M,M,1,1,1,Prüfidentifikator
+0120,,SG2,C,R,99,1,1,MP-ID Absender
+0130,00020,NAD,M,M,1,1,1,MP-ID Absender
+0220,,SG5,C,D,5,1,2,Kontaktinformationen
+0230,00021,CTA,M,M,1,1,2,Ansprechpartner
+0240,00022,COM,C,R,5,5,3,Kommunikationsverbindung
+0120,,SG2,C,R,99,1,1,MP-ID Empfänger
+0130,00023,NAD,M,M,1,1,1,MP-ID Empfänger
+0140,00024,LOC,C,D,99,1,2,Bilanzierungsgebiet/Regelzone
+0120,,SG2,C,D,99,1,1,"Marktlokation, Messlokation, Tranche bzw. Ressource"
+0130,00025,NAD,M,M,1,1,1,Meldepunkt
+0140,00026,LOC,C,D,99,1,2,Meldepunkt
+0160,,SG3,C,D,99,99,2,Referenz auf ID der Marktlokation
+0170,00027,RFF,M,M,1,1,2,Referenz auf ID der Marktlokation
+0160,,SG3,C,D,99,1,2,Referenz auf ID der Steuerbaren Ressource
+0170,00028,RFF,M,M,1,1,2,Referenz auf ID der Steuerbaren Ressource
+0160,,SG3,C,D,99,99,2,Referenz auf ID der Technischen Ressource
+0170,00029,RFF,M,M,1,1,2,Referenz auf ID der Technischen Ressource
+0160,,SG3,C,D,99,1,2,Konfigurations-ID
+0170,00030,RFF,M,M,1,1,2,Konfigurations-ID
+0120,,SG2,C,D,99,1,1,Marktlokationsadresse
+0130,00031,NAD,M,M,1,1,1,Marktlokationsadresse
+0120,,SG2,C,D,99,1,1,Messlokationsadresse
+0130,00032,NAD,M,M,1,1,1,Messlokationsadresse
+0120,,SG2,C,D,99,1,1,Kunde des Lieferanten
+0130,00033,NAD,M,M,1,1,1,Kunde des Lieferanten
+0160,,SG3,C,D,99,1,2,Kundennummer beim Lieferanten
+0170,00034,RFF,M,M,1,1,2,Kundennummer beim Lieferanten
+0120,,SG2,C,D,99,1,1,Kunde des Messstellenbetreibers
+0130,00035,NAD,M,M,1,1,1,Kunde des Messstellenbetreibers
+0120,,SG2,C,D,99,1,1,Adresse für Treffpunkt
+0130,00036,NAD,M,M,1,1,1,Adresse für Treffpunkt
+0120,,SG2,C,D,99,1,1,MP-ID des Eigentümers der Liste der Zählzeitdefinitionen
+0130,00037,NAD,M,M,1,1,1,MP-ID des Eigentümers der Liste der Zählzeitdefinitionen
+0120,,SG2,C,D,99,1,1,MP-ID des NB des Vorgangs der Anmeldung nach WiM
+0130,00038,NAD,M,M,1,1,1,MP-ID des NB des Vorgangs der Anmeldung nach WiM
+0290,,SG7,C,D,5,1,1,Währungsangaben
+0300,00039,CUX,M,M,1,1,1,Währungsangaben
+1100,,SG29,C,D,200000,200000,1,Positionsteil
+1110,00040,LIN,M,M,1,1,1,Positionsdaten
+1120,00041,PIA,C,D,25,25,2,OBIS-Kennzahl
+1130,00042,IMD,C,D,99,1,2,Grund der Anforderung
+1150,00043,QTY,C,D,99,1,2,Menge
+1180,00044,DTM,C,D,35,1,2,Zeitpunkt für Wertanfrage
+1180,00045,DTM,C,D,35,1,2,Beginn Zeitraum für Wertanfrage
+1180,00046,DTM,C,D,35,1,2,Ende Zeitraum für Wertanfrage
+1190,00047,MOA,C,D,10,1,2,Positionsnettobetrag
+1270,00048,FTX,C,D,99,1,2,Allgemeine Information (Feld für allgemeine Hinweise)
+1270,00049,FTX,C,D,99,1,2,"Beschreibung der Reklamation von Werten und
+Definitionen"
+1280,,SG30,C,D,999,1,2,Profilgruppe
+1290,00050,CCI,M,M,1,1,2,Profilgruppe
+1280,,SG30,C,D,999,1,2,Prognosegrundlage
+1290,00051,CCI,M,M,1,1,2,Prognosegrundlage
+1300,00052,CAV,C,R,10,1,3,Prognosegrundlage
+1280,,SG30,C,D,999,1,2,Konzessionsabgabe
+1290,00053,CCI,M,M,1,1,2,Konzessionsabgabe
+1300,00054,CAV,C,R,10,1,3,Konzessionsabgabe
+1280,,SG30,C,D,999,1,2,Zugeordnete Zählzeitdefinition
+1290,00055,CCI,M,M,1,1,2,Zugeordnete Zählzeitdefinition
+1280,,SG30,C,D,999,1,2,Zugeordnete Schaltzeitdefinition
+1290,00056,CCI,M,M,1,1,2,Zugeordnete Schaltzeitdefinition
+1280,,SG30,C,D,999,1,2,Zugeordnete Leistungskurvendefinition
+1290,00057,CCI,M,M,1,1,2,Zugeordnete Leistungskurvendefinition
+1280,,SG30,C,D,999,1,2,Geräteart
+1290,00058,CCI,M,M,1,1,2,Geräteart
+1390,,SG33,C,D,25,1,2,Preis
+1400,00059,PRI,M,M,1,1,2,Preisangaben
+1450,,SG34,C,D,9999,1,2,Versionsangabe der Summenzeitreihe
+1460,00060,RFF,M,M,1,1,2,Versionsangabe der Summenzeitreihe
+1450,,SG34,C,D,9999,3,2,Gerätenummer
+1460,00061,RFF,M,M,1,1,2,Gerätenummer
+1450,,SG34,C,D,9999,1,2,Positionsnummer aus dem Angebot
+1460,00062,RFF,M,M,1,1,2,Positionsnummer aus dem Angebot
+1630,,SG38,C,D,9999,1,2,MaBiS-ZP
+1640,00063,LOC,M,M,1,1,2,Meldepunkt
+1630,,SG38,C,D,9999,1,2,Bilanzkreis für Strom
+1640,00064,LOC,M,M,1,1,2,Bilanzkreis für Strom
+1100,,SG29,C,D,200000,200000,1,Erforderliches Messprodukt der Marktlokation
+1110,00065,LIN,M,M,1,1,1,Erforderliches Messprodukt der Marktlokation
+1120,00066,PIA,C,R,25,1,2,Erforderliches Messprodukt der Marktlokation
+1280,,SG30,C,D,999,1,2,Zugeordnete Zählzeitdefinition
+1290,00067,CCI,M,M,1,1,2,Zugeordnete Zählzeitdefinition
+1280,,SG30,C,D,999,1,2,Messprodukt für Netzbetreiber relevant
+1290,00068,CCI,M,M,1,1,2,Messprodukt für Netzbetreiber relevant
+1300,00069,CAV,C,R,10,4,3,Verwendungszweck der Werte
+1280,,SG30,C,D,999,1,2,Messprodukt für Lieferant relevant
+1290,00070,CCI,M,M,1,1,2,Messprodukt für Lieferant relevant
+1300,00071,CAV,C,R,10,4,3,Verwendungszweck der Werte
+1280,,SG30,C,D,999,1,2,Messprodukt für Übertragungsnetzbetreiber relevant
+1290,00072,CCI,M,M,1,1,2,Messprodukt für Übertragungsnetzbetreiber relevant
+1300,00073,CAV,C,R,10,4,3,Verwendungszweck der Werte
+1100,,SG29,C,D,200000,200000,1,Erforderliches Messprodukt der Tranche
+1110,00074,LIN,M,M,1,1,1,Erforderliches Messprodukt der Tranche
+1120,00075,PIA,C,R,25,1,2,Erforderliches Messprodukt der Tranche
+1280,,SG30,C,D,999,1,2,Messprodukt für Netzbetreiber relevant
+1290,00076,CCI,M,M,1,1,2,Messprodukt für Netzbetreiber relevant
+1300,00077,CAV,C,R,10,4,3,Verwendungszweck der Werte
+1280,,SG30,C,D,999,1,2,Messprodukt für Lieferant relevant
+1290,00078,CCI,M,M,1,1,2,Messprodukt für Lieferant relevant
+1300,00079,CAV,C,R,10,4,3,Verwendungszweck der Werte
+1280,,SG30,C,D,999,1,2,Messprodukt für Übertragungsnetzbetreiber relevant
+1290,00080,CCI,M,M,1,1,2,Messprodukt für Übertragungsnetzbetreiber relevant
+1300,00081,CAV,C,R,10,4,3,Verwendungszweck der Werte
+1450,,SG34,C,D,9999,1,2,Referenz auf ID der Tranche
+1460,00082,RFF,M,M,1,1,2,Referenz auf ID der Tranche
+1100,,SG29,C,D,200000,200000,1,Erforderliches Messprodukt der Messlokation
+1110,00083,LIN,M,M,1,1,1,Erforderliches Messprodukt der Messlokation
+1120,00084,PIA,C,R,25,1,2,Erforderliches Messprodukt der Messlokation
+1280,,SG30,C,D,999,1,2,Weitere Beschreibung erforderliches Messprodukt
+1290,00085,CCI,M,M,1,1,2,Weitere Beschreibung erforderliches Messprodukt
+1300,00086,CAV,C,R,10,1,3,Notwendigkeit einer zweiten Messung
+1300,00087,CAV,C,R,10,1,3,"Werteübermittlung an den NB aufgrund weiterem
+Verwendungszweck"
+1280,,SG30,C,D,999,1,2,Zugeordnete Zählzeitdefinition
+1290,00088,CCI,M,M,1,1,2,Zugeordnete Zählzeitdefinition
+1450,,SG34,C,D,9999,1,2,Referenz auf ID der Messlokation
+1460,00089,RFF,M,M,1,1,2,Referenz auf ID der Messlokation
+1100,,SG29,C,D,200000,1,1,Erforderliches Messprodukt der Netzlokation
+1110,00090,LIN,M,M,1,1,1,Erforderliches Messprodukt der Netzlokation
+1120,00091,PIA,C,R,25,1,2,Erforderliches Messprodukt der Netzlokation
+1280,,SG30,C,D,999,1,2,Messprodukt für Netzbetreiber relevant
+1290,00092,CCI,M,M,1,1,2,Messprodukt für Netzbetreiber relevant
+1300,00093,CAV,C,R,10,1,3,Verwendungszweck der Werte
+1280,,SG30,C,D,999,1,2,Messprodukt für Lieferant relevant
+1290,00094,CCI,M,M,1,1,2,Messprodukt für Lieferant relevant
+1300,00095,CAV,C,R,10,1,3,Verwendungszweck der Werte
+1100,,SG29,C,D,200000,1,1,Erforderliches Produkt Schaltzeitdefinitionen
+1110,00096,LIN,M,M,1,1,1,Erforderliches Produkt Schaltzeitdefinitionen
+1120,00097,PIA,C,R,25,1,2,Erforderliches Produkt Schaltzeitdefinitionen
+1270,00098,FTX,C,D,99,1,2,Beschreibung der Reklamation der Konfiguration
+1280,,SG30,C,R,999,1,2,Zugeordnete Schaltzeitdefinition
+1290,00099,CCI,M,M,1,1,2,Zugeordnete Schaltzeitdefinition
+1100,,SG29,C,D,200000,1,1,Erforderliches Produkt Leistungskurvendefinitionen
+1110,00100,LIN,M,M,1,1,1,Erforderliches Produkt Leistungskurvendefinitionen
+1120,00101,PIA,C,R,25,1,2,Erforderliches Produkt Leistungskurvendefinitionen
+1270,00102,FTX,C,D,99,1,2,Beschreibung der Reklamation der Konfiguration
+1280,,SG30,C,R,999,1,2,Zugeordnete Leistungskurvendefinition
+1290,00103,CCI,M,M,1,1,2,Zugeordnete Leistungskurvendefinition
+1100,,SG29,C,D,200000,1,1,Erforderliches Produkt Ad-hoc-Steuerkanal
+1110,00104,LIN,M,M,1,1,1,Erforderliches Produkt Ad-hoc-Steuerkanal
+1120,00105,PIA,C,R,25,1,2,Erforderliches Produkt Ad-hoc-Steuerkanal
+1270,00106,FTX,C,R,99,1,2,Zieladresse URI
+1270,00107,FTX,C,R,99,1,2,Zertifikatsaussteller (Issuer)
+1270,00108,FTX,C,R,99,1,2,Zertifikatsnutzer (Subject)
+1270,00109,FTX,C,D,99,1,2,Beschreibung der Reklamation der Konfiguration
+1100,,SG29,C,D,200000,1,1,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+Backend"
+1110,00110,LIN,M,M,1,1,1,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+Backend"
+1120,00111,PIA,C,R,25,1,2,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+Backend"
+1270,00112,FTX,C,D,99,1,2,Beschreibung der Reklamation der Konfiguration
+1100,,SG29,C,D,200000,1,1,"Erforderliches Produkt Konfigurationserlaubnis für
+Werte nach Typ 2 aus SMGW"
+1110,00113,LIN,M,M,1,1,1,"Erforderliches Produkt Konfigurationserlaubnis für Werte
+nach Typ 2 aus SMGW"
+1120,00114,PIA,C,R,25,1,2,"Erforderliches Produkt Konfigurationserlaubnis für Werte
+nach Typ 2 aus SMGW"
+1270,00115,FTX,C,R,99,1,2,Zieladresse URI
+1270,00116,FTX,C,R,99,1,2,Zertifikatsaussteller (Issuer)
+1270,00117,FTX,C,R,99,1,2,Zertifikatsnutzer (Subject)
+1270,00118,FTX,C,D,99,1,2,Beschreibung der Reklamation der Konfiguration
+1280,,SG30,C,R,999,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
+1290,00119,CCI,M,M,1,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
+1280,,SG30,C,D,999,999,2,Schwellwerte
+1290,00120,CCI,M,M,1,1,2,Schwellwerte
+1100,,SG29,C,D,200000,1,1,Erforderliches Modul der Netzentgelte
+1110,00121,LIN,M,M,1,1,1,Erforderliches Modul der Netzentgelte
+1280,,SG30,C,R,999,2,2,Erforderliches Modul der Netzentgelte
+1290,00122,CCI,M,M,1,1,2,Erforderliches Modul der Netzentgelte
+2490,00123,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
+2500,00124,MOA,C,D,99,1,1,Summenbetrag (netto)
+2560,00125,UNT,M,M,1,1,0,Nachrichten-Endesegment

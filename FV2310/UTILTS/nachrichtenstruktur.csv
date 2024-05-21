@@ -1,0 +1,91 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00001,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00002,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00003,DTM,M,M,9,1,1,Nachrichtendatum
+0090,,SG2,C,R,99,1,1,MP-ID Absender
+0100,00004,NAD,M,M,1,1,1,MP-ID Absender
+0130,,SG3,C,D,9,1,2,Kontaktinformationen
+0140,00005,CTA,M,M,1,1,2,Ansprechpartner
+0150,00006,COM,C,R,9,5,3,Kommunikationsverbindung
+0090,,SG2,C,R,99,1,1,MP-ID Empfänger
+0100,00007,NAD,M,M,1,1,1,MP-ID Empfänger
+0200,,SG5,C,R,99999,99999,1,Vorgang
+0210,00008,IDE,M,M,1,1,1,Vorgang
+0220,00009,LOC,C,D,9,1,2,ID der Marktlokation
+0220,00010,LOC,C,D,9,1,2,Code der Definition
+0280,00011,DTM,C,D,9,1,2,Gültig ab
+0280,00012,DTM,C,D,9,1,2,Gültigkeitsbeginn der ausgerollten Definition
+0280,00013,DTM,C,D,9,1,2,Gültigkeitsende der ausgerollten Definition
+0280,00014,DTM,C,D,9,1,2,Versionsangabe
+0300,00015,STS,C,D,9,1,2,Status der Antwort
+0300,00016,STS,C,D,9,1,2,Status der Berechnungsformel
+0300,00017,STS,C,D,9,1,2,Status der Nutzung von Definitionen
+0340,,SG6,C,R,99999,1,2,Prüfidentifikator
+0350,00018,RFF,M,M,1,1,2,Prüfidentifikator
+0340,,SG6,C,D,99999,1,2,Referenz auf Reklamation
+0350,00019,RFF,M,M,1,1,2,Referenz auf Reklamation
+0340,,SG6,C,D,99999,1,2,Referenz-Vorgangsnummer (aus Berechnungsformel)
+0350,00020,RFF,M,M,1,1,2,Referenz Vorgangsnummer (aus Berechnungsformel)
+0370,,SG7,C,D,99,1,2,Lieferrichtung
+0380,00021,CCI,M,M,1,1,2,Lieferrichtung
+0400,,SG8,C,D,99999,1,2,Energiemenge der Marktlokation
+0410,00022,SEQ,M,M,1,1,2,Energiemenge der Marktlokation
+0430,00023,RFF,C,R,9,1,3,Referenz auf einen Rechenschritt
+0470,,SG9,C,R,99,1,3,Verwendungszweck der Werte
+0480,00024,CCI,M,R,1,1,3,Verwendungszweck der Werte
+0490,00025,CAV,C,R,99,4,4,Verwendungszweck der Werte
+0400,,SG8,C,D,99999,99999,2,Bestandteil des Rechenschritts
+0410,00026,SEQ,M,M,1,1,2,Bestandteil des Rechenschritts
+0430,00027,RFF,C,D,9,1,3,Referenz auf die ID einer Messlokation
+0430,00028,RFF,C,D,9,1,3,Referenz auf einen Rechenschritt
+0470,,SG9,C,R,99,1,3,Mathematischer Operator
+0480,00029,CCI,M,M,1,1,3,Mathematischer Operator
+0490,00030,CAV,C,R,99,1,4,Operator / Operation
+0470,,SG9,C,D,99,1,3,Energieflussrichtung
+0480,00031,CCI,M,M,1,1,3,Energieflussrichtung
+0490,00032,CAV,C,R,99,1,4,Energieflussrichtung
+0470,,SG9,C,D,99,1,3,Verlustfaktor Trafo
+0480,00033,CCI,M,M,1,1,3,Verlustfaktor Trafo
+0490,00034,CAV,C,R,99,1,4,Verlustfaktor Trafo
+0470,,SG9,C,D,99,1,3,Verlustfaktor Leitung
+0480,00035,CCI,M,M,1,1,3,Verlustfaktor Leitung
+0490,00036,CAV,C,R,99,1,4,Verlustfaktor Leitung
+0400,,SG8,C,D,99999,99999,2,Zählzeitdefinition
+0410,00037,SEQ,M,M,1,1,2,Zählzeitdefinition
+0420,00038,DTM,C,D,9,1,3,Zählzeitänderungszeitpunkt
+0430,00039,RFF,C,D,9,1,3,Zählendes Register
+0470,,SG9,C,D,99,1,3,Zählzeitdefinition
+0480,00040,CCI,M,M,1,1,3,Code der Zählzeitdefinition
+0490,00041,CAV,C,R,99,1,4,Häufigkeit der Übermittlung
+0490,00042,CAV,C,R,99,1,4,Übermittelbarkeit der ausgerollten Zählzeitdefinition
+0490,00043,CAV,C,D,99,1,4,"Ermittlung des Leistungsmaximums bei atypischer
+Netznutzung"
+0490,00044,CAV,C,D,99,1,4,Bestellbarkeit der Zählzeitdefinition
+0490,00045,CAV,C,D,99,1,4,Zählzeitdefinitionstyp
+0400,,SG8,C,D,99999,99999,2,Register der Zählzeitdefinition
+0410,00046,SEQ,M,M,1,1,2,Register der Zählzeitdefinition
+0430,00047,RFF,C,R,9,1,3,Referenz auf eine Zählzeitdefinition
+0470,,SG9,C,R,99,1,3,Register
+0480,00048,CCI,M,M,1,1,3,Code des Zählzeitregister
+0470,,SG9,C,D,99,1,3,Schwachlastfähigkeit
+0480,00049,CCI,M,M,1,1,3,Schwachlastfähigkeit
+0400,,SG8,C,D,99999,99999,2,Schaltzeitdefinition
+0410,00050,SEQ,M,M,1,1,2,Schaltzeitdefinition
+0420,00051,DTM,C,D,9,1,3,Schaltzeitänderungszeitpunkt
+0470,,SG9,C,D,99,1,3,Schaltzeitdefinition
+0480,00052,CCI,M,M,1,1,3,Code der Schaltzeitdefinition
+0490,00053,CAV,C,R,99,1,4,Häufigkeit der Übermittlung
+0490,00054,CAV,C,R,99,1,4,Übermittelbarkeit der ausgerollten Schaltzeitdefinition
+0470,,SG9,C,D,99,1,3,Schalthandlung an der Lokation
+0480,00055,CCI,M,M,1,1,3,Schalthandlung an der Lokation
+0400,,SG8,C,D,99999,99999,2,Leistungskurvendefinition
+0410,00056,SEQ,M,M,1,1,2,Leistungskurvendefinition
+0420,00057,DTM,C,D,9,1,3,Leistungskurvenänderungszeitpunkt
+0470,,SG9,C,D,99,1,3,Leistungskurvendefinition
+0480,00058,CCI,M,M,1,1,3,Code der Leistungskurvendefinition
+0490,00059,CAV,C,R,99,1,4,Häufigkeit der Übermittlung
+0490,00060,CAV,C,R,99,1,4,"Übermittelbarkeit der ausgerollten
+Leistungskurvendefinition"
+0530,,SG11,C,D,99999,1,3,oberer Schwellwert
+0540,00061,QTY,M,M,1,1,3,oberer Schwellwert
+0640,00062,UNT,M,M,1,1,0,Nachrichten-Endesegment

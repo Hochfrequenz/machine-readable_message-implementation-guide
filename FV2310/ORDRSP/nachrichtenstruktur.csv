@@ -1,0 +1,47 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00001,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00002,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00003,DTM,M,M,35,1,1,Nachrichtendatum
+0030,00004,DTM,M,D,35,1,1,Ausführungsdatum
+0030,00005,DTM,M,D,35,1,1,verschobener Abmeldetermin
+0030,00006,DTM,M,D,35,1,1,geplanter Behebungszeitpunkt
+0060,00007,IMD,C,D,999,1,1,Abonnement
+0060,00008,IMD,C,D,999,1,1,Produkt-/Leistungsbeschreibung
+0090,,SG1,C,D,9999,1,1,Referenz der Anfrage/Bestellung/Stornierung
+0100,00009,RFF,M,M,1,1,1,Referenz Nachrichtennummer
+0090,,SG1,C,R,9999,1,1,Prüfidentifikator
+0100,00010,RFF,M,M,1,1,1,Prüfidentifikator
+0120,,SG2,C,D,1,1,1,Antwortkategorie
+0130,00011,AJT,M,M,1,1,1,Einzelheiten zu einer Anpassung/Änderung
+0140,00012,FTX,C,D,5,1,2,Allgemeine Information (Feld für allgemeine Hinweise)
+0150,,SG3,C,R,99,1,1,MP-ID Absender
+0160,00013,NAD,M,M,1,1,1,MP-ID Absender
+0250,,SG6,C,D,5,1,2,Kontaktinformationen
+0260,00014,CTA,M,M,1,1,2,Ansprechpartner
+0270,00015,COM,C,R,5,5,3,Kommunikationsverbindung
+0150,,SG3,C,R,99,1,1,MP-ID Empfänger
+0160,00016,NAD,M,M,1,1,1,MP-ID Empfänger
+0150,,SG3,C,D,99,1,1,Beteiligter Marktpartner MP-ID
+0160,00017,NAD,M,M,1,1,1,Beteiligter Marktpartner MP-ID
+0150,,SG3,C,D,99,1,1,Name und Lieferadresse für Altgeräte
+0160,00018,NAD,M,M,1,1,1,Name und Lieferadresse für Altgeräte
+0320,,SG8,C,D,5,1,1,Währungsangaben
+0330,00019,CUX,M,M,1,1,1,Währungsangaben
+1040,,SG27,C,D,200000,200000,1,Positionsteil
+1050,00020,LIN,M,M,1,1,1,Positionsdaten
+1090,00021,QTY,C,D,99,1,2,Menge
+1130,00022,MOA,C,D,10,1,2,Positionsnettobetrag
+1210,00023,FTX,C,O,99,1,2,Allgemeine Information (Feld für allgemeine Hinweise)
+1210,00024,FTX,C,D,99,1,2,"Besondere Sachverhalte zur Sperrung (nicht pauschal im
+Preisblatt abgebildet)"
+1340,,SG31,C,D,25,1,2,Preis
+1350,00025,PRI,M,M,1,1,2,Preisangaben
+1400,,SG32,C,D,9999,3,2,Gerätenummer
+1410,00026,RFF,M,M,1,1,2,Gerätenummer
+1400,,SG32,C,D,9999,1,2,Positionsnummer der Bestellung
+1410,00027,RFF,M,M,1,1,2,Positionsnummer der Bestellung
+2400,00028,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
+2410,00029,MOA,C,D,12,1,1,Summenbetrag (netto)
+2410,00030,MOA,C,D,12,1,1,Mindestbetrag (netto) der Kosten einer Sperrung
+2410,00031,MOA,C,D,12,1,1,Höchstbetrag (netto) der Kosten einer Sperrung
+2470,00032,UNT,M,M,1,1,0,Nachrichten-Endesegment
