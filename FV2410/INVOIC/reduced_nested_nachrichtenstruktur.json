@@ -1,0 +1,619 @@
+{
+    "header_linie": null,
+    "segmente": [
+        {
+            "zaehler": "0010",
+            "nr": "00003",
+            "bezeichnung": "UNH",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Nachrichtenanfang"
+        },
+        {
+            "zaehler": "0020",
+            "nr": "00004",
+            "bezeichnung": "BGM",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Rechnungsnummer"
+        },
+        {
+            "zaehler": "0030",
+            "nr": "00005",
+            "bezeichnung": "DTM",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 35,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Nachrichtendatum"
+        },
+        {
+            "zaehler": "0060",
+            "nr": "00014",
+            "bezeichnung": "IMD",
+            "standard_status": "C",
+            "bdew_status": "R",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Rechnungstyp"
+        },
+        {
+            "zaehler": "0070",
+            "nr": "00015",
+            "bezeichnung": "FTX",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 99,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Meldeinformationen"
+        },
+        {
+            "zaehler": "0090",
+            "nr": "00016",
+            "bezeichnung": "GEI",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 10,
+            "bdew_maximale_wiederholungen": 10,
+            "ebene": 1,
+            "inhalt": "Spezifikation der Sonderrechnung"
+        },
+        {
+            "zaehler": "2180",
+            "nr": "00050",
+            "bezeichnung": "UNS",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Abschnitts-Kontrollsegment"
+        },
+        {
+            "zaehler": "2330",
+            "nr": "00062",
+            "bezeichnung": "UNT",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Nachrichtenende"
+        }
+    ],
+    "segmentgruppen": [
+        {
+            "header_linie": {
+                "zaehler": "0120",
+                "nr": null,
+                "bezeichnung": "SG1",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 99999,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Pr\u00fcfidentifikator"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0130",
+                    "nr": "00020",
+                    "bezeichnung": "RFF",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Referenz auf Nummer des zugeh\u00f6rigen Dokuments"
+                },
+                {
+                    "zaehler": "0140",
+                    "nr": "00019",
+                    "bezeichnung": "DTM",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 5,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Referenzdatum"
+                }
+            ],
+            "segmentgruppen": []
+        },
+        {
+            "header_linie": {
+                "zaehler": "0220",
+                "nr": null,
+                "bezeichnung": "SG2",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Absender"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0230",
+                    "nr": "00029",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Netzbetreiberkontonummer"
+                },
+                {
+                    "zaehler": "0240",
+                    "nr": "00028",
+                    "bezeichnung": "LOC",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 25,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Meldepunkt"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0270",
+                        "nr": null,
+                        "bezeichnung": "SG3",
+                        "standard_status": "C",
+                        "bdew_status": "R",
+                        "standard_maximale_wiederholungen": 9999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Steuernummer, Umsatzsteuernummer"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0280",
+                            "nr": "00026",
+                            "bezeichnung": "RFF",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Steuernummer, Umsatzsteuernummer"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0330",
+                        "nr": null,
+                        "bezeichnung": "SG5",
+                        "standard_status": "C",
+                        "bdew_status": "O",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Ansprechpartner"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0340",
+                            "nr": "00023",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0350",
+                            "nr": "00024",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 5,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0400",
+                "nr": null,
+                "bezeichnung": "SG7",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "W\u00e4hrung"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0410",
+                    "nr": "00030",
+                    "bezeichnung": "CUX",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "W\u00e4hrungsangaben"
+                }
+            ],
+            "segmentgruppen": []
+        },
+        {
+            "header_linie": {
+                "zaehler": "0430",
+                "nr": null,
+                "bezeichnung": "SG8",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 10,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "F\u00e4lligkeitsdatum"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0440",
+                    "nr": "00031",
+                    "bezeichnung": "PYT",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Zahlungsbedingungen"
+                },
+                {
+                    "zaehler": "0450",
+                    "nr": "00032",
+                    "bezeichnung": "DTM",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 5,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "F\u00e4lligkeitsdatum"
+                }
+            ],
+            "segmentgruppen": []
+        },
+        {
+            "header_linie": {
+                "zaehler": "1090",
+                "nr": null,
+                "bezeichnung": "SG26",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 9999999,
+                "bdew_maximale_wiederholungen": 9999999,
+                "ebene": 1,
+                "inhalt": "Rechnungspositionen"
+            },
+            "segmente": [
+                {
+                    "zaehler": "1100",
+                    "nr": "00033",
+                    "bezeichnung": "LIN",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Positionsdaten"
+                },
+                {
+                    "zaehler": "1150",
+                    "nr": "00034",
+                    "bezeichnung": "QTY",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 5,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "energetische Mengenangaben"
+                },
+                {
+                    "zaehler": "1180",
+                    "nr": "00037",
+                    "bezeichnung": "DTM",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 35,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Positionsbezogener Abrechnungszeitraum Beginn"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "1250",
+                        "nr": null,
+                        "bezeichnung": "SG27",
+                        "standard_status": "C",
+                        "bdew_status": "R",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Positionsnettobetrag"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1260",
+                            "nr": "00041",
+                            "bezeichnung": "MOA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Gesamtzu- oder abschlagsbetrag"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1330",
+                        "nr": null,
+                        "bezeichnung": "SG29",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 25,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Preis"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1340",
+                            "nr": "00042",
+                            "bezeichnung": "PRI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Preis"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1550",
+                        "nr": null,
+                        "bezeichnung": "SG34",
+                        "standard_status": "C",
+                        "bdew_status": "R",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Steuersatz (Position)"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1560",
+                            "nr": "00043",
+                            "bezeichnung": "TAX",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Umsatzsteuer der Position"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1720",
+                        "nr": null,
+                        "bezeichnung": "SG39",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 30,
+                        "bdew_maximale_wiederholungen": 2,
+                        "ebene": 2,
+                        "inhalt": "Abschlag"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1730",
+                            "nr": "00048",
+                            "bezeichnung": "ALC",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Zuschlag"
+                        }
+                    ],
+                    "segmentgruppen": [
+                        {
+                            "header_linie": {
+                                "zaehler": "1800",
+                                "nr": null,
+                                "bezeichnung": "SG41",
+                                "standard_status": "C",
+                                "bdew_status": "R",
+                                "standard_maximale_wiederholungen": 1,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Prozentangabe des Abschlags"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "1810",
+                                    "nr": "00049",
+                                    "bezeichnung": "PCD",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Prozentangabe des Zuschlags"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        },
+                        {
+                            "header_linie": {
+                                "zaehler": "1830",
+                                "nr": null,
+                                "bezeichnung": "SG42",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 2,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Bemessungsgrundlage des Gemeinderabatts"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "1840",
+                                    "nr": "00047",
+                                    "bezeichnung": "MOA",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Gemeinderabatt der Position"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "2200",
+                "nr": null,
+                "bezeichnung": "SG50",
+                "standard_status": "M",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 100,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Rechnungsbetrag (inkl. USt.)"
+            },
+            "segmente": [
+                {
+                    "zaehler": "2210",
+                    "nr": "00056",
+                    "bezeichnung": "MOA",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "F\u00e4lliger Betrag"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "2220",
+                        "nr": null,
+                        "bezeichnung": "SG51",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 1,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Referenz auf Vorg\u00e4ngerrechnung"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "2230",
+                            "nr": "00053",
+                            "bezeichnung": "RFF",
+                            "standard_status": "M",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Referenz auf Vorg\u00e4ngerrechnung"
+                        },
+                        {
+                            "zaehler": "2240",
+                            "nr": "00054",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Datum der Vorg\u00e4ngerrechnung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "2250",
+                "nr": null,
+                "bezeichnung": "SG52",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 10,
+                "bdew_maximale_wiederholungen": 10,
+                "ebene": 1,
+                "inhalt": "Steuerangaben u. -mengen (Summen)"
+            },
+            "segmente": [
+                {
+                    "zaehler": "2260",
+                    "nr": "00057",
+                    "bezeichnung": "TAX",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Umsatzsteuer der Rechnung"
+                },
+                {
+                    "zaehler": "2270",
+                    "nr": "00058",
+                    "bezeichnung": "MOA",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 9,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Vorausbezahlter Betrag (steuersatzbezogen)"
+                }
+            ],
+            "segmentgruppen": []
+        }
+    ]
+}

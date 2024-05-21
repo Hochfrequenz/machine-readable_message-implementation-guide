@@ -1,0 +1,2195 @@
+{
+    "header_linie": null,
+    "segmente": [
+        {
+            "zaehler": "0010",
+            "nr": "00001",
+            "bezeichnung": "UNH",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Nachrichten-Kopfsegment"
+        },
+        {
+            "zaehler": "0020",
+            "nr": "00002",
+            "bezeichnung": "BGM",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Beginn der Nachricht"
+        },
+        {
+            "zaehler": "0030",
+            "nr": "00003",
+            "bezeichnung": "DTM",
+            "standard_status": "C",
+            "bdew_status": "R",
+            "standard_maximale_wiederholungen": 9,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Dokumentendatum"
+        },
+        {
+            "zaehler": "1250",
+            "nr": "00126",
+            "bezeichnung": "UNT",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Nachrichten-Endesegment"
+        }
+    ],
+    "segmentgruppen": [
+        {
+            "header_linie": {
+                "zaehler": "0050",
+                "nr": null,
+                "bezeichnung": "SG1",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 9,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "MP-ID Empf\u00e4nger"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0060",
+                    "nr": "00004",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "MP-ID Empf\u00e4nger"
+                }
+            ],
+            "segmentgruppen": []
+        },
+        {
+            "header_linie": {
+                "zaehler": "0050",
+                "nr": null,
+                "bezeichnung": "SG1",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 9,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "MP-ID Absender"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0060",
+                    "nr": "00005",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "MP-ID Absender"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0070",
+                        "nr": null,
+                        "bezeichnung": "SG2",
+                        "standard_status": "C",
+                        "bdew_status": "O",
+                        "standard_maximale_wiederholungen": 9,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Ansprechpartner"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0080",
+                            "nr": "00006",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0090",
+                            "nr": "00007",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 5,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0160",
+                "nr": null,
+                "bezeichnung": "SG4",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 99999,
+                "bdew_maximale_wiederholungen": 99999,
+                "ebene": 1,
+                "inhalt": "EQD-RFF-RFF-SG6-SG7-SG7-SG7-SG7-SG7"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0170",
+                    "nr": "00008",
+                    "bezeichnung": "EQD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Einzelheiten zu Equipment"
+                },
+                {
+                    "zaehler": "0240",
+                    "nr": "00009",
+                    "bezeichnung": "RFF",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 999,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Pr\u00fcfidentifikator"
+                },
+                {
+                    "zaehler": "0240",
+                    "nr": "00010",
+                    "bezeichnung": "RFF",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 999,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Versionsangabe der betrachteten Summenzeitreihe"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0300",
+                        "nr": null,
+                        "bezeichnung": "SG6",
+                        "standard_status": "C",
+                        "bdew_status": "R",
+                        "standard_maximale_wiederholungen": 9,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "LOC-DTM-DTM"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0310",
+                            "nr": "00011",
+                            "bezeichnung": "LOC",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Meldepunkt"
+                        },
+                        {
+                            "zaehler": "0320",
+                            "nr": "00012",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Betrachtungszeitintervall"
+                        },
+                        {
+                            "zaehler": "0320",
+                            "nr": "00013",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Zeitpunkt der Statusvergabe"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0330",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Pr\u00fcfstatus Antwort auf Summenzeitreihen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0340",
+                            "nr": "00014",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Pr\u00fcfstatus Antwort auf Summenzeitreihen"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0330",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Abweisung der Summenzeitreihe"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0340",
+                            "nr": "00015",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Abweisung der Summenzeitreihe"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0330",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Pr\u00fcfstatus zur Summenzeitreihe"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0340",
+                            "nr": "00016",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Pr\u00fcfstatus zur Summenzeitreihe"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0330",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Datenstatus zur Summenzeitreihe"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0340",
+                            "nr": "00017",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Datenstatus zur Summenzeitreihe"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0330",
+                        "nr": null,
+                        "bezeichnung": "SG7",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Abweisung Statusmeldung/-\u00e4nderung"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0340",
+                            "nr": "00018",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Abweisung Statusmeldung/-\u00e4nderung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0560",
+                "nr": null,
+                "bezeichnung": "SG14",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 99999,
+                "bdew_maximale_wiederholungen": 99999,
+                "ebene": 1,
+                "inhalt": "CNI-LOC-SG15-SG15-SG15-SG15-SG15-SG15-SG15-\nSG15-SG15-SG15-SG15-SG15-SG15-SG15-SG15-SG15-\nSG15"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0570",
+                    "nr": "00019",
+                    "bezeichnung": "CNI",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Sendungsdaten"
+                },
+                {
+                    "zaehler": "0580",
+                    "nr": "00020",
+                    "bezeichnung": "LOC",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 9,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Meldepunkt"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "MSB-Wechselstatus"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00021",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "MSB-Wechselstatus"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00022",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00023",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenz Nachrichtennummer"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00024",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenz Vorgangsnummer"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00025",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenz Vorgangsnummer (aus Anfragenachricht)"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00026",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Datum/Uhrzeit/Zeitspanne"
+                        }
+                    ],
+                    "segmentgruppen": [
+                        {
+                            "header_linie": {
+                                "zaehler": "0730",
+                                "nr": null,
+                                "bezeichnung": "SG17",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Messstellenbetreiber an der Messlokation"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "0740",
+                                    "nr": "00027",
+                                    "bezeichnung": "NAD",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Messstellenbetreiber an der Messlokation"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        }
+                    ]
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Status des Umbaus der Messlokation"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00028",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Status des Umbaus der Messlokation"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00029",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00030",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Datum/Uhrzeit/Zeitspanne"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Turnusauslesungsstatus"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00031",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Turnusauslesungsstatus"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00032",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00033",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Datum/Uhrzeit/Zeitspanne"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Ersteinbau iMS Planungsstatus"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00034",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ersteinbau iMS Planungsstatus"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00035",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00036",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenz auf die Marktlokation"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00037",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenz auf den Preisschl\u00fcsselstamm"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00038",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenz auf die Artikel-ID"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00039",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Datum/Uhrzeit/Zeitspanne"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Ersteinbau mME Planungsstatus"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00040",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ersteinbau mME Planungsstatus"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00041",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00042",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenz auf die Marktlokation"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00043",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Beginn des Zeitintervalls"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00044",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Ende des Zeitintervalls"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Ger\u00e4testatus"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00045",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ger\u00e4testatus"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00046",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00047",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Datum/Uhrzeit/Zeitspanne"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Status zum Angebot oder Anfrage"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00048",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Status zum Angebot oder Anfrage"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00049",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00050",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenziertes Angebot / Anfrage"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00051",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Fr\u00fchester Zeitpunkt"
+                        }
+                    ],
+                    "segmentgruppen": [
+                        {
+                            "header_linie": {
+                                "zaehler": "1040",
+                                "nr": null,
+                                "bezeichnung": "SG25",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9999,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Sendungspositionseinzelheiten"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "1050",
+                                    "nr": "00052",
+                                    "bezeichnung": "GID",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Sendungspositionseinzelheiten"
+                                },
+                                {
+                                    "zaehler": "1090",
+                                    "nr": "00053",
+                                    "bezeichnung": "FTX",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Freier Text"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        }
+                    ]
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Bestellung"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00054",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Bestellung"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00055",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00056",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenz auf die Bestellung"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00057",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Datum/Uhrzeit/Zeitspanne"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00058",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Statusver\u00e4nderungszeitpunkt"
+                        }
+                    ],
+                    "segmentgruppen": [
+                        {
+                            "header_linie": {
+                                "zaehler": "1040",
+                                "nr": null,
+                                "bezeichnung": "SG25",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9999,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Sendungspositionseinzelheiten"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "1050",
+                                    "nr": "00059",
+                                    "bezeichnung": "GID",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Sendungspositionseinzelheiten"
+                                },
+                                {
+                                    "zaehler": "1090",
+                                    "nr": "00060",
+                                    "bezeichnung": "FTX",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Freier Text"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        }
+                    ]
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Status des Lieferscheins"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00061",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Status des Lieferscheins"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00062",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00063",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Lieferschein"
+                        }
+                    ],
+                    "segmentgruppen": [
+                        {
+                            "header_linie": {
+                                "zaehler": "0660",
+                                "nr": null,
+                                "bezeichnung": "SG16",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 99,
+                                "bdew_maximale_wiederholungen": 99,
+                                "ebene": 3,
+                                "inhalt": "Ansicht des Senders"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "0670",
+                                    "nr": "00064",
+                                    "bezeichnung": "EFI",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Ansicht des Senders"
+                                },
+                                {
+                                    "zaehler": "0710",
+                                    "nr": "00065",
+                                    "bezeichnung": "DTM",
+                                    "standard_status": "C",
+                                    "bdew_status": "D",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Beginn Messperiode"
+                                },
+                                {
+                                    "zaehler": "0710",
+                                    "nr": "00066",
+                                    "bezeichnung": "DTM",
+                                    "standard_status": "C",
+                                    "bdew_status": "D",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Ende Messperiode"
+                                },
+                                {
+                                    "zaehler": "0710",
+                                    "nr": "00067",
+                                    "bezeichnung": "DTM",
+                                    "standard_status": "C",
+                                    "bdew_status": "D",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Leistungsperiode"
+                                },
+                                {
+                                    "zaehler": "0720",
+                                    "nr": "00068",
+                                    "bezeichnung": "QTY",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Menge"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        }
+                    ]
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Status der Ausfallarbeit"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00069",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Status der Ausfallarbeit"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00070",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00071",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenzangaben"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00072",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Gegenvorschlag"
+                        }
+                    ],
+                    "segmentgruppen": [
+                        {
+                            "header_linie": {
+                                "zaehler": "0730",
+                                "nr": null,
+                                "bezeichnung": "SG17",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Ansprechpartner zum Gegenvorschlag bzw. zur\nKorrekturanforderung"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "0740",
+                                    "nr": "00073",
+                                    "bezeichnung": "NAD",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Ansprechpartner zum Gegenvorschlag bzw. zur\nKorrekturanforderung"
+                                }
+                            ],
+                            "segmentgruppen": [
+                                {
+                                    "header_linie": {
+                                        "zaehler": "0750",
+                                        "nr": null,
+                                        "bezeichnung": "SG18",
+                                        "standard_status": "C",
+                                        "bdew_status": "R",
+                                        "standard_maximale_wiederholungen": 9,
+                                        "bdew_maximale_wiederholungen": 1,
+                                        "ebene": 4,
+                                        "inhalt": "Ansprechpartner"
+                                    },
+                                    "segmente": [
+                                        {
+                                            "zaehler": "0760",
+                                            "nr": "00074",
+                                            "bezeichnung": "CTA",
+                                            "standard_status": "M",
+                                            "bdew_status": "M",
+                                            "standard_maximale_wiederholungen": 1,
+                                            "bdew_maximale_wiederholungen": 1,
+                                            "ebene": 4,
+                                            "inhalt": "Ansprechpartner"
+                                        },
+                                        {
+                                            "zaehler": "0770",
+                                            "nr": "00075",
+                                            "bezeichnung": "COM",
+                                            "standard_status": "C",
+                                            "bdew_status": "R",
+                                            "standard_maximale_wiederholungen": 9,
+                                            "bdew_maximale_wiederholungen": 4,
+                                            "ebene": 5,
+                                            "inhalt": "Kommunikationsverbindung"
+                                        }
+                                    ],
+                                    "segmentgruppen": []
+                                }
+                            ]
+                        },
+                        {
+                            "header_linie": {
+                                "zaehler": "1040",
+                                "nr": null,
+                                "bezeichnung": "SG25",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9999,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Sendungspositionseinzelheiten"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "1050",
+                                    "nr": "00076",
+                                    "bezeichnung": "GID",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Sendungspositionseinzelheiten"
+                                },
+                                {
+                                    "zaehler": "1090",
+                                    "nr": "00077",
+                                    "bezeichnung": "FTX",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Freier Text"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        }
+                    ]
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Status des Fahrplananteils"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00078",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Status des Fahrplananteils"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00079",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00080",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenzangaben"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00081",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Gegenvorschlag"
+                        }
+                    ],
+                    "segmentgruppen": [
+                        {
+                            "header_linie": {
+                                "zaehler": "0730",
+                                "nr": null,
+                                "bezeichnung": "SG17",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Ansprechpartner zum Gegenvorschlag bzw. zur\nKorrekturanforderung"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "0740",
+                                    "nr": "00082",
+                                    "bezeichnung": "NAD",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Ansprechpartner zum Gegenvorschlag bzw. zur\nKorrekturanforderung"
+                                }
+                            ],
+                            "segmentgruppen": [
+                                {
+                                    "header_linie": {
+                                        "zaehler": "0750",
+                                        "nr": null,
+                                        "bezeichnung": "SG18",
+                                        "standard_status": "C",
+                                        "bdew_status": "R",
+                                        "standard_maximale_wiederholungen": 9,
+                                        "bdew_maximale_wiederholungen": 1,
+                                        "ebene": 4,
+                                        "inhalt": "Ansprechpartner"
+                                    },
+                                    "segmente": [
+                                        {
+                                            "zaehler": "0760",
+                                            "nr": "00083",
+                                            "bezeichnung": "CTA",
+                                            "standard_status": "M",
+                                            "bdew_status": "M",
+                                            "standard_maximale_wiederholungen": 1,
+                                            "bdew_maximale_wiederholungen": 1,
+                                            "ebene": 4,
+                                            "inhalt": "Ansprechpartner"
+                                        },
+                                        {
+                                            "zaehler": "0770",
+                                            "nr": "00084",
+                                            "bezeichnung": "COM",
+                                            "standard_status": "C",
+                                            "bdew_status": "R",
+                                            "standard_maximale_wiederholungen": 9,
+                                            "bdew_maximale_wiederholungen": 4,
+                                            "ebene": 5,
+                                            "inhalt": "Kommunikationsverbindung"
+                                        }
+                                    ],
+                                    "segmentgruppen": []
+                                }
+                            ]
+                        },
+                        {
+                            "header_linie": {
+                                "zaehler": "1040",
+                                "nr": null,
+                                "bezeichnung": "SG25",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9999,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Sendungspositionseinzelheiten"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "1050",
+                                    "nr": "00085",
+                                    "bezeichnung": "GID",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Sendungspositionseinzelheiten"
+                                },
+                                {
+                                    "zaehler": "1090",
+                                    "nr": "00086",
+                                    "bezeichnung": "FTX",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Freier Text"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        }
+                    ]
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Status des Gegenvorschlags der Ausfallarbeit"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00087",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Status des Gegenvorschlags der Ausfallarbeit"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00088",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00089",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenzangaben"
+                        }
+                    ],
+                    "segmentgruppen": [
+                        {
+                            "header_linie": {
+                                "zaehler": "0730",
+                                "nr": null,
+                                "bezeichnung": "SG17",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Ansprechpartner, der den Gegenvorschlag ablehnt"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "0740",
+                                    "nr": "00090",
+                                    "bezeichnung": "NAD",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Ansprechpartner, der den Gegenvorschlag ablehnt"
+                                }
+                            ],
+                            "segmentgruppen": [
+                                {
+                                    "header_linie": {
+                                        "zaehler": "0750",
+                                        "nr": null,
+                                        "bezeichnung": "SG18",
+                                        "standard_status": "C",
+                                        "bdew_status": "R",
+                                        "standard_maximale_wiederholungen": 9,
+                                        "bdew_maximale_wiederholungen": 1,
+                                        "ebene": 4,
+                                        "inhalt": "Ansprechpartner"
+                                    },
+                                    "segmente": [
+                                        {
+                                            "zaehler": "0760",
+                                            "nr": "00091",
+                                            "bezeichnung": "CTA",
+                                            "standard_status": "M",
+                                            "bdew_status": "M",
+                                            "standard_maximale_wiederholungen": 1,
+                                            "bdew_maximale_wiederholungen": 1,
+                                            "ebene": 4,
+                                            "inhalt": "Ansprechpartner"
+                                        },
+                                        {
+                                            "zaehler": "0770",
+                                            "nr": "00092",
+                                            "bezeichnung": "COM",
+                                            "standard_status": "C",
+                                            "bdew_status": "R",
+                                            "standard_maximale_wiederholungen": 9,
+                                            "bdew_maximale_wiederholungen": 4,
+                                            "ebene": 5,
+                                            "inhalt": "Kommunikationsverbindung"
+                                        }
+                                    ],
+                                    "segmentgruppen": []
+                                }
+                            ]
+                        },
+                        {
+                            "header_linie": {
+                                "zaehler": "1040",
+                                "nr": null,
+                                "bezeichnung": "SG25",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9999,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Sendungspositionseinzelheiten"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "1050",
+                                    "nr": "00093",
+                                    "bezeichnung": "GID",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Sendungspositionseinzelheiten"
+                                },
+                                {
+                                    "zaehler": "1090",
+                                    "nr": "00094",
+                                    "bezeichnung": "FTX",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Freier Text"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        }
+                    ]
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Status des Gegenvorschlags des Fahrplananteils"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00095",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Status des Gegenvorschlags des Fahrplananteils"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00096",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00097",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Referenzangaben"
+                        }
+                    ],
+                    "segmentgruppen": [
+                        {
+                            "header_linie": {
+                                "zaehler": "0730",
+                                "nr": null,
+                                "bezeichnung": "SG17",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Ansprechpartner, der den Gegenvorschlag ablehnt"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "0740",
+                                    "nr": "00098",
+                                    "bezeichnung": "NAD",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Ansprechpartner, der den Gegenvorschlag ablehnt"
+                                }
+                            ],
+                            "segmentgruppen": [
+                                {
+                                    "header_linie": {
+                                        "zaehler": "0750",
+                                        "nr": null,
+                                        "bezeichnung": "SG18",
+                                        "standard_status": "C",
+                                        "bdew_status": "R",
+                                        "standard_maximale_wiederholungen": 9,
+                                        "bdew_maximale_wiederholungen": 1,
+                                        "ebene": 4,
+                                        "inhalt": "Ansprechpartner"
+                                    },
+                                    "segmente": [
+                                        {
+                                            "zaehler": "0760",
+                                            "nr": "00099",
+                                            "bezeichnung": "CTA",
+                                            "standard_status": "M",
+                                            "bdew_status": "M",
+                                            "standard_maximale_wiederholungen": 1,
+                                            "bdew_maximale_wiederholungen": 1,
+                                            "ebene": 4,
+                                            "inhalt": "Ansprechpartner"
+                                        },
+                                        {
+                                            "zaehler": "0770",
+                                            "nr": "00100",
+                                            "bezeichnung": "COM",
+                                            "standard_status": "C",
+                                            "bdew_status": "R",
+                                            "standard_maximale_wiederholungen": 9,
+                                            "bdew_maximale_wiederholungen": 4,
+                                            "ebene": 5,
+                                            "inhalt": "Kommunikationsverbindung"
+                                        }
+                                    ],
+                                    "segmentgruppen": []
+                                }
+                            ]
+                        },
+                        {
+                            "header_linie": {
+                                "zaehler": "1040",
+                                "nr": null,
+                                "bezeichnung": "SG25",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9999,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Sendungspositionseinzelheiten"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "1050",
+                                    "nr": "00101",
+                                    "bezeichnung": "GID",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Sendungspositionseinzelheiten"
+                                },
+                                {
+                                    "zaehler": "1090",
+                                    "nr": "00102",
+                                    "bezeichnung": "FTX",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Freier Text"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        }
+                    ]
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Auftragstatus Sperren"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00103",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Auftragstatus Sperren"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00104",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00105",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Datum/Uhrzeit/Zeitspanne"
+                        }
+                    ],
+                    "segmentgruppen": [
+                        {
+                            "header_linie": {
+                                "zaehler": "1040",
+                                "nr": null,
+                                "bezeichnung": "SG25",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9999,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Sendungspositionseinzelheiten"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "1050",
+                                    "nr": "00106",
+                                    "bezeichnung": "GID",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Sendungspositionseinzelheiten"
+                                },
+                                {
+                                    "zaehler": "1090",
+                                    "nr": "00107",
+                                    "bezeichnung": "FTX",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Freier Text"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        }
+                    ]
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Auftragstatus Entsperren"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00108",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Auftragstatus Entsperren"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00109",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00110",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Datum/Uhrzeit/Zeitspanne"
+                        }
+                    ],
+                    "segmentgruppen": [
+                        {
+                            "header_linie": {
+                                "zaehler": "1040",
+                                "nr": null,
+                                "bezeichnung": "SG25",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9999,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Sendungspositionseinzelheiten"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "1050",
+                                    "nr": "00111",
+                                    "bezeichnung": "GID",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Sendungspositionseinzelheiten"
+                                },
+                                {
+                                    "zaehler": "1090",
+                                    "nr": "00112",
+                                    "bezeichnung": "FTX",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Freier Text"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        }
+                    ]
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Information \u00fcber Entsperrauftrag"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00113",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Information \u00fcber Entsperrauftrag"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00114",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00115",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "D",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Datum/Uhrzeit/Zeitspanne"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0600",
+                        "nr": null,
+                        "bezeichnung": "SG15",
+                        "standard_status": "M",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Grund der Privilegierung nach EnFG"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0610",
+                            "nr": "00116",
+                            "bezeichnung": "STS",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Grund der Privilegierung nach EnFG"
+                        },
+                        {
+                            "zaehler": "0620",
+                            "nr": "00117",
+                            "bezeichnung": "RFF",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 999,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Pr\u00fcfidentifikator"
+                        },
+                        {
+                            "zaehler": "0630",
+                            "nr": "00118",
+                            "bezeichnung": "DTM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 9,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Datum/Uhrzeit/Zeitspanne"
+                        }
+                    ],
+                    "segmentgruppen": [
+                        {
+                            "header_linie": {
+                                "zaehler": "0660",
+                                "nr": null,
+                                "bezeichnung": "SG16",
+                                "standard_status": "C",
+                                "bdew_status": "R",
+                                "standard_maximale_wiederholungen": 99,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Privilegierte Energiemenge"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "0670",
+                                    "nr": "00119",
+                                    "bezeichnung": "EFI",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Privilegierte Energiemenge"
+                                },
+                                {
+                                    "zaehler": "0710",
+                                    "nr": "00120",
+                                    "bezeichnung": "DTM",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Beginn des Zeitraums"
+                                },
+                                {
+                                    "zaehler": "0710",
+                                    "nr": "00121",
+                                    "bezeichnung": "DTM",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Ende des Zeitraums"
+                                },
+                                {
+                                    "zaehler": "0720",
+                                    "nr": "00122",
+                                    "bezeichnung": "QTY",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Menge"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        },
+                        {
+                            "header_linie": {
+                                "zaehler": "0730",
+                                "nr": null,
+                                "bezeichnung": "SG17",
+                                "standard_status": "C",
+                                "bdew_status": "R",
+                                "standard_maximale_wiederholungen": 9,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Letztverbraucher"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "0740",
+                                    "nr": "00123",
+                                    "bezeichnung": "NAD",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Name und Anschrift"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        },
+                        {
+                            "header_linie": {
+                                "zaehler": "1040",
+                                "nr": null,
+                                "bezeichnung": "SG25",
+                                "standard_status": "C",
+                                "bdew_status": "D",
+                                "standard_maximale_wiederholungen": 9999,
+                                "bdew_maximale_wiederholungen": 1,
+                                "ebene": 3,
+                                "inhalt": "Sendungspositionseinzelheiten"
+                            },
+                            "segmente": [
+                                {
+                                    "zaehler": "1050",
+                                    "nr": "00124",
+                                    "bezeichnung": "GID",
+                                    "standard_status": "M",
+                                    "bdew_status": "M",
+                                    "standard_maximale_wiederholungen": 1,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 3,
+                                    "inhalt": "Sendungspositionseinzelheiten"
+                                },
+                                {
+                                    "zaehler": "1090",
+                                    "nr": "00125",
+                                    "bezeichnung": "FTX",
+                                    "standard_status": "C",
+                                    "bdew_status": "R",
+                                    "standard_maximale_wiederholungen": 9,
+                                    "bdew_maximale_wiederholungen": 1,
+                                    "ebene": 4,
+                                    "inhalt": "Freier Text"
+                                }
+                            ],
+                            "segmentgruppen": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
