@@ -1,0 +1,37 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00001,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00002,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00003,DTM,M,D,35,1,1,Betrachtungszeitintervall
+0030,00004,DTM,M,M,35,1,1,Nachrichtendatum
+0030,00005,DTM,M,D,35,1,1,Gültigkeitsbeginn
+0060,,SG1,C,D,99,1,1,Vorgängerversion
+0070,00006,RFF,M,M,1,1,1,Vorgängerversion
+0060,,SG1,C,R,99,1,1,Prüfidentifikator
+0070,00007,RFF,M,M,1,1,1,Prüfidentifikator
+0090,,SG2,C,R,99,1,1,Empfänger-ID
+0100,00008,NAD,M,M,1,1,1,Name und Anschrift
+0090,,SG2,C,R,99,1,1,Sender-ID
+0100,00009,NAD,M,M,1,1,1,Name und Anschrift
+0110,00010,LOC,C,D,25,1,2,Regelzone
+0150,,SG4,C,O,5,1,2,CTA-COM
+0160,00011,CTA,M,M,1,1,2,Ansprechpartner
+0170,00012,COM,C,R,5,5,3,Kommunikationsverbindung
+0220,,SG6,C,D,20,1,1,Währungsangaben
+0230,00013,CUX,M,M,1,1,1,Währungsangaben
+0590,,SG17,C,D,1000,1,1,PGI-SG36
+0600,00014,PGI,M,M,1,1,1,Produktgruppen-Information
+1310,,SG36,C,R,999999,999999,2,LIN-PIA-IMD-SG40
+1320,00015,LIN,M,M,1,1,2,Positionsdaten
+1330,00016,PIA,C,D,99,1,3,Preisschlüsselstamm
+1340,00017,IMD,C,D,999,1,3,Produktbeschreibung
+1560,,SG40,C,D,100,1,3,Preisangabe
+1570,00018,PRI,M,M,1,1,3,Preisangaben
+1610,00019,DTM,C,D,5,2,4,Datum/Uhrzeit/Zeitspanne
+0590,,SG17,C,D,1000,1,1,Netzbetreiberindividuelle Artikel-ID
+0600,00020,PGI,M,M,1,1,1,Netzbetreiberindividuelle Artikel-ID
+1310,,SG36,C,R,999999,999999,2,Positionsdaten
+1320,00021,LIN,M,R,1,1,2,Positionsdaten
+1560,,SG40,C,R,100,1,3,Preisangabe
+1570,00022,PRI,M,M,1,1,3,Preisangaben
+1600,00023,RNG,C,D,1,1,4,Zonenintervallgrenzen
+2400,00024,UNT,M,M,1,1,0,Nachrichten-Endesegment
