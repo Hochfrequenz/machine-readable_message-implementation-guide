@@ -1,0 +1,37 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00003,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00004,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00005,DTM,M,M,5,1,1,Dokumentendatum
+0040,00006,RFF,C,R,5,1,1,Prüfidentifikator
+0090,,SG1,C,R,99,1,1,MP-ID Absender
+0100,00007,NAD,M,M,1,1,1,MP-ID Absender
+0140,,SG3,C,O,5,1,2,Kontaktdaten
+0150,00008,CTA,M,M,1,1,2,Ansprechpartner
+0160,00009,COM,C,R,5,5,3,Kommunikationsverbindung
+0090,,SG1,C,R,99,1,1,MP-ID Empfänger
+0100,00010,NAD,M,M,1,1,1,MP-ID Empfänger
+0170,,SG4,C,R,5,1,1,Währung
+0180,00011,CUX,M,M,1,1,1,Währungsangaben
+0200,,SG5,C,R,999999,999999,1,Rückmeldung
+0210,00012,DOC,M,M,1,1,1,Dokument-/Nachrichten-Einzelheiten
+0220,00013,MOA,M,M,5,1,2,Geforderter Rechnungsbetrag
+0220,00014,MOA,M,R,5,1,2,Überweisungsbetrag
+0230,00015,DTM,C,R,5,1,2,Rechnungsdatum
+0240,00016,RFF,C,D,5,1,2,Referenz auf COMDIS
+0290,,SG7,C,D,100,100,2,Abweichungsgrund
+0300,00017,AJT,M,M,1,1,2,Abweichungsgrund
+0320,00018,RFF,C,D,1,1,3,Zugehörige Rechnung
+0330,00019,FTX,C,D,5,1,3,Nähere Erläuterung des Abweichungsgrundes
+0330,00020,FTX,C,D,5,5,3,Enthaltene Abschlagsrechnungen
+0330,00021,FTX,C,D,5,5,3,Fehlende Positionen
+0410,,SG10,C,D,9999,9999,2,Rückmeldungen auf Positionsebene
+0420,00022,DLI,M,M,1,1,2,Identifikation der Zeile/Position im Dokument
+0490,,SG12,C,R,10,10,3,Abweichungsgrund auf Positionsebene
+0500,00023,AJT,M,M,1,1,3,Abweichungsgrund auf Positionsebene
+0520,00024,RFF,C,D,1,1,4,"Zugehörige Rechnung oder Bestellung auf
+Positionsebene"
+0530,00025,FTX,C,D,5,1,4,"Nähere Erläuterung des Abweichungsgrundes auf
+Positionsebene"
+0570,00026,UNS,M,M,1,1,0,Trennung von Positions- u. Summenteil
+0580,00027,MOA,M,M,99,1,1,Summenbetrag
+0620,00028,UNT,M,M,1,1,0,Nachrichten-Endesegment
