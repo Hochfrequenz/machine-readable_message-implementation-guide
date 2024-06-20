@@ -890,7 +890,7 @@
                 "nr": null,
                 "bezeichnung": "SG41",
                 "standard_status": "C",
-                "bdew_status": "D",
+                "bdew_status": "R",
                 "standard_maximale_wiederholungen": 1,
                 "bdew_maximale_wiederholungen": 1,
                 "ebene": 3,
