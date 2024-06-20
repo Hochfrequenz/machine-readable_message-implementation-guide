@@ -197,10 +197,6 @@ nach Typ 2 aus SMGW"
 1290,00119,CCI,M,M,1,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
 1280,,SG30,C,D,999,999,2,Schwellwerte
 1290,00120,CCI,M,M,1,1,2,Schwellwerte
-1100,,SG29,C,D,200000,1,1,Erforderliches Modul der Netzentgelte
-1110,00121,LIN,M,M,1,1,1,Erforderliches Modul der Netzentgelte
-1280,,SG30,C,R,999,2,2,Erforderliches Modul der Netzentgelte
-1290,00122,CCI,M,M,1,1,2,Erforderliches Modul der Netzentgelte
-2490,00123,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
-2500,00124,MOA,C,D,99,1,1,Summenbetrag (netto)
-2560,00125,UNT,M,M,1,1,0,Nachrichten-Endesegment
+2490,00121,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
+2500,00122,MOA,C,D,99,1,1,Summenbetrag (netto)
+2560,00123,UNT,M,M,1,1,0,Nachrichten-Endesegment
