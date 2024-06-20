@@ -1,413 +1,413 @@
 {
-    "header_linie": null,
-    "segmente": [
+  "header_linie": null,
+  "segmente": [
+    {
+      "zaehler": "0010",
+      "nr": "00003",
+      "bezeichnung": "UNH",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Kopfsegment"
+    },
+    {
+      "zaehler": "0020",
+      "nr": "00004",
+      "bezeichnung": "BGM",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Beginn der Nachricht"
+    },
+    {
+      "zaehler": "0030",
+      "nr": "00005",
+      "bezeichnung": "DTM",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 5,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Dokumentendatum"
+    },
+    {
+      "zaehler": "0040",
+      "nr": "00006",
+      "bezeichnung": "RFF",
+      "standard_status": "C",
+      "bdew_status": "R",
+      "standard_maximale_wiederholungen": 5,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Pr\u00fcfidentifikator"
+    },
+    {
+      "zaehler": "0570",
+      "nr": "00025",
+      "bezeichnung": "UNS",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Trennung von Positions- u. Summenteil"
+    },
+    {
+      "zaehler": "0580",
+      "nr": "00026",
+      "bezeichnung": "MOA",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 99,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Summenbetrag"
+    },
+    {
+      "zaehler": "0620",
+      "nr": "00027",
+      "bezeichnung": "UNT",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Endesegment"
+    }
+  ],
+  "segmentgruppen": [
+    {
+      "header_linie": {
+        "zaehler": "0090",
+        "nr": null,
+        "bezeichnung": "SG1",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 99,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "MP-ID Absender"
+      },
+      "segmente": [
         {
-            "zaehler": "0010",
-            "nr": "00003",
-            "bezeichnung": "UNH",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 1,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 0,
-            "inhalt": "Nachrichten-Kopfsegment"
-        },
+          "zaehler": "0100",
+          "nr": "00007",
+          "bezeichnung": "NAD",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "MP-ID Absender"
+        }
+      ],
+      "segmentgruppen": [
         {
-            "zaehler": "0020",
-            "nr": "00004",
-            "bezeichnung": "BGM",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 1,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 0,
-            "inhalt": "Beginn der Nachricht"
-        },
-        {
-            "zaehler": "0030",
-            "nr": "00005",
-            "bezeichnung": "DTM",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 5,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 1,
-            "inhalt": "Dokumentendatum"
-        },
-        {
-            "zaehler": "0040",
-            "nr": "00006",
-            "bezeichnung": "RFF",
+          "header_linie": {
+            "zaehler": "0140",
+            "nr": null,
+            "bezeichnung": "SG3",
             "standard_status": "C",
-            "bdew_status": "R",
+            "bdew_status": "O",
             "standard_maximale_wiederholungen": 5,
             "bdew_maximale_wiederholungen": 1,
-            "ebene": 1,
-            "inhalt": "Pr\u00fcfidentifikator"
-        },
-        {
-            "zaehler": "0570",
-            "nr": "00025",
-            "bezeichnung": "UNS",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 1,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 0,
-            "inhalt": "Trennung von Positions- u. Summenteil"
-        },
-        {
-            "zaehler": "0580",
-            "nr": "00026",
-            "bezeichnung": "MOA",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 99,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 1,
-            "inhalt": "Summenbetrag"
-        },
-        {
-            "zaehler": "0620",
-            "nr": "00027",
-            "bezeichnung": "UNT",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 1,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 0,
-            "inhalt": "Nachrichten-Endesegment"
+            "ebene": 2,
+            "inhalt": "Kontaktdaten"
+          },
+          "segmente": [
+            {
+              "zaehler": "0150",
+              "nr": "00008",
+              "bezeichnung": "CTA",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Ansprechpartner"
+            },
+            {
+              "zaehler": "0160",
+              "nr": "00009",
+              "bezeichnung": "COM",
+              "standard_status": "C",
+              "bdew_status": "R",
+              "standard_maximale_wiederholungen": 5,
+              "bdew_maximale_wiederholungen": 5,
+              "ebene": 3,
+              "inhalt": "Kommunikationsverbindung"
+            }
+          ],
+          "segmentgruppen": []
         }
-    ],
-    "segmentgruppen": [
+      ]
+    },
+    {
+      "header_linie": {
+        "zaehler": "0090",
+        "nr": null,
+        "bezeichnung": "SG1",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 99,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "MP-ID Empf\u00e4nger"
+      },
+      "segmente": [
         {
-            "header_linie": {
-                "zaehler": "0090",
-                "nr": null,
-                "bezeichnung": "SG1",
-                "standard_status": "C",
-                "bdew_status": "R",
-                "standard_maximale_wiederholungen": 99,
-                "bdew_maximale_wiederholungen": 1,
-                "ebene": 1,
-                "inhalt": "MP-ID Absender"
-            },
-            "segmente": [
-                {
-                    "zaehler": "0100",
-                    "nr": "00007",
-                    "bezeichnung": "NAD",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 1,
-                    "inhalt": "MP-ID Absender"
-                }
-            ],
-            "segmentgruppen": [
-                {
-                    "header_linie": {
-                        "zaehler": "0140",
-                        "nr": null,
-                        "bezeichnung": "SG3",
-                        "standard_status": "C",
-                        "bdew_status": "O",
-                        "standard_maximale_wiederholungen": 5,
-                        "bdew_maximale_wiederholungen": 1,
-                        "ebene": 2,
-                        "inhalt": "Kontaktdaten"
-                    },
-                    "segmente": [
-                        {
-                            "zaehler": "0150",
-                            "nr": "00008",
-                            "bezeichnung": "CTA",
-                            "standard_status": "M",
-                            "bdew_status": "M",
-                            "standard_maximale_wiederholungen": 1,
-                            "bdew_maximale_wiederholungen": 1,
-                            "ebene": 2,
-                            "inhalt": "Ansprechpartner"
-                        },
-                        {
-                            "zaehler": "0160",
-                            "nr": "00009",
-                            "bezeichnung": "COM",
-                            "standard_status": "C",
-                            "bdew_status": "R",
-                            "standard_maximale_wiederholungen": 5,
-                            "bdew_maximale_wiederholungen": 5,
-                            "ebene": 3,
-                            "inhalt": "Kommunikationsverbindung"
-                        }
-                    ],
-                    "segmentgruppen": []
-                }
-            ]
-        },
-        {
-            "header_linie": {
-                "zaehler": "0090",
-                "nr": null,
-                "bezeichnung": "SG1",
-                "standard_status": "C",
-                "bdew_status": "R",
-                "standard_maximale_wiederholungen": 99,
-                "bdew_maximale_wiederholungen": 1,
-                "ebene": 1,
-                "inhalt": "MP-ID Empf\u00e4nger"
-            },
-            "segmente": [
-                {
-                    "zaehler": "0100",
-                    "nr": "00010",
-                    "bezeichnung": "NAD",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 1,
-                    "inhalt": "MP-ID Empf\u00e4nger"
-                }
-            ],
-            "segmentgruppen": []
-        },
-        {
-            "header_linie": {
-                "zaehler": "0170",
-                "nr": null,
-                "bezeichnung": "SG4",
-                "standard_status": "C",
-                "bdew_status": "R",
-                "standard_maximale_wiederholungen": 5,
-                "bdew_maximale_wiederholungen": 1,
-                "ebene": 1,
-                "inhalt": "W\u00e4hrung"
-            },
-            "segmente": [
-                {
-                    "zaehler": "0180",
-                    "nr": "00011",
-                    "bezeichnung": "CUX",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 1,
-                    "inhalt": "W\u00e4hrungsangaben"
-                }
-            ],
-            "segmentgruppen": []
-        },
-        {
-            "header_linie": {
-                "zaehler": "0200",
-                "nr": null,
-                "bezeichnung": "SG5",
-                "standard_status": "C",
-                "bdew_status": "R",
-                "standard_maximale_wiederholungen": 999999,
-                "bdew_maximale_wiederholungen": 999999,
-                "ebene": 1,
-                "inhalt": "R\u00fcckmeldung"
-            },
-            "segmente": [
-                {
-                    "zaehler": "0210",
-                    "nr": "00012",
-                    "bezeichnung": "DOC",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 1,
-                    "inhalt": "Dokument-/Nachrichten-Einzelheiten"
-                },
-                {
-                    "zaehler": "0220",
-                    "nr": "00013",
-                    "bezeichnung": "MOA",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 5,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 2,
-                    "inhalt": "Geforderter Rechnungsbetrag"
-                },
-                {
-                    "zaehler": "0220",
-                    "nr": "00014",
-                    "bezeichnung": "MOA",
-                    "standard_status": "M",
-                    "bdew_status": "D",
-                    "standard_maximale_wiederholungen": 5,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 2,
-                    "inhalt": "\u00dcberweisungsbetrag"
-                },
-                {
-                    "zaehler": "0230",
-                    "nr": "00015",
-                    "bezeichnung": "DTM",
-                    "standard_status": "C",
-                    "bdew_status": "R",
-                    "standard_maximale_wiederholungen": 5,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 2,
-                    "inhalt": "Rechnungsdatum"
-                },
-                {
-                    "zaehler": "0240",
-                    "nr": "00016",
-                    "bezeichnung": "RFF",
-                    "standard_status": "C",
-                    "bdew_status": "D",
-                    "standard_maximale_wiederholungen": 5,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 2,
-                    "inhalt": "Referenz auf COMDIS"
-                }
-            ],
-            "segmentgruppen": [
-                {
-                    "header_linie": {
-                        "zaehler": "0290",
-                        "nr": null,
-                        "bezeichnung": "SG7",
-                        "standard_status": "C",
-                        "bdew_status": "D",
-                        "standard_maximale_wiederholungen": 100,
-                        "bdew_maximale_wiederholungen": 100,
-                        "ebene": 2,
-                        "inhalt": "Abweichungsgrund"
-                    },
-                    "segmente": [
-                        {
-                            "zaehler": "0300",
-                            "nr": "00017",
-                            "bezeichnung": "AJT",
-                            "standard_status": "M",
-                            "bdew_status": "M",
-                            "standard_maximale_wiederholungen": 1,
-                            "bdew_maximale_wiederholungen": 1,
-                            "ebene": 2,
-                            "inhalt": "Abweichungsgrund"
-                        },
-                        {
-                            "zaehler": "0320",
-                            "nr": "00018",
-                            "bezeichnung": "RFF",
-                            "standard_status": "C",
-                            "bdew_status": "D",
-                            "standard_maximale_wiederholungen": 1,
-                            "bdew_maximale_wiederholungen": 1,
-                            "ebene": 3,
-                            "inhalt": "Zugeh\u00f6rige Rechnung"
-                        },
-                        {
-                            "zaehler": "0330",
-                            "nr": "00019",
-                            "bezeichnung": "FTX",
-                            "standard_status": "C",
-                            "bdew_status": "D",
-                            "standard_maximale_wiederholungen": 5,
-                            "bdew_maximale_wiederholungen": 1,
-                            "ebene": 3,
-                            "inhalt": "N\u00e4here Erl\u00e4uterung des Abweichungsgrundes"
-                        },
-                        {
-                            "zaehler": "0330",
-                            "nr": "00020",
-                            "bezeichnung": "FTX",
-                            "standard_status": "C",
-                            "bdew_status": "D",
-                            "standard_maximale_wiederholungen": 5,
-                            "bdew_maximale_wiederholungen": 5,
-                            "ebene": 3,
-                            "inhalt": "Enthaltene Abschlagsrechnungen"
-                        }
-                    ],
-                    "segmentgruppen": []
-                },
-                {
-                    "header_linie": {
-                        "zaehler": "0410",
-                        "nr": null,
-                        "bezeichnung": "SG10",
-                        "standard_status": "C",
-                        "bdew_status": "D",
-                        "standard_maximale_wiederholungen": 9999,
-                        "bdew_maximale_wiederholungen": 9999,
-                        "ebene": 2,
-                        "inhalt": "R\u00fcckmeldungen auf Positionsebene"
-                    },
-                    "segmente": [
-                        {
-                            "zaehler": "0420",
-                            "nr": "00021",
-                            "bezeichnung": "DLI",
-                            "standard_status": "M",
-                            "bdew_status": "M",
-                            "standard_maximale_wiederholungen": 1,
-                            "bdew_maximale_wiederholungen": 1,
-                            "ebene": 2,
-                            "inhalt": "Identifikation der Zeile/Position im Dokument"
-                        }
-                    ],
-                    "segmentgruppen": [
-                        {
-                            "header_linie": {
-                                "zaehler": "0490",
-                                "nr": null,
-                                "bezeichnung": "SG12",
-                                "standard_status": "C",
-                                "bdew_status": "R",
-                                "standard_maximale_wiederholungen": 10,
-                                "bdew_maximale_wiederholungen": 10,
-                                "ebene": 3,
-                                "inhalt": "Abweichungsgrund auf Positionsebene"
-                            },
-                            "segmente": [
-                                {
-                                    "zaehler": "0500",
-                                    "nr": "00022",
-                                    "bezeichnung": "AJT",
-                                    "standard_status": "M",
-                                    "bdew_status": "M",
-                                    "standard_maximale_wiederholungen": 1,
-                                    "bdew_maximale_wiederholungen": 1,
-                                    "ebene": 3,
-                                    "inhalt": "Abweichungsgrund auf Positionsebene"
-                                },
-                                {
-                                    "zaehler": "0520",
-                                    "nr": "00023",
-                                    "bezeichnung": "RFF",
-                                    "standard_status": "C",
-                                    "bdew_status": "D",
-                                    "standard_maximale_wiederholungen": 1,
-                                    "bdew_maximale_wiederholungen": 1,
-                                    "ebene": 4,
-                                    "inhalt": "Zugeh\u00f6rige Rechnung oder Bestellung auf\nPositionsebene"
-                                },
-                                {
-                                    "zaehler": "0530",
-                                    "nr": "00024",
-                                    "bezeichnung": "FTX",
-                                    "standard_status": "C",
-                                    "bdew_status": "D",
-                                    "standard_maximale_wiederholungen": 5,
-                                    "bdew_maximale_wiederholungen": 5,
-                                    "ebene": 4,
-                                    "inhalt": "N\u00e4here Erl\u00e4uterung des Abweichungsgrundes auf\nPositionsebene"
-                                }
-                            ],
-                            "segmentgruppen": []
-                        }
-                    ]
-                }
-            ]
+          "zaehler": "0100",
+          "nr": "00010",
+          "bezeichnung": "NAD",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "MP-ID Empf\u00e4nger"
         }
-    ]
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0170",
+        "nr": null,
+        "bezeichnung": "SG4",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 5,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "W\u00e4hrung"
+      },
+      "segmente": [
+        {
+          "zaehler": "0180",
+          "nr": "00011",
+          "bezeichnung": "CUX",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "W\u00e4hrungsangaben"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0200",
+        "nr": null,
+        "bezeichnung": "SG5",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 999999,
+        "bdew_maximale_wiederholungen": 999999,
+        "ebene": 1,
+        "inhalt": "R\u00fcckmeldung"
+      },
+      "segmente": [
+        {
+          "zaehler": "0210",
+          "nr": "00012",
+          "bezeichnung": "DOC",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Dokument-/Nachrichten-Einzelheiten"
+        },
+        {
+          "zaehler": "0220",
+          "nr": "00013",
+          "bezeichnung": "MOA",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 5,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Geforderter Rechnungsbetrag"
+        },
+        {
+          "zaehler": "0220",
+          "nr": "00014",
+          "bezeichnung": "MOA",
+          "standard_status": "M",
+          "bdew_status": "D",
+          "standard_maximale_wiederholungen": 5,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "\u00dcberweisungsbetrag"
+        },
+        {
+          "zaehler": "0230",
+          "nr": "00015",
+          "bezeichnung": "DTM",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 5,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Rechnungsdatum"
+        },
+        {
+          "zaehler": "0240",
+          "nr": "00016",
+          "bezeichnung": "RFF",
+          "standard_status": "C",
+          "bdew_status": "D",
+          "standard_maximale_wiederholungen": 5,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Referenz auf COMDIS"
+        }
+      ],
+      "segmentgruppen": [
+        {
+          "header_linie": {
+            "zaehler": "0290",
+            "nr": null,
+            "bezeichnung": "SG7",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 100,
+            "bdew_maximale_wiederholungen": 100,
+            "ebene": 2,
+            "inhalt": "Abweichungsgrund"
+          },
+          "segmente": [
+            {
+              "zaehler": "0300",
+              "nr": "00017",
+              "bezeichnung": "AJT",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Abweichungsgrund"
+            },
+            {
+              "zaehler": "0320",
+              "nr": "00018",
+              "bezeichnung": "RFF",
+              "standard_status": "C",
+              "bdew_status": "D",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Zugeh\u00f6rige Rechnung"
+            },
+            {
+              "zaehler": "0330",
+              "nr": "00019",
+              "bezeichnung": "FTX",
+              "standard_status": "C",
+              "bdew_status": "D",
+              "standard_maximale_wiederholungen": 5,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "N\u00e4here Erl\u00e4uterung des Abweichungsgrundes"
+            },
+            {
+              "zaehler": "0330",
+              "nr": "00020",
+              "bezeichnung": "FTX",
+              "standard_status": "C",
+              "bdew_status": "D",
+              "standard_maximale_wiederholungen": 5,
+              "bdew_maximale_wiederholungen": 5,
+              "ebene": 3,
+              "inhalt": "Enthaltene Abschlagsrechnungen"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "0410",
+            "nr": null,
+            "bezeichnung": "SG10",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 9999,
+            "bdew_maximale_wiederholungen": 9999,
+            "ebene": 2,
+            "inhalt": "R\u00fcckmeldungen auf Positionsebene"
+          },
+          "segmente": [
+            {
+              "zaehler": "0420",
+              "nr": "00021",
+              "bezeichnung": "DLI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Identifikation der Zeile/Position im Dokument"
+            }
+          ],
+          "segmentgruppen": [
+            {
+              "header_linie": {
+                "zaehler": "0490",
+                "nr": null,
+                "bezeichnung": "SG12",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 10,
+                "bdew_maximale_wiederholungen": 10,
+                "ebene": 3,
+                "inhalt": "Abweichungsgrund auf Positionsebene"
+              },
+              "segmente": [
+                {
+                  "zaehler": "0500",
+                  "nr": "00022",
+                  "bezeichnung": "AJT",
+                  "standard_status": "M",
+                  "bdew_status": "M",
+                  "standard_maximale_wiederholungen": 1,
+                  "bdew_maximale_wiederholungen": 1,
+                  "ebene": 3,
+                  "inhalt": "Abweichungsgrund auf Positionsebene"
+                },
+                {
+                  "zaehler": "0520",
+                  "nr": "00023",
+                  "bezeichnung": "RFF",
+                  "standard_status": "C",
+                  "bdew_status": "D",
+                  "standard_maximale_wiederholungen": 1,
+                  "bdew_maximale_wiederholungen": 1,
+                  "ebene": 4,
+                  "inhalt": "Zugeh\u00f6rige Rechnung oder Bestellung auf\nPositionsebene"
+                },
+                {
+                  "zaehler": "0530",
+                  "nr": "00024",
+                  "bezeichnung": "FTX",
+                  "standard_status": "C",
+                  "bdew_status": "D",
+                  "standard_maximale_wiederholungen": 5,
+                  "bdew_maximale_wiederholungen": 5,
+                  "ebene": 4,
+                  "inhalt": "N\u00e4here Erl\u00e4uterung des Abweichungsgrundes auf\nPositionsebene"
+                }
+              ],
+              "segmentgruppen": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
