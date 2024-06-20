@@ -135,7 +135,7 @@
     },
     {
       "zaehler": "2490",
-      "nr": "00123",
+      "nr": "00121",
       "bezeichnung": "UNS",
       "standard_status": "M",
       "bdew_status": "M",
@@ -146,7 +146,7 @@
     },
     {
       "zaehler": "2500",
-      "nr": "00124",
+      "nr": "00122",
       "bezeichnung": "MOA",
       "standard_status": "C",
       "bdew_status": "D",
@@ -157,7 +157,7 @@
     },
     {
       "zaehler": "2560",
-      "nr": "00125",
+      "nr": "00123",
       "bezeichnung": "UNT",
       "standard_status": "M",
       "bdew_status": "M",
@@ -2385,61 +2385,6 @@
               "bdew_maximale_wiederholungen": 1,
               "ebene": 2,
               "inhalt": "Schwellwerte"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "1100",
-        "nr": null,
-        "bezeichnung": "SG29",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Erforderliches Modul der Netzentgelte"
-      },
-      "segmente": [
-        {
-          "zaehler": "1110",
-          "nr": "00121",
-          "bezeichnung": "LIN",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Erforderliches Modul der Netzentgelte"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "R",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 2,
-            "ebene": 2,
-            "inhalt": "Erforderliches Modul der Netzentgelte"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00122",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Erforderliches Modul der Netzentgelte"
             }
           ],
           "segmentgruppen": []
