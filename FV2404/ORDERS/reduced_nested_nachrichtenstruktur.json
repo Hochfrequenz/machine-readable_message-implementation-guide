@@ -58,7 +58,7 @@
     },
     {
       "zaehler": "2490",
-      "nr": "00123",
+      "nr": "00121",
       "bezeichnung": "UNS",
       "standard_status": "M",
       "bdew_status": "M",
@@ -69,7 +69,7 @@
     },
     {
       "zaehler": "2500",
-      "nr": "00124",
+      "nr": "00122",
       "bezeichnung": "MOA",
       "standard_status": "C",
       "bdew_status": "D",
@@ -80,7 +80,7 @@
     },
     {
       "zaehler": "2560",
-      "nr": "00125",
+      "nr": "00123",
       "bezeichnung": "UNT",
       "standard_status": "M",
       "bdew_status": "M",
@@ -264,14 +264,14 @@
       "segmente": [
         {
           "zaehler": "1110",
-          "nr": "00121",
+          "nr": "00113",
           "bezeichnung": "LIN",
           "standard_status": "M",
           "bdew_status": "M",
           "standard_maximale_wiederholungen": 1,
           "bdew_maximale_wiederholungen": 1,
           "ebene": 1,
-          "inhalt": "Erforderliches Modul der Netzentgelte"
+          "inhalt": "Erforderliches Produkt Konfigurationserlaubnis f\u00fcr Werte\nnach Typ 2 aus SMGW"
         },
         {
           "zaehler": "1120",
@@ -356,14 +356,14 @@
           "segmente": [
             {
               "zaehler": "1290",
-              "nr": "00122",
+              "nr": "00120",
               "bezeichnung": "CCI",
               "standard_status": "M",
               "bdew_status": "M",
               "standard_maximale_wiederholungen": 1,
               "bdew_maximale_wiederholungen": 1,
               "ebene": 2,
-              "inhalt": "Erforderliches Modul der Netzentgelte"
+              "inhalt": "Schwellwerte"
             },
             {
               "zaehler": "1300",
