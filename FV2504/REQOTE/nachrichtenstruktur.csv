@@ -1,0 +1,74 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00001,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00002,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00003,DTM,M,M,35,1,1,Nachrichtendatum
+0030,00004,DTM,M,D,35,1,1,Datum zum geplanten Leistungsbeginn
+0030,00005,DTM,M,D,35,1,1,Ausführungsdatum
+0030,00006,DTM,M,D,35,1,1,Beginn zum (nächstmöglichen Termin)
+0060,00007,IMD,C,D,999,1,1,Grund des Angebots
+0080,00008,FTX,C,D,99,1,1,Allgemeine Information (Feld für allgemeine Hinweise)
+0090,,SG1,C,R,9999,1,1,Prüfidentifikator
+0100,00009,RFF,M,M,1,1,1,Prüfidentifikator
+0090,,SG1,C,D,9999,1,1,"Referenznummer des Vorgangs der Anmeldung nach
+WiM"
+0100,00010,RFF,M,M,1,1,1,"Referenznummer des Vorgangs der Anmeldung nach
+WiM"
+0090,,SG1,C,D,9999,1,1,"Referenznummer der Nachricht der betroffenen Antwort
+auf Bestellung "
+0100,00011,RFF,M,M,1,1,1,"Referenznummer der Nachricht der betroffenen Antwort
+auf Bestellung "
+0090,,SG1,C,D,9999,1,1,"Referenznummer des Vorgangs der betroffenen Antwort
+auf Bestellung"
+0100,00012,RFF,M,M,1,1,1,"Referenznummer des Vorgangs der betroffenen Antwort
+auf Bestellung"
+0510,,SG11,C,D,99,1,1,MP-ID des NB des Vorgangs der Anmeldung nach WiM
+0520,00013,NAD,M,M,1,1,1,MP-ID des NB des Vorgangs der Anmeldung nach WiM
+0510,,SG11,C,R,99,1,1,MP-ID Absender
+0520,00014,NAD,M,M,1,1,1,MP-ID Absender
+0610,,SG14,C,D,5,1,2,Kontaktinformationen
+0620,00015,CTA,M,M,1,1,2,Ansprechpartner
+0630,00016,COM,C,R,5,5,3,Kommunikationsverbindung
+0510,,SG11,C,R,99,1,1,MP-ID Empfänger
+0520,00017,NAD,M,M,1,1,1,MP-ID Empfänger
+0510,,SG11,C,R,99,1,1,"Liefer-, bzw. Bezugsort"
+0520,00018,NAD,M,M,1,1,1,"Liefer-, bzw. Bezugsort"
+0530,00019,LOC,C,R,99,1,2,Meldepunkt
+1020,,SG27,M,D,200000,1,1,LIN
+1030,00020,LIN,M,M,1,1,1,Positionsdaten
+1020,,SG27,M,D,200000,1,1,Erforderliches Produkt Schaltzeitdefinitionen
+1030,00021,LIN,M,M,1,1,1,Erforderliches Produkt Schaltzeitdefinitionen
+1040,00022,PIA,C,R,25,1,2,Erforderliches Produkt Schaltzeitdefinitionen
+1170,,SG28,C,R,999,1,2,Zugeordnete Schaltzeitdefinition
+1180,00023,CCI,M,M,1,1,2,Zugeordnete Schaltzeitdefinition
+1020,,SG27,M,D,200000,1,1,Erforderliches Produkt Leistungskurvendefinitionen
+1030,00024,LIN,M,M,1,1,1,Erforderliches Produkt Leistungskurvendefinitionen
+1040,00025,PIA,C,R,25,1,2,Erforderliches Produkt Leistungskurvendefinitionen
+1170,,SG28,C,R,999,1,2,Zugeordnete Leistungskurvendefinitionen
+1180,00026,CCI,M,M,1,1,2,Zugeordnete Leistungskurvendefinitionen
+1020,,SG27,M,D,200000,1,1,Erforderliches Produkt Ad-hoc-Steuerkanal
+1030,00027,LIN,M,M,1,1,1,Erforderliches Produkt Ad-hoc-Steuerkanal
+1040,00028,PIA,C,R,25,1,2,Erforderliches Produkt Ad-hoc-Steuerkanal
+1140,00029,FTX,C,R,99,1,2,Zieladresse URI
+1140,00030,FTX,C,R,99,1,2,Zertifikatsaussteller (Issuer)
+1140,00031,FTX,C,R,99,1,2,Zertifikatsnutzer (Subject)
+1020,,SG27,M,D,200000,1,1,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+Backend"
+1030,00032,LIN,M,M,1,1,1,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+Backend"
+1040,00033,PIA,C,R,25,1,2,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+Backend"
+1020,,SG27,M,D,200000,1,1,"Erforderliches Produkt Konfigurationserlaubnis für
+Werte nach Typ 2 aus SMGW"
+1030,00034,LIN,M,M,1,1,1,"Erforderliches Produkt Konfigurationserlaubnis für Werte
+nach Typ 2 aus SMGW"
+1040,00035,PIA,C,R,25,1,2,"Erforderliches Produkt Konfigurationserlaubnis für Werte
+nach Typ 2 aus SMGW"
+1140,00036,FTX,C,R,99,1,2,Zieladresse URI
+1140,00037,FTX,C,R,99,1,2,Zertifikatsaussteller (Issuer)
+1140,00038,FTX,C,R,99,1,2,Zertifikatsnutzer (Subject)
+1170,,SG28,C,D,999,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
+1180,00039,CCI,M,M,1,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
+1170,,SG28,C,D,999,999,2,Schwellwerte
+1180,00040,CCI,M,M,1,1,2,Schwellwerte
+2200,00041,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
+2270,00042,UNT,M,M,1,1,0,Nachrichten-Endesegment

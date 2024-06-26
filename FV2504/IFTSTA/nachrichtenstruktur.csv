@@ -1,0 +1,189 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00001,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00002,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00003,DTM,C,R,9,1,1,Dokumentendatum
+0050,,SG1,C,R,9,1,1,MP-ID Empfänger
+0060,00004,NAD,M,M,1,1,1,MP-ID Empfänger
+0050,,SG1,C,R,9,1,1,MP-ID Absender
+0060,00005,NAD,M,M,1,1,1,MP-ID Absender
+0070,,SG2,C,O,9,1,2,Ansprechpartner
+0080,00006,CTA,M,M,1,1,2,Ansprechpartner
+0090,00007,COM,C,R,9,5,3,Kommunikationsverbindung
+0160,,SG4,C,D,99999,99999,1,EQD-RFF-RFF-SG6-SG7-SG7-SG7-SG7-SG7
+0170,00008,EQD,M,M,1,1,1,Einzelheiten zu Equipment
+0240,00009,RFF,C,R,999,1,2,Prüfidentifikator
+0240,00010,RFF,C,R,999,1,2,Versionsangabe der betrachteten Summenzeitreihe
+0300,,SG6,C,R,9,1,2,LOC-DTM-DTM
+0310,00011,LOC,M,M,1,1,2,Meldepunkt
+0320,00012,DTM,C,R,9,1,3,Betrachtungszeitintervall
+0320,00013,DTM,C,R,9,1,3,Zeitpunkt der Statusvergabe
+0330,,SG7,C,D,99,1,2,Prüfstatus Antwort auf Summenzeitreihen
+0340,00014,STS,M,M,1,1,2,Prüfstatus Antwort auf Summenzeitreihen
+0330,,SG7,C,D,99,1,2,Abweisung der Summenzeitreihe
+0340,00015,STS,M,M,1,1,2,Abweisung der Summenzeitreihe
+0330,,SG7,C,D,99,1,2,Prüfstatus zur Summenzeitreihe
+0340,00016,STS,M,M,1,1,2,Prüfstatus zur Summenzeitreihe
+0330,,SG7,C,D,99,1,2,Datenstatus zur Summenzeitreihe
+0340,00017,STS,M,M,1,1,2,Datenstatus zur Summenzeitreihe
+0330,,SG7,C,D,99,1,2,Abweisung Statusmeldung/-änderung
+0340,00018,STS,M,M,1,1,2,Abweisung Statusmeldung/-änderung
+0560,,SG14,C,D,99999,99999,1,"CNI-LOC-SG15-SG15-SG15-SG15-SG15-SG15-SG15-
+SG15-SG15-SG15-SG15-SG15-SG15-SG15-SG15-SG15-
+SG15-SG15"
+0570,00019,CNI,M,M,1,1,1,Sendungsdaten
+0580,00020,LOC,C,D,9,1,2,Meldepunkt
+0600,,SG15,M,D,99,1,2,MSB-Wechselstatus
+0610,00021,STS,M,M,1,1,2,MSB-Wechselstatus
+0620,00022,RFF,C,R,999,1,3,Prüfidentifikator
+0620,00023,RFF,C,D,999,1,3,Referenz Nachrichtennummer
+0620,00024,RFF,C,D,999,1,3,Referenz Vorgangsnummer
+0620,00025,RFF,C,D,999,1,3,Referenz Vorgangsnummer (aus Anfragenachricht)
+0630,00026,DTM,C,D,9,1,3,Datum/Uhrzeit/Zeitspanne
+0730,,SG17,C,D,9,1,3,Messstellenbetreiber an der Messlokation
+0740,00027,NAD,M,M,1,1,3,Messstellenbetreiber an der Messlokation
+0600,,SG15,M,D,99,1,2,Status des Umbaus der Messlokation
+0610,00028,STS,M,M,1,1,2,Status des Umbaus der Messlokation
+0620,00029,RFF,C,R,999,1,3,Prüfidentifikator
+0630,00030,DTM,C,D,9,1,3,Datum/Uhrzeit/Zeitspanne
+0600,,SG15,M,D,99,1,2,Turnusauslesungsstatus
+0610,00031,STS,M,M,1,1,2,Turnusauslesungsstatus
+0620,00032,RFF,C,R,999,1,3,Prüfidentifikator
+0630,00033,DTM,C,D,9,1,3,Datum/Uhrzeit/Zeitspanne
+0600,,SG15,M,D,99,1,2,Ersteinbau iMS Planungsstatus
+0610,00034,STS,M,M,1,1,2,Ersteinbau iMS Planungsstatus
+0620,00035,RFF,C,R,999,1,3,Prüfidentifikator
+0620,00036,RFF,C,D,999,1,3,Referenz auf die Marktlokation
+0620,00037,RFF,C,D,999,1,3,Referenz auf den Preisschlüsselstamm
+0620,00038,RFF,C,D,999,1,3,Referenz auf die Artikel-ID
+0630,00039,DTM,C,D,9,1,3,Datum/Uhrzeit/Zeitspanne
+0600,,SG15,M,D,99,1,2,Ersteinbau mME Planungsstatus
+0610,00040,STS,M,M,1,1,2,Ersteinbau mME Planungsstatus
+0620,00041,RFF,C,R,999,1,3,Prüfidentifikator
+0620,00042,RFF,C,R,999,1,3,Referenz auf die Marktlokation
+0630,00043,DTM,C,D,9,1,3,Beginn des Zeitintervalls
+0630,00044,DTM,C,D,9,1,3,Ende des Zeitintervalls
+0600,,SG15,M,D,99,1,2,Gerätestatus
+0610,00045,STS,M,M,1,1,2,Gerätestatus
+0620,00046,RFF,C,R,999,1,3,Prüfidentifikator
+0630,00047,DTM,C,R,9,1,3,Datum/Uhrzeit/Zeitspanne
+0600,,SG15,M,D,99,1,2,Status zum Angebot oder Anfrage
+0610,00048,STS,M,M,1,1,2,Status zum Angebot oder Anfrage
+0620,00049,RFF,C,R,999,1,3,Prüfidentifikator
+0620,00050,RFF,C,R,999,1,3,Referenziertes Angebot / Anfrage
+0630,00051,DTM,C,D,9,1,3,Frühester Zeitpunkt
+1040,,SG25,C,D,9999,1,3,Sendungspositionseinzelheiten
+1050,00052,GID,M,M,1,1,3,Sendungspositionseinzelheiten
+1090,00053,FTX,C,R,9,1,4,Freier Text
+0600,,SG15,M,D,99,1,2,Bestellung
+0610,00054,STS,M,M,1,1,2,Bestellung
+0620,00055,RFF,C,R,999,1,3,Prüfidentifikator
+0620,00056,RFF,C,R,999,1,3,Referenz auf die Bestellung
+0630,00057,DTM,C,D,9,1,3,Datum/Uhrzeit/Zeitspanne
+0630,00058,DTM,C,D,9,1,3,Statusveränderungszeitpunkt
+1040,,SG25,C,D,9999,1,3,Sendungspositionseinzelheiten
+1050,00059,GID,M,M,1,1,3,Sendungspositionseinzelheiten
+1090,00060,FTX,C,R,9,1,4,Freier Text
+0600,,SG15,M,D,99,1,2,Status des Lieferscheins
+0610,00061,STS,M,M,1,1,2,Status des Lieferscheins
+0620,00062,RFF,C,R,999,1,3,Prüfidentifikator
+0620,00063,RFF,C,R,999,1,3,Lieferschein
+0660,,SG16,C,D,99,99,3,Ansicht des Senders
+0670,00064,EFI,M,M,1,1,3,Ansicht des Senders
+0710,00065,DTM,C,D,9,1,4,Beginn Messperiode
+0710,00066,DTM,C,D,9,1,4,Ende Messperiode
+0710,00067,DTM,C,D,9,1,4,Leistungsperiode
+0720,00068,QTY,C,R,9,1,4,Menge
+0600,,SG15,M,D,99,1,2,Status der Ausfallarbeit
+0610,00069,STS,M,M,1,1,2,Status der Ausfallarbeit
+0620,00070,RFF,C,R,999,1,3,Prüfidentifikator
+0620,00071,RFF,C,R,999,1,3,Referenzangaben
+0620,00072,RFF,C,D,999,1,3,Gegenvorschlag
+0730,,SG17,C,D,9,1,3,"Ansprechpartner zum Gegenvorschlag bzw. zur
+Korrekturanforderung"
+0740,00073,NAD,M,M,1,1,3,"Ansprechpartner zum Gegenvorschlag bzw. zur
+Korrekturanforderung"
+0750,,SG18,C,R,9,1,4,Ansprechpartner
+0760,00074,CTA,M,M,1,1,4,Ansprechpartner
+0770,00075,COM,C,R,9,4,5,Kommunikationsverbindung
+1040,,SG25,C,D,9999,1,3,Sendungspositionseinzelheiten
+1050,00076,GID,M,M,1,1,3,Sendungspositionseinzelheiten
+1090,00077,FTX,C,R,9,1,4,Freier Text
+0600,,SG15,M,D,99,1,2,Status des Fahrplananteils
+0610,00078,STS,M,M,1,1,2,Status des Fahrplananteils
+0620,00079,RFF,C,R,999,1,3,Prüfidentifikator
+0620,00080,RFF,C,R,999,1,3,Referenzangaben
+0620,00081,RFF,C,D,999,1,3,Gegenvorschlag
+0730,,SG17,C,D,9,1,3,"Ansprechpartner zum Gegenvorschlag bzw. zur
+Korrekturanforderung"
+0740,00082,NAD,M,M,1,1,3,"Ansprechpartner zum Gegenvorschlag bzw. zur
+Korrekturanforderung"
+0750,,SG18,C,R,9,1,4,Ansprechpartner
+0760,00083,CTA,M,M,1,1,4,Ansprechpartner
+0770,00084,COM,C,R,9,4,5,Kommunikationsverbindung
+1040,,SG25,C,D,9999,1,3,Sendungspositionseinzelheiten
+1050,00085,GID,M,M,1,1,3,Sendungspositionseinzelheiten
+1090,00086,FTX,C,R,9,1,4,Freier Text
+0600,,SG15,M,D,99,1,2,Status des Gegenvorschlags der Ausfallarbeit
+0610,00087,STS,M,M,1,1,2,Status des Gegenvorschlags der Ausfallarbeit
+0620,00088,RFF,C,R,999,1,3,Prüfidentifikator
+0620,00089,RFF,C,R,999,1,3,Referenzangaben
+0730,,SG17,C,D,9,1,3,"Ansprechpartner, der den Gegenvorschlag ablehnt"
+0740,00090,NAD,M,M,1,1,3,"Ansprechpartner, der den Gegenvorschlag ablehnt"
+0750,,SG18,C,R,9,1,4,Ansprechpartner
+0760,00091,CTA,M,M,1,1,4,Ansprechpartner
+0770,00092,COM,C,R,9,4,5,Kommunikationsverbindung
+1040,,SG25,C,D,9999,1,3,Sendungspositionseinzelheiten
+1050,00093,GID,M,M,1,1,3,Sendungspositionseinzelheiten
+1090,00094,FTX,C,R,9,1,4,Freier Text
+0600,,SG15,M,D,99,1,2,Status des Gegenvorschlags des Fahrplananteils
+0610,00095,STS,M,M,1,1,2,Status des Gegenvorschlags des Fahrplananteils
+0620,00096,RFF,C,R,999,1,3,Prüfidentifikator
+0620,00097,RFF,C,R,999,1,3,Referenzangaben
+0730,,SG17,C,D,9,1,3,"Ansprechpartner, der den Gegenvorschlag ablehnt"
+0740,00098,NAD,M,M,1,1,3,"Ansprechpartner, der den Gegenvorschlag ablehnt"
+0750,,SG18,C,R,9,1,4,Ansprechpartner
+0760,00099,CTA,M,M,1,1,4,Ansprechpartner
+0770,00100,COM,C,R,9,4,5,Kommunikationsverbindung
+1040,,SG25,C,D,9999,1,3,Sendungspositionseinzelheiten
+1050,00101,GID,M,M,1,1,3,Sendungspositionseinzelheiten
+1090,00102,FTX,C,R,9,1,4,Freier Text
+0600,,SG15,M,D,99,1,2,Auftragstatus Sperren
+0610,00103,STS,M,M,1,1,2,Auftragstatus Sperren
+0620,00104,RFF,C,R,999,1,3,Prüfidentifikator
+0630,00105,DTM,C,D,9,1,3,Datum/Uhrzeit/Zeitspanne
+1040,,SG25,C,D,9999,1,3,Sendungspositionseinzelheiten
+1050,00106,GID,M,M,1,1,3,Sendungspositionseinzelheiten
+1090,00107,FTX,C,R,9,1,4,Freier Text
+0600,,SG15,M,D,99,1,2,Auftragstatus Entsperren
+0610,00108,STS,M,M,1,1,2,Auftragstatus Entsperren
+0620,00109,RFF,C,R,999,1,3,Prüfidentifikator
+0630,00110,DTM,C,D,9,1,3,Datum/Uhrzeit/Zeitspanne
+1040,,SG25,C,D,9999,1,3,Sendungspositionseinzelheiten
+1050,00111,GID,M,M,1,1,3,Sendungspositionseinzelheiten
+1090,00112,FTX,C,R,9,1,4,Freier Text
+0600,,SG15,M,D,99,1,2,Information über Entsperrauftrag
+0610,00113,STS,M,M,1,1,2,Information über Entsperrauftrag
+0620,00114,RFF,C,R,999,1,3,Prüfidentifikator
+0630,00115,DTM,C,D,9,1,3,Datum/Uhrzeit/Zeitspanne
+0600,,SG15,M,D,99,1,2,Grund der Privilegierung nach EnFG
+0610,00116,STS,M,M,1,1,2,Grund der Privilegierung nach EnFG
+0620,00117,RFF,C,R,999,1,3,Prüfidentifikator
+0630,00118,DTM,C,R,9,1,3,Datum/Uhrzeit/Zeitspanne
+0660,,SG16,C,R,99,1,3,Privilegierte Energiemenge
+0670,00119,EFI,M,M,1,1,3,Privilegierte Energiemenge
+0710,00120,DTM,C,R,9,1,4,Beginn des Zeitraums
+0710,00121,DTM,C,R,9,1,4,Ende des Zeitraums
+0720,00122,QTY,C,R,9,1,4,Menge
+0730,,SG17,C,R,9,1,3,Letztverbraucher
+0740,00123,NAD,M,M,1,1,3,Name und Anschrift
+1040,,SG25,C,D,9999,1,3,Sendungspositionseinzelheiten
+1050,00124,GID,M,M,1,1,3,Sendungspositionseinzelheiten
+1090,00125,FTX,C,R,9,1,4,Freier Text
+0600,,SG15,M,D,99,1,2,Bearbeitungsstatus
+0610,00126,STS,M,M,1,1,2,Bearbeitungsstatus
+0620,00127,RFF,C,R,999,1,3,Prüfidentifikator
+0620,00128,RFF,C,R,999,1,3,Referenzangaben
+1040,,SG25,C,D,9999,1,3,Sendungspositionseinzelheiten
+1050,00129,GID,M,M,1,1,3,Sendungspositionseinzelheiten
+1090,00130,FTX,C,R,9,1,4,Freier Text
+1250,00131,UNT,M,M,1,1,0,Nachrichten-Endesegment
