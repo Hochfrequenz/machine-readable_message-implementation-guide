@@ -1,1680 +1,1680 @@
 {
-  "header_linie": null,
-  "segmente": [
-    {
-      "zaehler": "0010",
-      "nr": "00001",
-      "bezeichnung": "UNH",
-      "standard_status": "M",
-      "bdew_status": "M",
-      "standard_maximale_wiederholungen": 1,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 0,
-      "inhalt": "Nachrichten-Kopfsegment"
-    },
-    {
-      "zaehler": "0020",
-      "nr": "00002",
-      "bezeichnung": "BGM",
-      "standard_status": "M",
-      "bdew_status": "M",
-      "standard_maximale_wiederholungen": 1,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 0,
-      "inhalt": "Beginn der Nachricht"
-    },
-    {
-      "zaehler": "0030",
-      "nr": "00003",
-      "bezeichnung": "DTM",
-      "standard_status": "M",
-      "bdew_status": "M",
-      "standard_maximale_wiederholungen": 35,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 1,
-      "inhalt": "Nachrichtendatum"
-    },
-    {
-      "zaehler": "0030",
-      "nr": "00004",
-      "bezeichnung": "DTM",
-      "standard_status": "M",
-      "bdew_status": "D",
-      "standard_maximale_wiederholungen": 35,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 1,
-      "inhalt": "Ausf\u00fchrungsdatum"
-    },
-    {
-      "zaehler": "0030",
-      "nr": "00005",
-      "bezeichnung": "DTM",
-      "standard_status": "M",
-      "bdew_status": "D",
-      "standard_maximale_wiederholungen": 35,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 1,
-      "inhalt": "verschobener Abmeldetermin"
-    },
-    {
-      "zaehler": "0030",
-      "nr": "00006",
-      "bezeichnung": "DTM",
-      "standard_status": "M",
-      "bdew_status": "D",
-      "standard_maximale_wiederholungen": 35,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 1,
-      "inhalt": "Betrachtungszeitintervall"
-    },
-    {
-      "zaehler": "0030",
-      "nr": "00007",
-      "bezeichnung": "DTM",
-      "standard_status": "M",
-      "bdew_status": "D",
-      "standard_maximale_wiederholungen": 35,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 1,
-      "inhalt": "Beginn zum (n\u00e4chstm\u00f6glichen Termin)"
-    },
-    {
-      "zaehler": "0060",
-      "nr": "00008",
-      "bezeichnung": "IMD",
-      "standard_status": "C",
-      "bdew_status": "D",
-      "standard_maximale_wiederholungen": 999,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 1,
-      "inhalt": "Abonnement"
-    },
-    {
-      "zaehler": "0060",
-      "nr": "00009",
-      "bezeichnung": "IMD",
-      "standard_status": "C",
-      "bdew_status": "D",
-      "standard_maximale_wiederholungen": 999,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 1,
-      "inhalt": "Produkt-/Leistungsbeschreibung"
-    },
-    {
-      "zaehler": "0060",
-      "nr": "00010",
-      "bezeichnung": "IMD",
-      "standard_status": "C",
-      "bdew_status": "D",
-      "standard_maximale_wiederholungen": 999,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 1,
-      "inhalt": "Bestellung Z\u00e4hlzeiten"
-    },
-    {
-      "zaehler": "0060",
-      "nr": "00011",
-      "bezeichnung": "IMD",
-      "standard_status": "C",
-      "bdew_status": "D",
-      "standard_maximale_wiederholungen": 999,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 1,
-      "inhalt": "Lieferrichtung"
-    },
-    {
-      "zaehler": "0070",
-      "nr": "00012",
-      "bezeichnung": "FTX",
-      "standard_status": "C",
-      "bdew_status": "D",
-      "standard_maximale_wiederholungen": 99,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 1,
-      "inhalt": "Reklamation von normierten Profilen bzw. Profilscharen"
-    },
-    {
-      "zaehler": "2490",
-      "nr": "00084",
-      "bezeichnung": "UNS",
-      "standard_status": "M",
-      "bdew_status": "M",
-      "standard_maximale_wiederholungen": 1,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 0,
-      "inhalt": "Abschnitts-Kontrollsegment"
-    },
-    {
-      "zaehler": "2500",
-      "nr": "00085",
-      "bezeichnung": "MOA",
-      "standard_status": "C",
-      "bdew_status": "D",
-      "standard_maximale_wiederholungen": 99,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 1,
-      "inhalt": "Summenbetrag (netto)"
-    },
-    {
-      "zaehler": "2560",
-      "nr": "00086",
-      "bezeichnung": "UNT",
-      "standard_status": "M",
-      "bdew_status": "M",
-      "standard_maximale_wiederholungen": 1,
-      "bdew_maximale_wiederholungen": 1,
-      "ebene": 0,
-      "inhalt": "Nachrichten-Endesegment"
-    }
-  ],
-  "segmentgruppen": [
-    {
-      "header_linie": {
-        "zaehler": "0090",
-        "nr": null,
-        "bezeichnung": "SG1",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 9999,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Referenz Nachrichtennummer"
-      },
-      "segmente": [
+    "header_linie": null,
+    "segmente": [
         {
-          "zaehler": "0100",
-          "nr": "00013",
-          "bezeichnung": "RFF",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Referenz Nachrichtennummer"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0090",
-        "nr": null,
-        "bezeichnung": "SG1",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 9999,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Referenz Vorgangsnummer"
-      },
-      "segmente": [
-        {
-          "zaehler": "0100",
-          "nr": "00014",
-          "bezeichnung": "RFF",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Referenz Vorgangsnummer"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0090",
-        "nr": null,
-        "bezeichnung": "SG1",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 9999,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Referenz auf Redispatch-Ma\u00dfnahme"
-      },
-      "segmente": [
-        {
-          "zaehler": "0100",
-          "nr": "00015",
-          "bezeichnung": "RFF",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "ID der Redispatch-Ma\u00dfnahme"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0090",
-        "nr": null,
-        "bezeichnung": "SG1",
-        "standard_status": "C",
-        "bdew_status": "R",
-        "standard_maximale_wiederholungen": 9999,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Pr\u00fcfidentifikator"
-      },
-      "segmente": [
-        {
-          "zaehler": "0100",
-          "nr": "00016",
-          "bezeichnung": "RFF",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Pr\u00fcfidentifikator"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0120",
-        "nr": null,
-        "bezeichnung": "SG2",
-        "standard_status": "C",
-        "bdew_status": "R",
-        "standard_maximale_wiederholungen": 99,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "MP-ID Absender"
-      },
-      "segmente": [
-        {
-          "zaehler": "0130",
-          "nr": "00017",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "MP-ID Absender"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0220",
-            "nr": null,
-            "bezeichnung": "SG5",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 5,
+            "zaehler": "0010",
+            "nr": "00001",
+            "bezeichnung": "UNH",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
             "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kontaktinformationen"
-          },
-          "segmente": [
-            {
-              "zaehler": "0230",
-              "nr": "00018",
-              "bezeichnung": "CTA",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ansprechpartner"
-            },
-            {
-              "zaehler": "0240",
-              "nr": "00019",
-              "bezeichnung": "COM",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 5,
-              "bdew_maximale_wiederholungen": 5,
-              "ebene": 3,
-              "inhalt": "Kommunikationsverbindung"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0120",
-        "nr": null,
-        "bezeichnung": "SG2",
-        "standard_status": "C",
-        "bdew_status": "R",
-        "standard_maximale_wiederholungen": 99,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "MP-ID Empf\u00e4nger"
-      },
-      "segmente": [
-        {
-          "zaehler": "0130",
-          "nr": "00020",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "MP-ID Empf\u00e4nger"
+            "ebene": 0,
+            "inhalt": "Nachrichten-Kopfsegment"
         },
         {
-          "zaehler": "0140",
-          "nr": "00021",
-          "bezeichnung": "LOC",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 99,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Bilanzierungsgebiet/Regelzone"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0120",
-        "nr": null,
-        "bezeichnung": "SG2",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 99,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Marktlokation, Messlokation, Tranche bzw. Ressource"
-      },
-      "segmente": [
-        {
-          "zaehler": "0130",
-          "nr": "00022",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Meldepunkt"
+            "zaehler": "0020",
+            "nr": "00002",
+            "bezeichnung": "BGM",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Beginn der Nachricht"
         },
         {
-          "zaehler": "0140",
-          "nr": "00023",
-          "bezeichnung": "LOC",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 99,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Meldepunkt"
-        }
-      ],
-      "segmentgruppen": [
+            "zaehler": "0030",
+            "nr": "00003",
+            "bezeichnung": "DTM",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 35,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Nachrichtendatum"
+        },
         {
-          "header_linie": {
-            "zaehler": "0160",
-            "nr": null,
-            "bezeichnung": "SG3",
+            "zaehler": "0030",
+            "nr": "00004",
+            "bezeichnung": "DTM",
+            "standard_status": "M",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 35,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Ausf\u00fchrungsdatum"
+        },
+        {
+            "zaehler": "0030",
+            "nr": "00005",
+            "bezeichnung": "DTM",
+            "standard_status": "M",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 35,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "verschobener Abmeldetermin"
+        },
+        {
+            "zaehler": "0030",
+            "nr": "00006",
+            "bezeichnung": "DTM",
+            "standard_status": "M",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 35,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Betrachtungszeitintervall"
+        },
+        {
+            "zaehler": "0030",
+            "nr": "00007",
+            "bezeichnung": "DTM",
+            "standard_status": "M",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 35,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Beginn zum (n\u00e4chstm\u00f6glichen Termin)"
+        },
+        {
+            "zaehler": "0060",
+            "nr": "00008",
+            "bezeichnung": "IMD",
             "standard_status": "C",
             "bdew_status": "D",
-            "standard_maximale_wiederholungen": 99,
-            "bdew_maximale_wiederholungen": 99,
-            "ebene": 2,
-            "inhalt": "Referenz auf ID der Marktlokation"
-          },
-          "segmente": [
-            {
-              "zaehler": "0170",
-              "nr": "00024",
-              "bezeichnung": "RFF",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Referenz auf ID der Marktlokation"
-            }
-          ],
-          "segmentgruppen": []
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Abonnement"
         },
         {
-          "header_linie": {
-            "zaehler": "0160",
-            "nr": null,
-            "bezeichnung": "SG3",
+            "zaehler": "0060",
+            "nr": "00009",
+            "bezeichnung": "IMD",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Produkt-/Leistungsbeschreibung"
+        },
+        {
+            "zaehler": "0060",
+            "nr": "00010",
+            "bezeichnung": "IMD",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Bestellung Z\u00e4hlzeiten"
+        },
+        {
+            "zaehler": "0060",
+            "nr": "00011",
+            "bezeichnung": "IMD",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 1,
+            "inhalt": "Lieferrichtung"
+        },
+        {
+            "zaehler": "0070",
+            "nr": "00012",
+            "bezeichnung": "FTX",
             "standard_status": "C",
             "bdew_status": "D",
             "standard_maximale_wiederholungen": 99,
             "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Konfigurations-ID"
-          },
-          "segmente": [
-            {
-              "zaehler": "0170",
-              "nr": "00025",
-              "bezeichnung": "RFF",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Konfigurations-ID"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0120",
-        "nr": null,
-        "bezeichnung": "SG2",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 99,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Marktlokationsadresse"
-      },
-      "segmente": [
+            "ebene": 1,
+            "inhalt": "Reklamation von normierten Profilen bzw. Profilscharen"
+        },
         {
-          "zaehler": "0130",
-          "nr": "00026",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Marktlokationsadresse"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0120",
-        "nr": null,
-        "bezeichnung": "SG2",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 99,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Messlokationsadresse"
-      },
-      "segmente": [
+            "zaehler": "2490",
+            "nr": "00084",
+            "bezeichnung": "UNS",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 0,
+            "inhalt": "Abschnitts-Kontrollsegment"
+        },
         {
-          "zaehler": "0130",
-          "nr": "00027",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Messlokationsadresse"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0120",
-        "nr": null,
-        "bezeichnung": "SG2",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 99,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Kunde des Lieferanten"
-      },
-      "segmente": [
-        {
-          "zaehler": "0130",
-          "nr": "00028",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Kunde des Lieferanten"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "0160",
-            "nr": null,
-            "bezeichnung": "SG3",
+            "zaehler": "2500",
+            "nr": "00085",
+            "bezeichnung": "MOA",
             "standard_status": "C",
             "bdew_status": "D",
             "standard_maximale_wiederholungen": 99,
             "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Kundennummer beim Lieferanten"
-          },
-          "segmente": [
-            {
-              "zaehler": "0170",
-              "nr": "00029",
-              "bezeichnung": "RFF",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Kundennummer beim Lieferanten"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "0120",
-        "nr": null,
-        "bezeichnung": "SG2",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 99,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Kunde des Messstellenbetreibers"
-      },
-      "segmente": [
-        {
-          "zaehler": "0130",
-          "nr": "00030",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Kunde des Messstellenbetreibers"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0120",
-        "nr": null,
-        "bezeichnung": "SG2",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 99,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "Adresse f\u00fcr Treffpunkt"
-      },
-      "segmente": [
-        {
-          "zaehler": "0130",
-          "nr": "00031",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Adresse f\u00fcr Treffpunkt"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0120",
-        "nr": null,
-        "bezeichnung": "SG2",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 99,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "MP-ID des Eigent\u00fcmers der Liste der Z\u00e4hlzeitdefinitionen"
-      },
-      "segmente": [
-        {
-          "zaehler": "0130",
-          "nr": "00032",
-          "bezeichnung": "NAD",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "MP-ID des Eigent\u00fcmers der Liste der Z\u00e4hlzeitdefinitionen"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "0290",
-        "nr": null,
-        "bezeichnung": "SG7",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 5,
-        "bdew_maximale_wiederholungen": 1,
-        "ebene": 1,
-        "inhalt": "W\u00e4hrungsangaben"
-      },
-      "segmente": [
-        {
-          "zaehler": "0300",
-          "nr": "00033",
-          "bezeichnung": "CUX",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "W\u00e4hrungsangaben"
-        }
-      ],
-      "segmentgruppen": []
-    },
-    {
-      "header_linie": {
-        "zaehler": "1100",
-        "nr": null,
-        "bezeichnung": "SG29",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 200000,
-        "ebene": 1,
-        "inhalt": "Positionsteil"
-      },
-      "segmente": [
-        {
-          "zaehler": "1110",
-          "nr": "00034",
-          "bezeichnung": "LIN",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Positionsdaten"
+            "ebene": 1,
+            "inhalt": "Summenbetrag (netto)"
         },
         {
-          "zaehler": "1120",
-          "nr": "00035",
-          "bezeichnung": "PIA",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 25,
-          "bdew_maximale_wiederholungen": 25,
-          "ebene": 2,
-          "inhalt": "OBIS-Kennzahl"
-        },
-        {
-          "zaehler": "1130",
-          "nr": "00036",
-          "bezeichnung": "IMD",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 99,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Grund der Anforderung von Werten"
-        },
-        {
-          "zaehler": "1150",
-          "nr": "00037",
-          "bezeichnung": "QTY",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 99,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Menge"
-        },
-        {
-          "zaehler": "1180",
-          "nr": "00038",
-          "bezeichnung": "DTM",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 35,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Zeitpunkt f\u00fcr Wertanfrage"
-        },
-        {
-          "zaehler": "1180",
-          "nr": "00039",
-          "bezeichnung": "DTM",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 35,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Beginn Zeitraum f\u00fcr Wertanfrage"
-        },
-        {
-          "zaehler": "1180",
-          "nr": "00040",
-          "bezeichnung": "DTM",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 35,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Ende Zeitraum f\u00fcr Wertanfrage"
-        },
-        {
-          "zaehler": "1190",
-          "nr": "00041",
-          "bezeichnung": "MOA",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 10,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Positionsnettobetrag"
-        },
-        {
-          "zaehler": "1270",
-          "nr": "00042",
-          "bezeichnung": "FTX",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 99,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Allgemeine Information (Feld f\u00fcr allgemeine Hinweise)"
-        },
-        {
-          "zaehler": "1270",
-          "nr": "00043",
-          "bezeichnung": "FTX",
-          "standard_status": "C",
-          "bdew_status": "D",
-          "standard_maximale_wiederholungen": 99,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Beschreibung der Reklamation von Werten und\nZ\u00e4hlzeitdefinitionen"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
+            "zaehler": "2560",
+            "nr": "00086",
+            "bezeichnung": "UNT",
+            "standard_status": "M",
+            "bdew_status": "M",
+            "standard_maximale_wiederholungen": 1,
             "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Profilgruppe"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00044",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Profilgruppe"
-            }
-          ],
-          "segmentgruppen": []
-        },
+            "ebene": 0,
+            "inhalt": "Nachrichten-Endesegment"
+        }
+    ],
+    "segmentgruppen": [
         {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Prognosegrundlage"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00045",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Prognosegrundlage"
+            "header_linie": {
+                "zaehler": "0090",
+                "nr": null,
+                "bezeichnung": "SG1",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 9999,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Referenz Nachrichtennummer"
             },
-            {
-              "zaehler": "1300",
-              "nr": "00046",
-              "bezeichnung": "CAV",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 10,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 3,
-              "inhalt": "Prognosegrundlage"
-            }
-          ],
-          "segmentgruppen": []
+            "segmente": [
+                {
+                    "zaehler": "0100",
+                    "nr": "00013",
+                    "bezeichnung": "RFF",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Referenz Nachrichtennummer"
+                }
+            ],
+            "segmentgruppen": []
         },
         {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Konzessionsabgabe"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00047",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Konzessionsabgabe"
+            "header_linie": {
+                "zaehler": "0090",
+                "nr": null,
+                "bezeichnung": "SG1",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 9999,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Referenz Vorgangsnummer"
             },
-            {
-              "zaehler": "1300",
-              "nr": "00048",
-              "bezeichnung": "CAV",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 10,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 3,
-              "inhalt": "Konzessionsabgabe"
-            }
-          ],
-          "segmentgruppen": []
+            "segmente": [
+                {
+                    "zaehler": "0100",
+                    "nr": "00014",
+                    "bezeichnung": "RFF",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Referenz Vorgangsnummer"
+                }
+            ],
+            "segmentgruppen": []
         },
         {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Zugeordnete Z\u00e4hlzeit"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00049",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Zugeordnete Z\u00e4hlzeit"
-            }
-          ],
-          "segmentgruppen": []
-        },
-        {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Wertegranularit\u00e4t"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00050",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Wertegranularit\u00e4t"
+            "header_linie": {
+                "zaehler": "0090",
+                "nr": null,
+                "bezeichnung": "SG1",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 9999,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Referenz auf Redispatch-Ma\u00dfnahme"
             },
-            {
-              "zaehler": "1300",
-              "nr": "00051",
-              "bezeichnung": "CAV",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 10,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 3,
-              "inhalt": "Wertegranularit\u00e4t"
-            }
-          ],
-          "segmentgruppen": []
+            "segmente": [
+                {
+                    "zaehler": "0100",
+                    "nr": "00015",
+                    "bezeichnung": "RFF",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "ID der Redispatch-Ma\u00dfnahme"
+                }
+            ],
+            "segmentgruppen": []
         },
         {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Ger\u00e4teart"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00052",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ger\u00e4teart"
-            }
-          ],
-          "segmentgruppen": []
+            "header_linie": {
+                "zaehler": "0090",
+                "nr": null,
+                "bezeichnung": "SG1",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 9999,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Pr\u00fcfidentifikator"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0100",
+                    "nr": "00016",
+                    "bezeichnung": "RFF",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Pr\u00fcfidentifikator"
+                }
+            ],
+            "segmentgruppen": []
         },
         {
-          "header_linie": {
-            "zaehler": "1390",
-            "nr": null,
-            "bezeichnung": "SG33",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 25,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Preis"
-          },
-          "segmente": [
-            {
-              "zaehler": "1400",
-              "nr": "00053",
-              "bezeichnung": "PRI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Preisangaben"
-            }
-          ],
-          "segmentgruppen": []
+            "header_linie": {
+                "zaehler": "0120",
+                "nr": null,
+                "bezeichnung": "SG2",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "MP-ID Absender"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0130",
+                    "nr": "00017",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "MP-ID Absender"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0220",
+                        "nr": null,
+                        "bezeichnung": "SG5",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 5,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kontaktinformationen"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0230",
+                            "nr": "00018",
+                            "bezeichnung": "CTA",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ansprechpartner"
+                        },
+                        {
+                            "zaehler": "0240",
+                            "nr": "00019",
+                            "bezeichnung": "COM",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 5,
+                            "bdew_maximale_wiederholungen": 5,
+                            "ebene": 3,
+                            "inhalt": "Kommunikationsverbindung"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
         },
         {
-          "header_linie": {
-            "zaehler": "1450",
-            "nr": null,
-            "bezeichnung": "SG34",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 9999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Versionsangabe der Summenzeitreihe"
-          },
-          "segmente": [
-            {
-              "zaehler": "1460",
-              "nr": "00054",
-              "bezeichnung": "RFF",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Versionsangabe der Summenzeitreihe"
-            }
-          ],
-          "segmentgruppen": []
+            "header_linie": {
+                "zaehler": "0120",
+                "nr": null,
+                "bezeichnung": "SG2",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "MP-ID Empf\u00e4nger"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0130",
+                    "nr": "00020",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "MP-ID Empf\u00e4nger"
+                },
+                {
+                    "zaehler": "0140",
+                    "nr": "00021",
+                    "bezeichnung": "LOC",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 99,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Bilanzierungsgebiet/Regelzone"
+                }
+            ],
+            "segmentgruppen": []
         },
         {
-          "header_linie": {
-            "zaehler": "1450",
-            "nr": null,
-            "bezeichnung": "SG34",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 9999,
-            "bdew_maximale_wiederholungen": 3,
-            "ebene": 2,
-            "inhalt": "Ger\u00e4tenummer"
-          },
-          "segmente": [
-            {
-              "zaehler": "1460",
-              "nr": "00055",
-              "bezeichnung": "RFF",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Ger\u00e4tenummer"
-            }
-          ],
-          "segmentgruppen": []
+            "header_linie": {
+                "zaehler": "0120",
+                "nr": null,
+                "bezeichnung": "SG2",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Marktlokation, Messlokation, Tranche bzw. Ressource"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0130",
+                    "nr": "00022",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Meldepunkt"
+                },
+                {
+                    "zaehler": "0140",
+                    "nr": "00023",
+                    "bezeichnung": "LOC",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 99,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Meldepunkt"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0160",
+                        "nr": null,
+                        "bezeichnung": "SG3",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 99,
+                        "ebene": 2,
+                        "inhalt": "Referenz auf ID der Marktlokation"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0170",
+                            "nr": "00024",
+                            "bezeichnung": "RFF",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Referenz auf ID der Marktlokation"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "0160",
+                        "nr": null,
+                        "bezeichnung": "SG3",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Konfigurations-ID"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0170",
+                            "nr": "00025",
+                            "bezeichnung": "RFF",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Konfigurations-ID"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
         },
         {
-          "header_linie": {
-            "zaehler": "1450",
-            "nr": null,
-            "bezeichnung": "SG34",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 9999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Positionsnummer aus dem Angebot"
-          },
-          "segmente": [
-            {
-              "zaehler": "1460",
-              "nr": "00056",
-              "bezeichnung": "RFF",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Positionsnummer aus dem Angebot"
-            }
-          ],
-          "segmentgruppen": []
+            "header_linie": {
+                "zaehler": "0120",
+                "nr": null,
+                "bezeichnung": "SG2",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Marktlokationsadresse"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0130",
+                    "nr": "00026",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Marktlokationsadresse"
+                }
+            ],
+            "segmentgruppen": []
         },
         {
-          "header_linie": {
-            "zaehler": "1630",
-            "nr": null,
-            "bezeichnung": "SG38",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 9999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "MaBiS-ZP"
-          },
-          "segmente": [
-            {
-              "zaehler": "1640",
-              "nr": "00057",
-              "bezeichnung": "LOC",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Meldepunkt"
-            }
-          ],
-          "segmentgruppen": []
+            "header_linie": {
+                "zaehler": "0120",
+                "nr": null,
+                "bezeichnung": "SG2",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Messlokationsadresse"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0130",
+                    "nr": "00027",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Messlokationsadresse"
+                }
+            ],
+            "segmentgruppen": []
         },
         {
-          "header_linie": {
-            "zaehler": "1630",
-            "nr": null,
-            "bezeichnung": "SG38",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 9999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Bilanzkreis f\u00fcr Strom"
-          },
-          "segmente": [
-            {
-              "zaehler": "1640",
-              "nr": "00058",
-              "bezeichnung": "LOC",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Bilanzkreis f\u00fcr Strom"
-            }
-          ],
-          "segmentgruppen": []
+            "header_linie": {
+                "zaehler": "0120",
+                "nr": null,
+                "bezeichnung": "SG2",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Kunde des Lieferanten"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0130",
+                    "nr": "00028",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Kunde des Lieferanten"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "0160",
+                        "nr": null,
+                        "bezeichnung": "SG3",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 99,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Kundennummer beim Lieferanten"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "0170",
+                            "nr": "00029",
+                            "bezeichnung": "RFF",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Kundennummer beim Lieferanten"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "0120",
+                "nr": null,
+                "bezeichnung": "SG2",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Kunde des Messstellenbetreibers"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0130",
+                    "nr": "00030",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Kunde des Messstellenbetreibers"
+                }
+            ],
+            "segmentgruppen": []
+        },
+        {
+            "header_linie": {
+                "zaehler": "0120",
+                "nr": null,
+                "bezeichnung": "SG2",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "Adresse f\u00fcr Treffpunkt"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0130",
+                    "nr": "00031",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Adresse f\u00fcr Treffpunkt"
+                }
+            ],
+            "segmentgruppen": []
+        },
+        {
+            "header_linie": {
+                "zaehler": "0120",
+                "nr": null,
+                "bezeichnung": "SG2",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "MP-ID des Eigent\u00fcmers der Liste der Z\u00e4hlzeitdefinitionen"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0130",
+                    "nr": "00032",
+                    "bezeichnung": "NAD",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "MP-ID des Eigent\u00fcmers der Liste der Z\u00e4hlzeitdefinitionen"
+                }
+            ],
+            "segmentgruppen": []
+        },
+        {
+            "header_linie": {
+                "zaehler": "0290",
+                "nr": null,
+                "bezeichnung": "SG7",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 5,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 1,
+                "inhalt": "W\u00e4hrungsangaben"
+            },
+            "segmente": [
+                {
+                    "zaehler": "0300",
+                    "nr": "00033",
+                    "bezeichnung": "CUX",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "W\u00e4hrungsangaben"
+                }
+            ],
+            "segmentgruppen": []
+        },
+        {
+            "header_linie": {
+                "zaehler": "1100",
+                "nr": null,
+                "bezeichnung": "SG29",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 200000,
+                "ebene": 1,
+                "inhalt": "Positionsteil"
+            },
+            "segmente": [
+                {
+                    "zaehler": "1110",
+                    "nr": "00034",
+                    "bezeichnung": "LIN",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Positionsdaten"
+                },
+                {
+                    "zaehler": "1120",
+                    "nr": "00035",
+                    "bezeichnung": "PIA",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 25,
+                    "bdew_maximale_wiederholungen": 25,
+                    "ebene": 2,
+                    "inhalt": "OBIS-Kennzahl"
+                },
+                {
+                    "zaehler": "1130",
+                    "nr": "00036",
+                    "bezeichnung": "IMD",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 99,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Grund der Anforderung von Werten"
+                },
+                {
+                    "zaehler": "1150",
+                    "nr": "00037",
+                    "bezeichnung": "QTY",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 99,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Menge"
+                },
+                {
+                    "zaehler": "1180",
+                    "nr": "00038",
+                    "bezeichnung": "DTM",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 35,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Zeitpunkt f\u00fcr Wertanfrage"
+                },
+                {
+                    "zaehler": "1180",
+                    "nr": "00039",
+                    "bezeichnung": "DTM",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 35,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Beginn Zeitraum f\u00fcr Wertanfrage"
+                },
+                {
+                    "zaehler": "1180",
+                    "nr": "00040",
+                    "bezeichnung": "DTM",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 35,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Ende Zeitraum f\u00fcr Wertanfrage"
+                },
+                {
+                    "zaehler": "1190",
+                    "nr": "00041",
+                    "bezeichnung": "MOA",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 10,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Positionsnettobetrag"
+                },
+                {
+                    "zaehler": "1270",
+                    "nr": "00042",
+                    "bezeichnung": "FTX",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 99,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Allgemeine Information (Feld f\u00fcr allgemeine Hinweise)"
+                },
+                {
+                    "zaehler": "1270",
+                    "nr": "00043",
+                    "bezeichnung": "FTX",
+                    "standard_status": "C",
+                    "bdew_status": "D",
+                    "standard_maximale_wiederholungen": 99,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Beschreibung der Reklamation von Werten und\nZ\u00e4hlzeitdefinitionen"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Profilgruppe"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00044",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Profilgruppe"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Prognosegrundlage"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00045",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Prognosegrundlage"
+                        },
+                        {
+                            "zaehler": "1300",
+                            "nr": "00046",
+                            "bezeichnung": "CAV",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 10,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Prognosegrundlage"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Konzessionsabgabe"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00047",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Konzessionsabgabe"
+                        },
+                        {
+                            "zaehler": "1300",
+                            "nr": "00048",
+                            "bezeichnung": "CAV",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 10,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Konzessionsabgabe"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Zugeordnete Z\u00e4hlzeit"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00049",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Zugeordnete Z\u00e4hlzeit"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Wertegranularit\u00e4t"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00050",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Wertegranularit\u00e4t"
+                        },
+                        {
+                            "zaehler": "1300",
+                            "nr": "00051",
+                            "bezeichnung": "CAV",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 10,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Wertegranularit\u00e4t"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Ger\u00e4teart"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00052",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ger\u00e4teart"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1390",
+                        "nr": null,
+                        "bezeichnung": "SG33",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 25,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Preis"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1400",
+                            "nr": "00053",
+                            "bezeichnung": "PRI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Preisangaben"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1450",
+                        "nr": null,
+                        "bezeichnung": "SG34",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 9999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Versionsangabe der Summenzeitreihe"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1460",
+                            "nr": "00054",
+                            "bezeichnung": "RFF",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Versionsangabe der Summenzeitreihe"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1450",
+                        "nr": null,
+                        "bezeichnung": "SG34",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 9999,
+                        "bdew_maximale_wiederholungen": 3,
+                        "ebene": 2,
+                        "inhalt": "Ger\u00e4tenummer"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1460",
+                            "nr": "00055",
+                            "bezeichnung": "RFF",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Ger\u00e4tenummer"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1450",
+                        "nr": null,
+                        "bezeichnung": "SG34",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 9999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Positionsnummer aus dem Angebot"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1460",
+                            "nr": "00056",
+                            "bezeichnung": "RFF",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Positionsnummer aus dem Angebot"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1630",
+                        "nr": null,
+                        "bezeichnung": "SG38",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 9999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "MaBiS-ZP"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1640",
+                            "nr": "00057",
+                            "bezeichnung": "LOC",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Meldepunkt"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1630",
+                        "nr": null,
+                        "bezeichnung": "SG38",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 9999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Bilanzkreis f\u00fcr Strom"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1640",
+                            "nr": "00058",
+                            "bezeichnung": "LOC",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Bilanzkreis f\u00fcr Strom"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "1100",
+                "nr": null,
+                "bezeichnung": "SG29",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 200000,
+                "ebene": 1,
+                "inhalt": "Erforderliches Messprodukt der Marktlokation"
+            },
+            "segmente": [
+                {
+                    "zaehler": "1110",
+                    "nr": "00059",
+                    "bezeichnung": "LIN",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Erforderliches Messprodukt der Marktlokation"
+                },
+                {
+                    "zaehler": "1120",
+                    "nr": "00060",
+                    "bezeichnung": "PIA",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 25,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Erforderliches Messprodukt der Marktlokation"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Zugeordnete Z\u00e4hlzeit"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00061",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Zugeordnete Z\u00e4hlzeit"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Messprodukt f\u00fcr Netzbetreiber relevant"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00062",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Messprodukt f\u00fcr Netzbetreiber relevant"
+                        },
+                        {
+                            "zaehler": "1300",
+                            "nr": "00063",
+                            "bezeichnung": "CAV",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 10,
+                            "bdew_maximale_wiederholungen": 4,
+                            "ebene": 3,
+                            "inhalt": "Verwendungszweck der Werte"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Messprodukt f\u00fcr Lieferant relevant"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00064",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Messprodukt f\u00fcr Lieferant relevant"
+                        },
+                        {
+                            "zaehler": "1300",
+                            "nr": "00065",
+                            "bezeichnung": "CAV",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 10,
+                            "bdew_maximale_wiederholungen": 4,
+                            "ebene": 3,
+                            "inhalt": "Verwendungszweck der Werte"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Messprodukt f\u00fcr \u00dcbertragungsnetzbetreiber relevant"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00066",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Messprodukt f\u00fcr \u00dcbertragungsnetzbetreiber relevant"
+                        },
+                        {
+                            "zaehler": "1300",
+                            "nr": "00067",
+                            "bezeichnung": "CAV",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 10,
+                            "bdew_maximale_wiederholungen": 4,
+                            "ebene": 3,
+                            "inhalt": "Verwendungszweck der Werte"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "1100",
+                "nr": null,
+                "bezeichnung": "SG29",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 200000,
+                "ebene": 1,
+                "inhalt": "Erforderliches Messprodukt der Tranche"
+            },
+            "segmente": [
+                {
+                    "zaehler": "1110",
+                    "nr": "00068",
+                    "bezeichnung": "LIN",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Erforderliches Messprodukt der Tranche"
+                },
+                {
+                    "zaehler": "1120",
+                    "nr": "00069",
+                    "bezeichnung": "PIA",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 25,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Erforderliches Messprodukt der Tranche"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Messprodukt f\u00fcr Netzbetreiber relevant"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00070",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Messprodukt f\u00fcr Netzbetreiber relevant"
+                        },
+                        {
+                            "zaehler": "1300",
+                            "nr": "00071",
+                            "bezeichnung": "CAV",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 10,
+                            "bdew_maximale_wiederholungen": 4,
+                            "ebene": 3,
+                            "inhalt": "Verwendungszweck der Werte"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Messprodukt f\u00fcr Lieferant relevant"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00072",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Messprodukt f\u00fcr Lieferant relevant"
+                        },
+                        {
+                            "zaehler": "1300",
+                            "nr": "00073",
+                            "bezeichnung": "CAV",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 10,
+                            "bdew_maximale_wiederholungen": 4,
+                            "ebene": 3,
+                            "inhalt": "Verwendungszweck der Werte"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Messprodukt f\u00fcr \u00dcbertragungsnetzbetreiber relevant"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00074",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Messprodukt f\u00fcr \u00dcbertragungsnetzbetreiber relevant"
+                        },
+                        {
+                            "zaehler": "1300",
+                            "nr": "00075",
+                            "bezeichnung": "CAV",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 10,
+                            "bdew_maximale_wiederholungen": 4,
+                            "ebene": 3,
+                            "inhalt": "Verwendungszweck der Werte"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1450",
+                        "nr": null,
+                        "bezeichnung": "SG34",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 9999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Referenz auf ID der Tranche"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1460",
+                            "nr": "00076",
+                            "bezeichnung": "RFF",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Referenz auf ID der Tranche"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
+        },
+        {
+            "header_linie": {
+                "zaehler": "1100",
+                "nr": null,
+                "bezeichnung": "SG29",
+                "standard_status": "C",
+                "bdew_status": "D",
+                "standard_maximale_wiederholungen": 200000,
+                "bdew_maximale_wiederholungen": 200000,
+                "ebene": 1,
+                "inhalt": "Erforderliches Messprodukt der Messlokation"
+            },
+            "segmente": [
+                {
+                    "zaehler": "1110",
+                    "nr": "00077",
+                    "bezeichnung": "LIN",
+                    "standard_status": "M",
+                    "bdew_status": "M",
+                    "standard_maximale_wiederholungen": 1,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 1,
+                    "inhalt": "Erforderliches Messprodukt der Messlokation"
+                },
+                {
+                    "zaehler": "1120",
+                    "nr": "00078",
+                    "bezeichnung": "PIA",
+                    "standard_status": "C",
+                    "bdew_status": "R",
+                    "standard_maximale_wiederholungen": 25,
+                    "bdew_maximale_wiederholungen": 1,
+                    "ebene": 2,
+                    "inhalt": "Erforderliches Messprodukt der Messlokation"
+                }
+            ],
+            "segmentgruppen": [
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Weitere Beschreibung erforderliches Messprodukt"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00079",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Weitere Beschreibung erforderliches Messprodukt"
+                        },
+                        {
+                            "zaehler": "1300",
+                            "nr": "00080",
+                            "bezeichnung": "CAV",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 10,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Notwendigkeit einer zweiten Messung"
+                        },
+                        {
+                            "zaehler": "1300",
+                            "nr": "00081",
+                            "bezeichnung": "CAV",
+                            "standard_status": "C",
+                            "bdew_status": "R",
+                            "standard_maximale_wiederholungen": 10,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 3,
+                            "inhalt": "Werte\u00fcbermittlung an den NB aufgrund weiterem\nVerwendungszweck"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1280",
+                        "nr": null,
+                        "bezeichnung": "SG30",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Zugeordnete Z\u00e4hlzeit"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1290",
+                            "nr": "00082",
+                            "bezeichnung": "CCI",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Zugeordnete Z\u00e4hlzeit"
+                        }
+                    ],
+                    "segmentgruppen": []
+                },
+                {
+                    "header_linie": {
+                        "zaehler": "1450",
+                        "nr": null,
+                        "bezeichnung": "SG34",
+                        "standard_status": "C",
+                        "bdew_status": "D",
+                        "standard_maximale_wiederholungen": 9999,
+                        "bdew_maximale_wiederholungen": 1,
+                        "ebene": 2,
+                        "inhalt": "Referenz auf ID der Messlokation"
+                    },
+                    "segmente": [
+                        {
+                            "zaehler": "1460",
+                            "nr": "00083",
+                            "bezeichnung": "RFF",
+                            "standard_status": "M",
+                            "bdew_status": "M",
+                            "standard_maximale_wiederholungen": 1,
+                            "bdew_maximale_wiederholungen": 1,
+                            "ebene": 2,
+                            "inhalt": "Referenz auf ID der Messlokation"
+                        }
+                    ],
+                    "segmentgruppen": []
+                }
+            ]
         }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "1100",
-        "nr": null,
-        "bezeichnung": "SG29",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 200000,
-        "ebene": 1,
-        "inhalt": "Erforderliches Messprodukt der Marktlokation"
-      },
-      "segmente": [
-        {
-          "zaehler": "1110",
-          "nr": "00059",
-          "bezeichnung": "LIN",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Erforderliches Messprodukt der Marktlokation"
-        },
-        {
-          "zaehler": "1120",
-          "nr": "00060",
-          "bezeichnung": "PIA",
-          "standard_status": "C",
-          "bdew_status": "R",
-          "standard_maximale_wiederholungen": 25,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Erforderliches Messprodukt der Marktlokation"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Zugeordnete Z\u00e4hlzeit"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00061",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Zugeordnete Z\u00e4hlzeit"
-            }
-          ],
-          "segmentgruppen": []
-        },
-        {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Messprodukt f\u00fcr Netzbetreiber relevant"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00062",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Messprodukt f\u00fcr Netzbetreiber relevant"
-            },
-            {
-              "zaehler": "1300",
-              "nr": "00063",
-              "bezeichnung": "CAV",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 10,
-              "bdew_maximale_wiederholungen": 4,
-              "ebene": 3,
-              "inhalt": "Verwendungszweck der Werte"
-            }
-          ],
-          "segmentgruppen": []
-        },
-        {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Messprodukt f\u00fcr Lieferant relevant"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00064",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Messprodukt f\u00fcr Lieferant relevant"
-            },
-            {
-              "zaehler": "1300",
-              "nr": "00065",
-              "bezeichnung": "CAV",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 10,
-              "bdew_maximale_wiederholungen": 4,
-              "ebene": 3,
-              "inhalt": "Verwendungszweck der Werte"
-            }
-          ],
-          "segmentgruppen": []
-        },
-        {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Messprodukt f\u00fcr \u00dcbertragungsnetzbetreiber relevant"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00066",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Messprodukt f\u00fcr \u00dcbertragungsnetzbetreiber relevant"
-            },
-            {
-              "zaehler": "1300",
-              "nr": "00067",
-              "bezeichnung": "CAV",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 10,
-              "bdew_maximale_wiederholungen": 4,
-              "ebene": 3,
-              "inhalt": "Verwendungszweck der Werte"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "1100",
-        "nr": null,
-        "bezeichnung": "SG29",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 200000,
-        "ebene": 1,
-        "inhalt": "Erforderliches Messprodukt der Tranche"
-      },
-      "segmente": [
-        {
-          "zaehler": "1110",
-          "nr": "00068",
-          "bezeichnung": "LIN",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Erforderliches Messprodukt der Tranche"
-        },
-        {
-          "zaehler": "1120",
-          "nr": "00069",
-          "bezeichnung": "PIA",
-          "standard_status": "C",
-          "bdew_status": "R",
-          "standard_maximale_wiederholungen": 25,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Erforderliches Messprodukt der Tranche"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Messprodukt f\u00fcr Netzbetreiber relevant"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00070",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Messprodukt f\u00fcr Netzbetreiber relevant"
-            },
-            {
-              "zaehler": "1300",
-              "nr": "00071",
-              "bezeichnung": "CAV",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 10,
-              "bdew_maximale_wiederholungen": 4,
-              "ebene": 3,
-              "inhalt": "Verwendungszweck der Werte"
-            }
-          ],
-          "segmentgruppen": []
-        },
-        {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Messprodukt f\u00fcr Lieferant relevant"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00072",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Messprodukt f\u00fcr Lieferant relevant"
-            },
-            {
-              "zaehler": "1300",
-              "nr": "00073",
-              "bezeichnung": "CAV",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 10,
-              "bdew_maximale_wiederholungen": 4,
-              "ebene": 3,
-              "inhalt": "Verwendungszweck der Werte"
-            }
-          ],
-          "segmentgruppen": []
-        },
-        {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Messprodukt f\u00fcr \u00dcbertragungsnetzbetreiber relevant"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00074",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Messprodukt f\u00fcr \u00dcbertragungsnetzbetreiber relevant"
-            },
-            {
-              "zaehler": "1300",
-              "nr": "00075",
-              "bezeichnung": "CAV",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 10,
-              "bdew_maximale_wiederholungen": 4,
-              "ebene": 3,
-              "inhalt": "Verwendungszweck der Werte"
-            }
-          ],
-          "segmentgruppen": []
-        },
-        {
-          "header_linie": {
-            "zaehler": "1450",
-            "nr": null,
-            "bezeichnung": "SG34",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 9999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Referenz auf ID der Tranche"
-          },
-          "segmente": [
-            {
-              "zaehler": "1460",
-              "nr": "00076",
-              "bezeichnung": "RFF",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Referenz auf ID der Tranche"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    },
-    {
-      "header_linie": {
-        "zaehler": "1100",
-        "nr": null,
-        "bezeichnung": "SG29",
-        "standard_status": "C",
-        "bdew_status": "D",
-        "standard_maximale_wiederholungen": 200000,
-        "bdew_maximale_wiederholungen": 200000,
-        "ebene": 1,
-        "inhalt": "Erforderliches Messprodukt der Messlokation"
-      },
-      "segmente": [
-        {
-          "zaehler": "1110",
-          "nr": "00077",
-          "bezeichnung": "LIN",
-          "standard_status": "M",
-          "bdew_status": "M",
-          "standard_maximale_wiederholungen": 1,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 1,
-          "inhalt": "Erforderliches Messprodukt der Messlokation"
-        },
-        {
-          "zaehler": "1120",
-          "nr": "00078",
-          "bezeichnung": "PIA",
-          "standard_status": "C",
-          "bdew_status": "R",
-          "standard_maximale_wiederholungen": 25,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Erforderliches Messprodukt der Messlokation"
-        }
-      ],
-      "segmentgruppen": [
-        {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Weitere Beschreibung erforderliches Messprodukt"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00079",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Weitere Beschreibung erforderliches Messprodukt"
-            },
-            {
-              "zaehler": "1300",
-              "nr": "00080",
-              "bezeichnung": "CAV",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 10,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 3,
-              "inhalt": "Notwendigkeit einer zweiten Messung"
-            },
-            {
-              "zaehler": "1300",
-              "nr": "00081",
-              "bezeichnung": "CAV",
-              "standard_status": "C",
-              "bdew_status": "R",
-              "standard_maximale_wiederholungen": 10,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 3,
-              "inhalt": "Werte\u00fcbermittlung an den NB aufgrund weiterem\nVerwendungszweck"
-            }
-          ],
-          "segmentgruppen": []
-        },
-        {
-          "header_linie": {
-            "zaehler": "1280",
-            "nr": null,
-            "bezeichnung": "SG30",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Zugeordnete Z\u00e4hlzeit"
-          },
-          "segmente": [
-            {
-              "zaehler": "1290",
-              "nr": "00082",
-              "bezeichnung": "CCI",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Zugeordnete Z\u00e4hlzeit"
-            }
-          ],
-          "segmentgruppen": []
-        },
-        {
-          "header_linie": {
-            "zaehler": "1450",
-            "nr": null,
-            "bezeichnung": "SG34",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 9999,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 2,
-            "inhalt": "Referenz auf ID der Messlokation"
-          },
-          "segmente": [
-            {
-              "zaehler": "1460",
-              "nr": "00083",
-              "bezeichnung": "RFF",
-              "standard_status": "M",
-              "bdew_status": "M",
-              "standard_maximale_wiederholungen": 1,
-              "bdew_maximale_wiederholungen": 1,
-              "ebene": 2,
-              "inhalt": "Referenz auf ID der Messlokation"
-            }
-          ],
-          "segmentgruppen": []
-        }
-      ]
-    }
-  ]
+    ]
 }
