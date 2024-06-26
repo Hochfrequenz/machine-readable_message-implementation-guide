@@ -1,237 +1,237 @@
 {
-    "header_linie": null,
-    "segmente": [
+  "header_linie": null,
+  "segmente": [
+    {
+      "zaehler": "0010",
+      "nr": "00001",
+      "bezeichnung": "UNH",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Kopfsegment"
+    },
+    {
+      "zaehler": "0020",
+      "nr": "00002",
+      "bezeichnung": "BGM",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Beginn der Nachricht"
+    },
+    {
+      "zaehler": "0030",
+      "nr": "00003",
+      "bezeichnung": "RFF",
+      "standard_status": "C",
+      "bdew_status": "R",
+      "standard_maximale_wiederholungen": 9,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Pr\u00fcfidentifikator"
+    },
+    {
+      "zaehler": "0040",
+      "nr": "00004",
+      "bezeichnung": "DTM",
+      "standard_status": "C",
+      "bdew_status": "R",
+      "standard_maximale_wiederholungen": 9,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Dokumentendatum"
+    },
+    {
+      "zaehler": "0050",
+      "nr": "00005",
+      "bezeichnung": "CUX",
+      "standard_status": "C",
+      "bdew_status": "D",
+      "standard_maximale_wiederholungen": 9,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "W\u00e4hrungsangaben"
+    },
+    {
+      "zaehler": "0260",
+      "nr": "00015",
+      "bezeichnung": "UNT",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Endesegment"
+    }
+  ],
+  "segmentgruppen": [
+    {
+      "header_linie": {
+        "zaehler": "0060",
+        "nr": null,
+        "bezeichnung": "SG1",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 99,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "MP-ID Absender"
+      },
+      "segmente": [
         {
-            "zaehler": "0010",
-            "nr": "00001",
-            "bezeichnung": "UNH",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 1,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 0,
-            "inhalt": "Nachrichten-Kopfsegment"
+          "zaehler": "0070",
+          "nr": "00006",
+          "bezeichnung": "NAD",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "MP-ID Absender"
         },
         {
-            "zaehler": "0020",
-            "nr": "00002",
-            "bezeichnung": "BGM",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 1,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 0,
-            "inhalt": "Beginn der Nachricht"
+          "zaehler": "0080",
+          "nr": "00007",
+          "bezeichnung": "CTA",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Ansprechpartner"
         },
         {
-            "zaehler": "0030",
-            "nr": "00003",
-            "bezeichnung": "RFF",
+          "zaehler": "0090",
+          "nr": "00008",
+          "bezeichnung": "COM",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 5,
+          "bdew_maximale_wiederholungen": 5,
+          "ebene": 2,
+          "inhalt": "Kommunikationsverbindung"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0060",
+        "nr": null,
+        "bezeichnung": "SG1",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 99,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "MP-ID Empf\u00e4nger"
+      },
+      "segmente": [
+        {
+          "zaehler": "0070",
+          "nr": "00009",
+          "bezeichnung": "NAD",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "MP-ID Empf\u00e4nger"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0100",
+        "nr": null,
+        "bezeichnung": "SG2",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 9999,
+        "bdew_maximale_wiederholungen": 9999,
+        "ebene": 1,
+        "inhalt": "Dokument-/Nachricht-Einzelheiten"
+      },
+      "segmente": [
+        {
+          "zaehler": "0110",
+          "nr": "00010",
+          "bezeichnung": "DOC",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Dokument-/Nachricht-Einzelheiten"
+        },
+        {
+          "zaehler": "0130",
+          "nr": "00011",
+          "bezeichnung": "MOA",
+          "standard_status": "C",
+          "bdew_status": "D",
+          "standard_maximale_wiederholungen": 2,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "angeforderter Betrag"
+        }
+      ],
+      "segmentgruppen": [
+        {
+          "header_linie": {
+            "zaehler": "0140",
+            "nr": null,
+            "bezeichnung": "SG3",
             "standard_status": "C",
             "bdew_status": "R",
             "standard_maximale_wiederholungen": 9,
             "bdew_maximale_wiederholungen": 1,
-            "ebene": 1,
-            "inhalt": "Pr\u00fcfidentifikator"
-        },
-        {
-            "zaehler": "0040",
-            "nr": "00004",
-            "bezeichnung": "DTM",
-            "standard_status": "C",
-            "bdew_status": "R",
-            "standard_maximale_wiederholungen": 9,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 1,
-            "inhalt": "Dokumentendatum"
-        },
-        {
-            "zaehler": "0050",
-            "nr": "00005",
-            "bezeichnung": "CUX",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 9,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 1,
-            "inhalt": "W\u00e4hrungsangaben"
-        },
-        {
-            "zaehler": "0260",
-            "nr": "00015",
-            "bezeichnung": "UNT",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 1,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 0,
-            "inhalt": "Nachrichten-Endesegment"
+            "ebene": 2,
+            "inhalt": "Begr\u00fcndung der Korrektheit"
+          },
+          "segmente": [
+            {
+              "zaehler": "0150",
+              "nr": "00012",
+              "bezeichnung": "AJT",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Begr\u00fcndung der Korrektheit"
+            },
+            {
+              "zaehler": "0160",
+              "nr": "00013",
+              "bezeichnung": "FTX",
+              "standard_status": "C",
+              "bdew_status": "D",
+              "standard_maximale_wiederholungen": 9,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Begr\u00fcndung Richtigkeit mit Angabe einer\nNachrichtenreferenz"
+            },
+            {
+              "zaehler": "0160",
+              "nr": "00014",
+              "bezeichnung": "FTX",
+              "standard_status": "C",
+              "bdew_status": "D",
+              "standard_maximale_wiederholungen": 9,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Begr\u00fcndung Richtigkeit mit Angabe von Freitext"
+            }
+          ],
+          "segmentgruppen": []
         }
-    ],
-    "segmentgruppen": [
-        {
-            "header_linie": {
-                "zaehler": "0060",
-                "nr": null,
-                "bezeichnung": "SG1",
-                "standard_status": "C",
-                "bdew_status": "R",
-                "standard_maximale_wiederholungen": 99,
-                "bdew_maximale_wiederholungen": 1,
-                "ebene": 1,
-                "inhalt": "MP-ID Absender"
-            },
-            "segmente": [
-                {
-                    "zaehler": "0070",
-                    "nr": "00006",
-                    "bezeichnung": "NAD",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 1,
-                    "inhalt": "MP-ID Absender"
-                },
-                {
-                    "zaehler": "0080",
-                    "nr": "00007",
-                    "bezeichnung": "CTA",
-                    "standard_status": "C",
-                    "bdew_status": "R",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 2,
-                    "inhalt": "Ansprechpartner"
-                },
-                {
-                    "zaehler": "0090",
-                    "nr": "00008",
-                    "bezeichnung": "COM",
-                    "standard_status": "C",
-                    "bdew_status": "R",
-                    "standard_maximale_wiederholungen": 5,
-                    "bdew_maximale_wiederholungen": 5,
-                    "ebene": 2,
-                    "inhalt": "Kommunikationsverbindung"
-                }
-            ],
-            "segmentgruppen": []
-        },
-        {
-            "header_linie": {
-                "zaehler": "0060",
-                "nr": null,
-                "bezeichnung": "SG1",
-                "standard_status": "C",
-                "bdew_status": "R",
-                "standard_maximale_wiederholungen": 99,
-                "bdew_maximale_wiederholungen": 1,
-                "ebene": 1,
-                "inhalt": "MP-ID Empf\u00e4nger"
-            },
-            "segmente": [
-                {
-                    "zaehler": "0070",
-                    "nr": "00009",
-                    "bezeichnung": "NAD",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 1,
-                    "inhalt": "MP-ID Empf\u00e4nger"
-                }
-            ],
-            "segmentgruppen": []
-        },
-        {
-            "header_linie": {
-                "zaehler": "0100",
-                "nr": null,
-                "bezeichnung": "SG2",
-                "standard_status": "C",
-                "bdew_status": "R",
-                "standard_maximale_wiederholungen": 9999,
-                "bdew_maximale_wiederholungen": 9999,
-                "ebene": 1,
-                "inhalt": "Dokument-/Nachricht-Einzelheiten"
-            },
-            "segmente": [
-                {
-                    "zaehler": "0110",
-                    "nr": "00010",
-                    "bezeichnung": "DOC",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 1,
-                    "inhalt": "Dokument-/Nachricht-Einzelheiten"
-                },
-                {
-                    "zaehler": "0130",
-                    "nr": "00011",
-                    "bezeichnung": "MOA",
-                    "standard_status": "C",
-                    "bdew_status": "D",
-                    "standard_maximale_wiederholungen": 2,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 2,
-                    "inhalt": "angeforderter Betrag"
-                }
-            ],
-            "segmentgruppen": [
-                {
-                    "header_linie": {
-                        "zaehler": "0140",
-                        "nr": null,
-                        "bezeichnung": "SG3",
-                        "standard_status": "C",
-                        "bdew_status": "R",
-                        "standard_maximale_wiederholungen": 9,
-                        "bdew_maximale_wiederholungen": 1,
-                        "ebene": 2,
-                        "inhalt": "Begr\u00fcndung der Korrektheit"
-                    },
-                    "segmente": [
-                        {
-                            "zaehler": "0150",
-                            "nr": "00012",
-                            "bezeichnung": "AJT",
-                            "standard_status": "M",
-                            "bdew_status": "M",
-                            "standard_maximale_wiederholungen": 1,
-                            "bdew_maximale_wiederholungen": 1,
-                            "ebene": 2,
-                            "inhalt": "Begr\u00fcndung der Korrektheit"
-                        },
-                        {
-                            "zaehler": "0160",
-                            "nr": "00013",
-                            "bezeichnung": "FTX",
-                            "standard_status": "C",
-                            "bdew_status": "D",
-                            "standard_maximale_wiederholungen": 9,
-                            "bdew_maximale_wiederholungen": 1,
-                            "ebene": 3,
-                            "inhalt": "Begr\u00fcndung Richtigkeit mit Angabe einer\nNachrichtenreferenz"
-                        },
-                        {
-                            "zaehler": "0160",
-                            "nr": "00014",
-                            "bezeichnung": "FTX",
-                            "standard_status": "C",
-                            "bdew_status": "D",
-                            "standard_maximale_wiederholungen": 9,
-                            "bdew_maximale_wiederholungen": 1,
-                            "ebene": 3,
-                            "inhalt": "Begr\u00fcndung Richtigkeit mit Angabe von Freitext"
-                        }
-                    ],
-                    "segmentgruppen": []
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }
