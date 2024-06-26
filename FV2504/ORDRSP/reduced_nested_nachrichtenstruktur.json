@@ -1,280 +1,280 @@
 {
-    "header_linie": null,
-    "segmente": [
+  "header_linie": null,
+  "segmente": [
+    {
+      "zaehler": "0010",
+      "nr": "00001",
+      "bezeichnung": "UNH",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Kopfsegment"
+    },
+    {
+      "zaehler": "0020",
+      "nr": "00002",
+      "bezeichnung": "BGM",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Beginn der Nachricht"
+    },
+    {
+      "zaehler": "0030",
+      "nr": "00003",
+      "bezeichnung": "DTM",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 35,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Nachrichtendatum"
+    },
+    {
+      "zaehler": "0060",
+      "nr": "00007",
+      "bezeichnung": "IMD",
+      "standard_status": "C",
+      "bdew_status": "D",
+      "standard_maximale_wiederholungen": 999,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Abonnement"
+    },
+    {
+      "zaehler": "2400",
+      "nr": "00026",
+      "bezeichnung": "UNS",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Abschnitts-Kontrollsegment"
+    },
+    {
+      "zaehler": "2410",
+      "nr": "00027",
+      "bezeichnung": "MOA",
+      "standard_status": "C",
+      "bdew_status": "D",
+      "standard_maximale_wiederholungen": 12,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Mindestbetrag (netto) der Kosten einer Sperrung"
+    },
+    {
+      "zaehler": "2470",
+      "nr": "00029",
+      "bezeichnung": "UNT",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Endesegment"
+    }
+  ],
+  "segmentgruppen": [
+    {
+      "header_linie": {
+        "zaehler": "0090",
+        "nr": null,
+        "bezeichnung": "SG1",
+        "standard_status": "C",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 9999,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "Referenz der Anfrage/Bestellung/Stornierung"
+      },
+      "segmente": [
         {
-            "zaehler": "0010",
-            "nr": "00001",
-            "bezeichnung": "UNH",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 1,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 0,
-            "inhalt": "Nachrichten-Kopfsegment"
+          "zaehler": "0100",
+          "nr": "00012",
+          "bezeichnung": "RFF",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Pr\u00fcfidentifikator"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0120",
+        "nr": null,
+        "bezeichnung": "SG2",
+        "standard_status": "C",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 1,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "Antwortkategorie"
+      },
+      "segmente": [
+        {
+          "zaehler": "0130",
+          "nr": "00013",
+          "bezeichnung": "AJT",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Einzelheiten zu einer Anpassung/\u00c4nderung"
         },
         {
-            "zaehler": "0020",
-            "nr": "00002",
-            "bezeichnung": "BGM",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 1,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 0,
-            "inhalt": "Beginn der Nachricht"
-        },
+          "zaehler": "0140",
+          "nr": "00014",
+          "bezeichnung": "FTX",
+          "standard_status": "C",
+          "bdew_status": "D",
+          "standard_maximale_wiederholungen": 5,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Allgemeine Information (Feld f\u00fcr allgemeine Hinweise)"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0150",
+        "nr": null,
+        "bezeichnung": "SG3",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 99,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "MP-ID Absender"
+      },
+      "segmente": [
         {
-            "zaehler": "0030",
-            "nr": "00003",
-            "bezeichnung": "DTM",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 35,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 1,
-            "inhalt": "Nachrichtendatum"
-        },
+          "zaehler": "0160",
+          "nr": "00020",
+          "bezeichnung": "NAD",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Name und Lieferadresse f\u00fcr Altger\u00e4te"
+        }
+      ],
+      "segmentgruppen": [
         {
-            "zaehler": "0060",
-            "nr": "00007",
-            "bezeichnung": "IMD",
+          "header_linie": {
+            "zaehler": "0250",
+            "nr": null,
+            "bezeichnung": "SG6",
             "standard_status": "C",
             "bdew_status": "D",
-            "standard_maximale_wiederholungen": 999,
+            "standard_maximale_wiederholungen": 5,
             "bdew_maximale_wiederholungen": 1,
-            "ebene": 1,
-            "inhalt": "Abonnement"
-        },
-        {
-            "zaehler": "2400",
-            "nr": "00026",
-            "bezeichnung": "UNS",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 1,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 0,
-            "inhalt": "Abschnitts-Kontrollsegment"
-        },
-        {
-            "zaehler": "2410",
-            "nr": "00027",
-            "bezeichnung": "MOA",
-            "standard_status": "C",
-            "bdew_status": "D",
-            "standard_maximale_wiederholungen": 12,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 1,
-            "inhalt": "Mindestbetrag (netto) der Kosten einer Sperrung"
-        },
-        {
-            "zaehler": "2470",
-            "nr": "00029",
-            "bezeichnung": "UNT",
-            "standard_status": "M",
-            "bdew_status": "M",
-            "standard_maximale_wiederholungen": 1,
-            "bdew_maximale_wiederholungen": 1,
-            "ebene": 0,
-            "inhalt": "Nachrichten-Endesegment"
+            "ebene": 2,
+            "inhalt": "Kontaktinformationen"
+          },
+          "segmente": [
+            {
+              "zaehler": "0260",
+              "nr": "00016",
+              "bezeichnung": "CTA",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Ansprechpartner"
+            },
+            {
+              "zaehler": "0270",
+              "nr": "00017",
+              "bezeichnung": "COM",
+              "standard_status": "C",
+              "bdew_status": "R",
+              "standard_maximale_wiederholungen": 5,
+              "bdew_maximale_wiederholungen": 5,
+              "ebene": 3,
+              "inhalt": "Kommunikationsverbindung"
+            }
+          ],
+          "segmentgruppen": []
         }
-    ],
-    "segmentgruppen": [
+      ]
+    },
+    {
+      "header_linie": {
+        "zaehler": "0320",
+        "nr": null,
+        "bezeichnung": "SG8",
+        "standard_status": "C",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 5,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "W\u00e4hrungsangaben"
+      },
+      "segmente": [
         {
-            "header_linie": {
-                "zaehler": "0090",
-                "nr": null,
-                "bezeichnung": "SG1",
-                "standard_status": "C",
-                "bdew_status": "D",
-                "standard_maximale_wiederholungen": 9999,
-                "bdew_maximale_wiederholungen": 1,
-                "ebene": 1,
-                "inhalt": "Referenz der Anfrage/Bestellung/Stornierung"
-            },
-            "segmente": [
-                {
-                    "zaehler": "0100",
-                    "nr": "00012",
-                    "bezeichnung": "RFF",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 1,
-                    "inhalt": "Pr\u00fcfidentifikator"
-                }
-            ],
-            "segmentgruppen": []
-        },
-        {
-            "header_linie": {
-                "zaehler": "0120",
-                "nr": null,
-                "bezeichnung": "SG2",
-                "standard_status": "C",
-                "bdew_status": "D",
-                "standard_maximale_wiederholungen": 1,
-                "bdew_maximale_wiederholungen": 1,
-                "ebene": 1,
-                "inhalt": "Antwortkategorie"
-            },
-            "segmente": [
-                {
-                    "zaehler": "0130",
-                    "nr": "00013",
-                    "bezeichnung": "AJT",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 1,
-                    "inhalt": "Einzelheiten zu einer Anpassung/\u00c4nderung"
-                },
-                {
-                    "zaehler": "0140",
-                    "nr": "00014",
-                    "bezeichnung": "FTX",
-                    "standard_status": "C",
-                    "bdew_status": "D",
-                    "standard_maximale_wiederholungen": 5,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 2,
-                    "inhalt": "Allgemeine Information (Feld f\u00fcr allgemeine Hinweise)"
-                }
-            ],
-            "segmentgruppen": []
-        },
-        {
-            "header_linie": {
-                "zaehler": "0150",
-                "nr": null,
-                "bezeichnung": "SG3",
-                "standard_status": "C",
-                "bdew_status": "R",
-                "standard_maximale_wiederholungen": 99,
-                "bdew_maximale_wiederholungen": 1,
-                "ebene": 1,
-                "inhalt": "MP-ID Absender"
-            },
-            "segmente": [
-                {
-                    "zaehler": "0160",
-                    "nr": "00020",
-                    "bezeichnung": "NAD",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 1,
-                    "inhalt": "Name und Lieferadresse f\u00fcr Altger\u00e4te"
-                }
-            ],
-            "segmentgruppen": [
-                {
-                    "header_linie": {
-                        "zaehler": "0250",
-                        "nr": null,
-                        "bezeichnung": "SG6",
-                        "standard_status": "C",
-                        "bdew_status": "D",
-                        "standard_maximale_wiederholungen": 5,
-                        "bdew_maximale_wiederholungen": 1,
-                        "ebene": 2,
-                        "inhalt": "Kontaktinformationen"
-                    },
-                    "segmente": [
-                        {
-                            "zaehler": "0260",
-                            "nr": "00016",
-                            "bezeichnung": "CTA",
-                            "standard_status": "M",
-                            "bdew_status": "M",
-                            "standard_maximale_wiederholungen": 1,
-                            "bdew_maximale_wiederholungen": 1,
-                            "ebene": 2,
-                            "inhalt": "Ansprechpartner"
-                        },
-                        {
-                            "zaehler": "0270",
-                            "nr": "00017",
-                            "bezeichnung": "COM",
-                            "standard_status": "C",
-                            "bdew_status": "R",
-                            "standard_maximale_wiederholungen": 5,
-                            "bdew_maximale_wiederholungen": 5,
-                            "ebene": 3,
-                            "inhalt": "Kommunikationsverbindung"
-                        }
-                    ],
-                    "segmentgruppen": []
-                }
-            ]
-        },
-        {
-            "header_linie": {
-                "zaehler": "0320",
-                "nr": null,
-                "bezeichnung": "SG8",
-                "standard_status": "C",
-                "bdew_status": "D",
-                "standard_maximale_wiederholungen": 5,
-                "bdew_maximale_wiederholungen": 1,
-                "ebene": 1,
-                "inhalt": "W\u00e4hrungsangaben"
-            },
-            "segmente": [
-                {
-                    "zaehler": "0330",
-                    "nr": "00021",
-                    "bezeichnung": "CUX",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 1,
-                    "inhalt": "W\u00e4hrungsangaben"
-                }
-            ],
-            "segmentgruppen": []
-        },
-        {
-            "header_linie": {
-                "zaehler": "1040",
-                "nr": null,
-                "bezeichnung": "SG27",
-                "standard_status": "C",
-                "bdew_status": "D",
-                "standard_maximale_wiederholungen": 200000,
-                "bdew_maximale_wiederholungen": 200000,
-                "ebene": 1,
-                "inhalt": "Positionsteil"
-            },
-            "segmente": [
-                {
-                    "zaehler": "1050",
-                    "nr": "00022",
-                    "bezeichnung": "LIN",
-                    "standard_status": "M",
-                    "bdew_status": "M",
-                    "standard_maximale_wiederholungen": 1,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 1,
-                    "inhalt": "Positionsdaten"
-                },
-                {
-                    "zaehler": "1210",
-                    "nr": "00023",
-                    "bezeichnung": "FTX",
-                    "standard_status": "C",
-                    "bdew_status": "D",
-                    "standard_maximale_wiederholungen": 99,
-                    "bdew_maximale_wiederholungen": 1,
-                    "ebene": 2,
-                    "inhalt": "Besondere Sachverhalte zur Sperrung (nicht pauschal im\nPreisblatt abgebildet)"
-                }
-            ],
-            "segmentgruppen": []
+          "zaehler": "0330",
+          "nr": "00021",
+          "bezeichnung": "CUX",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "W\u00e4hrungsangaben"
         }
-    ]
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "1040",
+        "nr": null,
+        "bezeichnung": "SG27",
+        "standard_status": "C",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 200000,
+        "bdew_maximale_wiederholungen": 200000,
+        "ebene": 1,
+        "inhalt": "Positionsteil"
+      },
+      "segmente": [
+        {
+          "zaehler": "1050",
+          "nr": "00022",
+          "bezeichnung": "LIN",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Positionsdaten"
+        },
+        {
+          "zaehler": "1210",
+          "nr": "00023",
+          "bezeichnung": "FTX",
+          "standard_status": "C",
+          "bdew_status": "D",
+          "standard_maximale_wiederholungen": 99,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Besondere Sachverhalte zur Sperrung (nicht pauschal im\nPreisblatt abgebildet)"
+        }
+      ],
+      "segmentgruppen": []
+    }
+  ]
 }
