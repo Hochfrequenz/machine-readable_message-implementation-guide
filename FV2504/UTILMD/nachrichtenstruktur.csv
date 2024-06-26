@@ -1,0 +1,842 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00003,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00004,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00005,DTM,M,M,9,1,1,Nachrichtendatum
+0030,00006,DTM,M,D,9,1,1,"Gültigkeit, Beginndatum"
+0070,,SG1,C,D,9,1,1,Referenz auf eine vorangegangene Anfrage
+0080,00007,RFF,M,M,1,1,1,Referenz auf eine vorangegangene Anfrage
+0100,,SG2,C,R,99,1,1,MP-ID Absender
+0110,00008,NAD,M,M,1,1,1,MP-ID Absender
+0150,,SG3,C,O,9,1,2,Kontaktinformationen
+0160,00009,CTA,M,M,1,1,2,Ansprechpartner
+0170,00010,COM,C,R,9,5,3,Kommunikationsverbindung
+0100,,SG2,C,R,99,1,1,MP-ID Empfänger
+0110,00011,NAD,M,M,1,1,1,MP-ID Empfänger
+0180,,SG4,C,D,99999,1,1,Identifikation einer Liste
+0190,00012,IDE,M,M,1,1,1,Identifikation einer Liste
+0250,00013,STS,C,D,9,1,2,Status der Antwort
+0320,,SG5,C,D,999999,1,2,MaBiS-Zählpunkt
+0330,00014,LOC,M,M,1,1,2,MaBiS-Zählpunkt
+0350,,SG6,C,R,99,1,2,Prüfidentifikator
+0360,00015,RFF,M,M,1,1,2,Prüfidentifikator
+0350,,SG6,C,D,99,1,2,Referenz auf eine Liste
+0360,00016,RFF,M,M,1,1,2,Referenzangaben
+0410,,SG8,C,D,99999,1,2,Daten der Summenzeitreihe
+0420,00017,SEQ,M,M,1,1,2,Daten der Summenzeitreihe
+0430,00018,RFF,C,D,9,1,3,Versionsangabe der Summenzeitreihe
+0500,,SG10,C,D,99,1,3,Bilanzkreis
+0510,00019,CCI,M,R,1,1,3,Bilanzkreis
+0180,,SG4,C,D,99999,99999,1,Vorgangs-Identifikation
+0190,00020,IDE,M,M,1,1,1,Vorgang
+0230,00021,DTM,C,D,99,1,2,Datum zum geplanten Leistungsbeginn
+0230,00022,DTM,C,D,99,1,2,Datum und Uhrzeit der Übergabe
+0230,00023,DTM,C,D,99,1,2,Beginn zum
+0230,00024,DTM,C,D,99,1,2,Ende zum
+0230,00025,DTM,C,D,99,1,2,Datum des bereits bestätigten Vertragsendes
+0230,00026,DTM,C,D,99,1,2,"Änderung zum, Gültigkeit, Beginndatum"
+0230,00027,DTM,C,D,99,1,2,Ende zum (nächstmöglichen Termin)
+0230,00028,DTM,C,D,99,1,2,Bilanzierungsbeginn
+0230,00029,DTM,C,D,99,1,2,Bilanzierungsende
+0230,00030,DTM,C,D,99,1,2,Kündigungsfrist des Vertrags
+0230,00031,DTM,C,D,99,1,2,Kündigungstermin des Vertrags
+0230,00032,DTM,C,D,99,1,2,Lieferbeginndatum in Bearbeitung
+0230,00033,DTM,C,D,99,1,2,Datum für nächste Bearbeitung
+0250,00034,STS,C,D,9,1,2,"Transaktionsgrund / Ergänzung / Transaktionsgrund
+befristete Anmeldung"
+0250,00035,STS,C,D,9,9,2,Status der Antwort
+0250,00036,STS,C,D,9,9,2,Status der Antwort des dritten Marktbeteiligten
+0280,00037,FTX,C,D,9,1,2,Bemerkung (Feld für allgemeine Hinweise)
+0280,00038,FTX,C,D,9,1,2,Profilbeschreibung
+0280,00039,FTX,C,D,9,1,2,Zieladresse URI
+0280,00040,FTX,C,D,9,1,2,IP-Adresse des Absenders
+0280,00041,FTX,C,D,9,1,2,IP-Range des Absenders
+0280,00042,FTX,C,D,9,1,2,Zertifikatsaussteller (Issuer)
+0280,00043,FTX,C,D,9,1,2,Zertifikatsnutzer (Subject)
+0280,00044,FTX,C,D,9,1,2,IP-Adresse für das CLS-Device
+0280,00045,FTX,C,D,9,1,2,Link zur Abtretungserklärung / Vollmacht vom Kunden
+0290,00046,AGR,C,D,9,2,2,Beauftragung oder Beendigung liegt vor
+0320,,SG5,C,D,999999,999999,2,Netzlokation
+0330,00047,LOC,M,M,1,1,2,Netzlokation
+0320,,SG5,C,D,999999,999999,2,Marktlokation
+0330,00048,LOC,M,M,1,1,2,Marktlokation
+0320,,SG5,C,D,999999,999999,2,Ruhende Marktlokation
+0330,00049,LOC,M,M,1,1,2,Ruhende Marktlokation
+0320,,SG5,C,D,999999,999999,2,Technische Ressource
+0330,00050,LOC,M,M,1,1,2,Technische Ressource
+0320,,SG5,C,D,999999,999999,2,Steuerbare Ressource
+0330,00051,LOC,M,M,1,1,2,Steuerbare Ressource
+0320,,SG5,C,D,999999,999999,2,Tranche
+0330,00052,LOC,M,M,1,1,2,Tranche
+0320,,SG5,C,D,999999,999999,2,Messlokation
+0330,00053,LOC,M,M,1,1,2,Messlokation
+0320,,SG5,C,D,999999,999999,2,MaBiS-Zählpunkt
+0330,00054,LOC,M,M,1,1,2,MaBiS-Zählpunkt
+0350,,SG6,C,D,99,1,2,Prüfidentifikator
+0360,00055,RFF,M,M,1,1,2,Prüfidentifikator
+0350,,SG6,C,D,99,1,2,Referenz Vorgangsnummer (aus Anfragenachricht)
+0360,00056,RFF,M,M,1,1,2,Referenz Vorgangsnummer (aus Anfragenachricht)
+0350,,SG6,C,D,99,1,2,Referenz auf zu stornierende Vorgangsnummer
+0360,00057,RFF,M,M,1,1,2,Referenz auf zu stornierende Vorgangsnummer
+0350,,SG6,C,D,99,1,2,Referenz auf eine vorangegangene Anfrage
+0360,00058,RFF,M,M,1,1,2,Referenz auf eine vorangegangene Anfrage
+0350,,SG6,C,D,99,1,2,"Referenznummer der Nachricht der betroffenen Antwort
+auf Bestellung "
+0360,00059,RFF,M,M,1,1,2,"Referenznummer der Nachricht der betroffenen Antwort
+auf Bestellung "
+0350,,SG6,C,D,99,99,2,"Referenznummer des Vorgangs der betroffenen Antwort
+auf Bestellung"
+0360,00060,RFF,M,M,1,1,2,"Referenznummer des Vorgangs der betroffenen Antwort
+auf Bestellung"
+0350,,SG6,C,D,99,1,2,Informativ zur Umsetzung geplantes Produktpaket
+0360,00061,RFF,M,M,1,1,2,Informativ zur Umsetzung geplantes Produktpaket
+0350,,SG6,C,D,99,1,2,"Prozessual ausgetauschte Termine aus Sicht der
+beteiligten Marktrolle"
+0360,00062,RFF,M,M,1,1,2,Referenz auf die Marktlokation / Tranche
+0370,00063,DTM,C,D,9,1,3,Bilanzierungsbeginn aus Daten der beteiligten Marktrolle
+0370,00064,DTM,C,D,9,1,3,Bilanzierungsende aus Daten der beteiligten Marktrolle
+0350,,SG6,C,D,99,99,2,Verwendungszeitraum der Daten
+0360,00065,RFF,M,M,1,1,2,Verwendungszeitraum der Daten
+0370,00066,DTM,C,D,9,1,3,Verwendung der Daten ab
+0370,00067,DTM,C,D,9,1,3,Verwendung der Daten bis
+0350,,SG6,C,D,99,99,2,Termine der Marktlokation
+0360,00068,RFF,M,M,1,1,2,Termine der Marktlokation
+0370,00069,DTM,C,D,9,1,3,Turnusablesung des MSB
+0370,00070,DTM,C,D,9,1,3,Termin der Netznutzungsabrechnung
+0370,00071,DTM,C,D,9,1,3,Nächste Netznutzungsabrechnung
+0370,00072,DTM,C,D,9,1,3,Netznutzungsabrechnungsintervall des NB
+0410,,SG8,C,D,99999,99999,2,Referenz auf die Lokationsbündelstruktur
+0420,00073,SEQ,M,M,1,1,2,Referenz auf die Lokationsbündelstruktur
+0430,00074,RFF,C,R,9,1,3,Referenz auf die Lokationsbündelstruktur
+0410,,SG8,C,D,99999,99999,2,"Zuordnung Lokation zum Objektcode des
+Lokationsbündels"
+0420,00075,SEQ,M,M,1,1,2,"Zuordnung Lokation zum Objektcode des
+Lokationsbündels"
+0430,00076,RFF,C,R,9,1,3,"Referenz auf die ID der Netzlokation / Marktlokation /
+Messlokation / Technischen Ressource"
+0430,00077,RFF,C,R,9,1,3,"Referenz auf den Objektcode in der
+Lokationsbündelstruktur"
+0430,00078,RFF,C,D,9,9,3,"Referenz auf die ID der vorgelagerten Netzlokation /
+Messlokation "
+0430,00079,RFF,C,D,9,2,3,"Referenz auf die der Technischen Ressource
+zugeordneten Marktlokation "
+0410,,SG8,C,D,99999,99999,2,Bestandteil eines Produktpakets
+0420,00080,SEQ,M,M,1,1,2,Bestandteil eines Produktpakets
+0440,00081,PIA,C,R,9,1,3,Erforderliches Produkt
+0500,,SG10,C,R,99,99,3,Produkteigenschaft 
+0510,00082,CCI,M,R,1,1,3,Produkteigenschaft
+0520,00083,CAV,C,D,99,1,4,Code der Produkteigenschaft
+0520,00084,CAV,C,D,99,1,4,Wertedetails zum Produkt
+0410,,SG8,C,D,99999,5,2,Priorisierung erforderliches Produktpaket
+0420,00085,SEQ,M,M,1,1,2,Priorisierung erforderliches Produktpaket
+0500,,SG10,C,R,99,99,3,Priorisierung erforderliches Produktpaket
+0510,00086,CCI,M,R,1,1,3,Umsetzungsgradvorgabe des Produktpakets
+0520,00087,CAV,C,D,99,1,4,Priorisierung erforderliches Produktpaket
+0410,,SG8,C,D,99999,99999,2,Daten der Netzlokation
+0420,00088,SEQ,M,M,1,1,2,Daten der Netzlokation
+0430,00089,RFF,C,R,9,1,3,Referenz auf die ID der Netzlokation
+0500,,SG10,C,D,99,1,3,Steuerkanal
+0510,00090,CCI,M,M,1,1,3,Steuerkanal
+0500,,SG10,C,D,99,1,3,Zugeordnete Marktpartner
+0510,00091,CCI,M,M,1,1,3,Zugeordnete Marktpartner
+0520,00092,CAV,C,R,99,1,4,Messstellenbetreiber
+0410,,SG8,C,D,99999,1,2,Abrechnungsdaten der Netzlokation
+0420,00093,SEQ,M,M,1,1,2,Abrechnungsdaten der Netzlokation
+0440,00094,PIA,C,D,9,1,3,Artikel-ID
+0500,,SG10,C,D,99,1,3,Abrechnung Blindarbeit
+0510,00095,CCI,M,M,1,1,3,Abrechnung Blindarbeit
+0520,00096,CAV,C,D,99,1,4,Zahler der Blindarbeit
+0500,,SG10,C,D,99,1,3,Zahlung der Blindarbeit durch Lieferanten
+0510,00097,CCI,M,M,1,1,3,Zahlung der Blindarbeit durch Lieferanten
+0410,,SG8,C,D,99999,99999,2,OBIS-Daten der Netzlokation
+0420,00098,SEQ,M,M,1,1,2,OBIS-Daten der Netzlokation
+0430,00099,RFF,C,R,9,1,3,Referenz auf die ID der Netzlokation
+0440,00100,PIA,C,R,9,1,3,OBIS-Kennzahl der Netzlokation
+0500,,SG10,C,D,99,1,3,Produkt-Daten für Netzbetreiber relevant
+0510,00101,CCI,M,M,1,1,3,Produkt-Daten für Netzbetreiber relevant
+0520,00102,CAV,C,R,99,1,4,Verwendungszweck der Werte
+0500,,SG10,C,D,99,1,3,Produkt-Daten für Lieferant relevant
+0510,00103,CCI,M,M,1,1,3,Produkt-Daten für Lieferant relevant
+0520,00104,CAV,C,R,99,2,4,Verwendungszweck der Werte
+0410,,SG8,C,D,99999,99999,2,Produkt-Daten der Netzlokation
+0420,00105,SEQ,M,M,1,1,2,Produkt-Daten der Netzlokation
+0430,00106,RFF,C,R,9,1,3,Referenz auf die ID der Netzlokation
+0440,00107,PIA,C,D,9,1,3,Produkt-Daten der Netzlokation
+0500,,SG10,C,D,99,1,3,Details zum Produkt der Netzlokation
+0510,00108,CCI,M,M,1,1,3,Details zum Produkt der Netzlokation
+0500,,SG10,C,D,99,1,3,Zugeordnete Leistungskurvendefinition
+0510,00109,CCI,M,M,1,1,3,Zugeordnete Leistungskurvendefinition
+0500,,SG10,C,R,99,1,3,Auftraggebender Marktpartner
+0510,00110,CCI,M,M,1,1,3,Auftraggebender Marktpartner
+0520,00111,CAV,C,D,99,1,4,Auftraggebender Marktpartner
+0500,,SG10,C,D,99,2,3,Produkt-Daten für Marktrolle relevant
+0510,00112,CCI,M,M,1,1,3,Produkt-Daten für Marktrolle relevant
+0410,,SG8,C,D,99999,99999,2,Daten der Marktlokation
+0420,00113,SEQ,M,M,1,1,2,Daten der Marktlokation
+0430,00114,RFF,C,D,9,1,3,Referenz auf die ID der Marktlokation
+0450,,SG9,C,D,99,1,3,"Arbeit / Leistung für tagesparameterabhängige
+Marktlokation"
+0460,00115,QTY,M,M,1,1,3,"Arbeit / Leistung für tagesparameterabhängige
+Marktlokation"
+0450,,SG9,C,D,99,1,3,Veranschlagte Jahresmenge gesamt
+0460,00116,QTY,M,M,1,1,3,Veranschlagte Jahresmenge gesamt
+0450,,SG9,C,D,99,1,3,Tatsächlich bilanzierte Energiemenge
+0460,00117,QTY,M,M,1,1,3,Tatsächlich bilanzierte Energiemenge
+0450,,SG9,C,D,99,1,3,Tatsächlich bilanzierte Ausfallarbeit
+0460,00118,QTY,M,M,1,1,3,Tatsächlich bilanzierte Ausfallarbeit
+0450,,SG9,C,D,99,1,3,Vorjahresverbrauch vom Lieferant
+0460,00119,QTY,M,M,1,1,3,Vorjahresverbrauch vom Lieferant
+0500,,SG10,C,D,99,1,3,Lieferrichtung
+0510,00120,CCI,M,M,1,1,3,Lieferrichtung
+0500,,SG10,C,D,99,1,3,Zugeordnete Marktpartner
+0510,00121,CCI,M,M,1,1,3,Zugeordnete Marktpartner
+0520,00122,CAV,C,D,99,1,4,Lieferant
+0520,00123,CAV,C,D,99,1,4,Übertragungsnetzbetreiber
+0520,00124,CAV,C,D,99,1,4,Messstellenbetreiber
+0500,,SG10,C,D,99,1,3,Regelzone
+0510,00125,CCI,M,M,1,1,3,Regelzone
+0500,,SG10,C,D,99,1,3,Bilanzkreis
+0510,00126,CCI,M,M,1,1,3,Bilanzkreis
+0500,,SG10,C,D,99,1,3,Bilanzierungsgebiet
+0510,00127,CCI,M,M,1,1,3,Bilanzierungsgebiet
+0500,,SG10,C,D,99,1,3,"Verbrauchsaufteilung für temperaturabhängige
+Marktlokation"
+0510,00128,CCI,M,M,1,1,3,"Verbrauchsaufteilung für temperaturabhängige
+Marktlokation"
+0520,00129,CAV,C,R,99,1,4,"Verbrauchsaufteilung für temperaturabhängige
+Marktlokation"
+0500,,SG10,C,D,99,2,3,Zeitreihentyp
+0510,00130,CCI,M,M,1,1,3,Zeitreihentyp
+0520,00131,CAV,C,R,99,1,4,Zeitreihentyp
+0500,,SG10,C,D,99,1,3,Spannungsebene der Marktlokation
+0510,00132,CCI,M,M,1,1,3,Spannungsebene der Marktlokation
+0520,00133,CAV,C,R,99,1,4,Spannungsebene der Marktlokation
+0520,00134,CAV,C,D,99,1,4,Umspannung der Marktlokation
+0500,,SG10,C,D,99,1,3,Messtechnische Einordnung der Marktlokation
+0510,00135,CCI,M,M,1,1,3,Messtechnische Einordnung der Marktlokation
+0520,00136,CAV,C,R,99,1,4,Messtechnische Einordnung der Marktlokation
+0500,,SG10,C,D,99,1,3,Aggregationsverantwortung in MaBiS
+0510,00137,CCI,M,M,1,1,3,Aggregationsverantwortung in MaBiS
+0500,,SG10,C,D,99,1,3,"Bereits ausgetauschte Aggregationsverantwortung in
+MaBiS"
+0510,00138,CCI,M,M,1,1,3,"Bereits ausgetauschte Aggregationsverantwortung in
+MaBiS"
+0500,,SG10,C,D,99,1,3,Prognosegrundlage der Marktlokation
+0510,00139,CCI,M,M,1,1,3,Prognosegrundlage der Marktlokation
+0520,00140,CAV,C,D,99,2,4,Details der Prognosegrundlage
+0500,,SG10,C,D,99,1,3,Wahlrecht der Prognosegrundlage der Marktlokation
+0510,00141,CCI,M,M,1,1,3,Wahlrecht der Prognosegrundlage der Marktlokation
+0520,00142,CAV,C,R,99,1,4,Wahlrecht der Prognosegrundlage der Marktlokation
+0520,00143,CAV,C,D,99,4,4,"Grund für nicht vorhandenes Wahlrecht der
+Prognosegrundlage der Marktlokation"
+0500,,SG10,C,D,99,1,3,Art der erzeugenden Marktlokation
+0510,00144,CCI,M,M,1,1,3,Art der erzeugenden Marktlokation
+0520,00145,CAV,C,R,99,1,4,Art der erzeugenden Marktlokation 
+0500,,SG10,C,D,99,1,3,Gruppenzuordnung (nach EnWG) 
+0510,00146,CCI,M,M,1,1,3,Gruppenzuordnung (nach EnWG) 
+0500,,SG10,C,D,99,1,3,Netznutzung
+0510,00147,CCI,M,M,1,1,3,Netznutzung
+0520,00148,CAV,C,R,99,1,4,Netznutzungsvertrag
+0520,00149,CAV,C,D,99,1,4,Zahlung der Netznutzung
+0520,00150,CAV,C,D,99,1,4,Grundlage der Lieferscheinprüfung
+0500,,SG10,C,D,99,1,3,Empfänger der Vergütung zur Einspeisung
+0510,00151,CCI,M,M,1,1,3,Empfänger der Vergütung zur Einspeisung
+0520,00152,CAV,C,R,99,1,4,Empfänger der Vergütung zur Einspeisung
+0500,,SG10,C,D,99,1,3,Veräußerungsform der erzeugenden Marktlokation
+0510,00153,CCI,M,M,1,1,3,Veräußerungsungsform der erzeugenden Marktlokation
+0500,,SG10,C,D,99,1,3,Land der Förderung
+0510,00154,CCI,M,M,1,1,3,Land der Förderung
+0500,,SG10,C,D,99,1,3,Status der Fernsteuerbarkeit
+0510,00155,CCI,M,M,1,1,3,Status der Fernsteuerbarkeit
+0500,,SG10,C,D,99,1,3,Versorgungsart der Marktlokation
+0510,00156,CCI,M,M,1,1,3,Versorgungsart der Marktlokation
+0500,,SG10,C,D,99,1,3,Betriebszustand der Marktlokation
+0510,00157,CCI,M,M,1,1,3,Betriebszustand der Marktlokation
+0500,,SG10,C,D,99,1,3,Abwicklungsmodell
+0510,00158,CCI,M,M,1,1,3,Abwicklungsmodell
+0410,,SG8,C,D,99999,1,2,Daten der Marktlokation der beteiligten Marktrolle
+0420,00159,SEQ,M,M,1,1,2,Daten der Marktlokation der beteiligten Marktrolle
+0430,00160,RFF,C,R,9,1,3,Referenz auf die ID der Marktlokation
+0450,,SG9,C,D,99,1,3,Veranschlagte Jahresmenge gesamt
+0460,00161,QTY,M,M,1,1,3,Veranschlagte Jahresmenge gesamt
+0450,,SG9,C,D,99,1,3,Tatsächlich bilanzierte Energiemenge
+0460,00162,QTY,M,M,1,1,3,Tatsächlich bilanzierte Energiemenge
+0500,,SG10,C,D,99,1,3,Regelzone
+0510,00163,CCI,M,M,1,1,3,Regelzone
+0500,,SG10,C,D,99,1,3,Bilanzkreis
+0510,00164,CCI,M,M,1,1,3,Bilanzkreis
+0500,,SG10,C,D,99,1,3,Bilanzierungsgebiet
+0510,00165,CCI,M,M,1,1,3,Bilanzierungsgebiet
+0500,,SG10,C,D,99,2,3,Zeitreihentyp
+0510,00166,CCI,M,M,1,1,3,Zeitreihentyp
+0520,00167,CAV,C,R,99,1,4,Zeitreihentyp
+0500,,SG10,C,D,99,1,3,Aggregationsverantwortung in MaBiS
+0510,00168,CCI,M,M,1,1,3,Aggregationsverantwortung in MaBiS
+0500,,SG10,C,D,99,1,3,Prognosegrundlage der Marktlokation
+0510,00169,CCI,M,M,1,1,3,Prognosegrundlage der Marktlokation
+0520,00170,CAV,C,D,99,2,4,Details der Prognosegrundlage
+0410,,SG8,C,D,99999,99999,2,Netznutzungsabrechnungsdaten der Marktlokation
+0420,00171,SEQ,M,M,1,1,2,Netznutzungsabrechnungsdaten der Marktlokation
+0440,00172,PIA,C,D,9,1,3,Gruppenartikel-ID / Artikel-ID
+0450,,SG9,C,D,99,1,3,"Anzahl in der NNA abzurechenden Positionen der
+Gruppenartikel-ID / Artikel-ID"
+0460,00173,QTY,M,M,1,1,3,"Anzahl in der NNA abzurechenden Positionen der
+Gruppenartikel-ID / Artikel-ID"
+0450,,SG9,C,R,99,1,3,Gemeinderabatt
+0460,00174,QTY,M,M,1,1,3,Gemeinderabatt
+0450,,SG9,C,R,99,1,3,Zuschlag oder Abschlag
+0460,00175,QTY,M,M,1,1,3,Zuschlag oder Abschlag
+0450,,SG9,C,D,99,1,3,Daten der Singulär genutzten Betriebsmittel
+0460,00176,QTY,M,M,1,1,3,Menge der Singulär genutzten Betriebsmittel
+0500,,SG10,C,D,99,1,3,Preisangabe für Singulär genutzte Betriebsmittel
+0510,00177,CCI,M,M,1,1,3,Preisangabe für Singulär genutzte Betriebsmittel
+0500,,SG10,C,D,99,1,3,Zugeordnete Zählzeitdefinition
+0510,00178,CCI,M,M,1,1,3,Zugeordnete Zählzeitdefinition
+0500,,SG10,C,D,99,99,3,Zugeordnetes Zählzeitregister 
+0510,00179,CCI,M,M,1,1,3,Zugeordnetes Zählzeitregister 
+0500,,SG10,C,D,99,1,3,Zugeordnete Marktpartner
+0510,00180,CCI,M,M,1,1,3,Zugeordnete Marktpartner
+0520,00181,CAV,C,R,99,1,4,Netzbetreiber
+0410,,SG8,C,D,99999,99999,2,"Messstellenbetriebsabrechnungsdaten der
+Marktlokation"
+0420,00182,SEQ,M,M,1,1,2,Messstellenbetriebsabrechnungsdaten der Marktlokation
+0440,00183,PIA,C,R,9,1,3,Gruppenartikel-ID / Artikel-ID
+0450,,SG9,C,D,99,1,3,"Anzahl in der Messstellenbetriebsabrechnung
+abzurechenden Positionen der Gruppenartikel-ID /
+Artikel-ID"
+0460,00184,QTY,M,M,1,1,3,"Anzahl in der Messstellenbetriebsabrechnung
+abzurechenden Positionen der Gruppenartikel-ID /
+Artikel-ID"
+0450,,SG9,C,D,99,1,3,Abschlag
+0460,00185,QTY,M,M,1,1,3,Abschlag
+0410,,SG8,C,D,99999,99999,2,Erforderliches Messprodukt der Marktlokation
+0420,00186,SEQ,M,M,1,1,2,Erforderliches Messprodukt der Marktlokation
+0430,00187,RFF,C,R,9,1,3,Referenz auf die ID der Marktlokation
+0440,00188,PIA,C,R,9,1,3,Erforderliches Messprodukt der Marktlokation
+0500,,SG10,C,D,99,1,3,Zugeordnete Zählzeitdefinition
+0510,00189,CCI,M,M,1,1,3,Zugeordnete Zählzeitdefinition
+0500,,SG10,C,R,99,1,3,Messprodukt für Netzbetreiber relevant
+0510,00190,CCI,M,M,1,1,3,Messprodukt für Netzbetreiber relevant
+0520,00191,CAV,C,R,99,2,4,Verwendungszweck des Wertes
+0500,,SG10,C,R,99,1,3,Messprodukt für Lieferant relevant
+0510,00192,CCI,M,M,1,1,3,Messprodukt für Lieferant relevant
+0520,00193,CAV,C,R,99,3,4,Verwendungszweck des Wertes
+0500,,SG10,C,D,99,1,3,Messprodukt für Übertragungsnetzbetreiber relevant
+0510,00194,CCI,M,M,1,1,3,Messprodukt für Übertragungsnetzbetreiber relevant
+0520,00195,CAV,C,R,99,2,4,Verwendungszweck des Wertes
+0410,,SG8,C,D,99999,99999,2,OBIS-Daten der Marktlokation
+0420,00196,SEQ,M,M,1,1,2,OBIS-Daten der Marktlokation
+0430,00197,RFF,C,D,9,1,3,Referenz auf die ID der Marktlokation
+0440,00198,PIA,C,R,9,1,3,OBIS-Kennzahl der Marktlokation
+0500,,SG10,C,D,99,1,3,Wertegranularität
+0510,00199,CCI,M,M,1,1,3,Wertegranularität
+0520,00200,CAV,C,R,99,1,4,Wertegranularität
+0500,,SG10,C,D,99,1,3,Zugeordnete Zählzeitdefinition
+0510,00201,CCI,M,M,1,1,3,Zugeordnete Zählzeitdefinition
+0500,,SG10,C,D,99,1,3,Zugeordnetes Zählzeitregister 
+0510,00202,CCI,M,M,1,1,3,Zugeordnetes Zählzeitregister 
+0500,,SG10,C,D,99,1,3,OBIS Daten für Netzbetreiber relevant
+0510,00203,CCI,M,M,1,1,3,OBIS Daten für Netzbetreiber relevant
+0520,00204,CAV,C,R,99,2,4,Verwendungszweck der Werte
+0500,,SG10,C,D,99,1,3,OBIS Daten für Lieferant relevant
+0510,00205,CCI,M,M,1,1,3,OBIS Daten für Lieferant relevant
+0520,00206,CAV,C,R,99,3,4,Verwendungszweck der Werte
+0500,,SG10,C,D,99,1,3,OBIS Daten für Übertragungsnetzbetreiber relevant
+0510,00207,CCI,M,M,1,1,3,OBIS Daten für Übertragungsnetzbetreiber relevant
+0520,00208,CAV,C,R,99,2,4,Verwendungszweck der Werte
+0410,,SG8,C,D,99999,99999,2,Produkt-Daten der Marktlokation
+0420,00209,SEQ,M,M,1,1,2,Produkt-Daten der Marktlokation
+0430,00210,RFF,C,R,9,1,3,Referenz auf die ID der Marktlokation
+0440,00211,PIA,C,D,9,1,3,Produkt-Daten der Marktlokation
+0500,,SG10,C,D,99,1,3,Details zum Produkt der Marktlokation
+0510,00212,CCI,M,M,1,1,3,Details zum Produkt der Marktlokation
+0500,,SG10,C,R,99,1,3,Zugeordnete Definition
+0510,00213,CCI,M,M,1,1,3,Zugeordnete Definition
+0500,,SG10,C,R,99,2,3,Produkt-Daten für Marktrolle relevant
+0510,00214,CCI,M,M,1,1,3,Produkt-Daten für Marktrolle relevant
+0410,,SG8,C,D,99999,99999,2,"Verbrauchsart und Nutzung der OBIS-Kennzahl der
+Marktlokation"
+0420,00215,SEQ,M,M,1,1,2,"Verbrauchsart und Nutzung der OBIS-Kennzahl der
+Marktlokation"
+0430,00216,RFF,C,R,9,9,3,Referenz auf die OBIS-Kennzahl der Marktlokation
+0500,,SG10,C,R,99,1,3,Verbrauchsart und Nutzung der OBIS-Kennzahl
+0510,00217,CCI,M,M,1,1,3,"Verbrauchsart und Nutzung an der OBIS-Kennzahl der
+Marktlokation"
+0520,00218,CAV,C,R,99,5,4,Verbrauchsart
+0520,00219,CAV,C,R,99,1,4,Unterbrechbarkeit
+0520,00220,CAV,C,D,99,1,4,Wärme-/Kältenutzung
+0520,00221,CAV,C,D,99,1,4,Art der E-Mobilität
+0410,,SG8,C,D,99999,99999,2,OBIS-Daten der Marktlokation der beteiligten Marktrolle
+0420,00222,SEQ,M,M,1,1,2,OBIS-Daten der Marktlokation der beteiligten Marktrolle
+0440,00223,PIA,C,R,9,1,3,OBIS-Kennzahl der Marktlokation
+0410,,SG8,C,D,99999,1,2,Produkt-Daten der Marktlokation des NB
+0420,00224,SEQ,M,M,1,1,2,Produkt-Daten der Marktlokation des NB
+0440,00225,PIA,C,D,9,1,3,Produktidentifikation der Marktlokation
+0410,,SG8,C,D,99999,99999,2,Daten der Tranche
+0420,00226,SEQ,M,M,1,1,2,Daten der Tranche
+0430,00227,RFF,C,D,9,1,3,Referenz auf die ID der Tranche
+0430,00228,RFF,C,D,9,1,3,Referenz auf die Marktlokation der Tranche 
+0450,,SG9,C,D,99,1,3,Tatsächlich bilanzierte Energiemenge
+0460,00229,QTY,M,M,1,1,3,Tatsächlich bilanzierte Energiemenge
+0450,,SG9,C,D,99,1,3,Tranchengröße
+0460,00230,QTY,M,M,1,1,3,"Prozentualer Anteil der Tranche an der erzeugenden
+Marktlokation"
+0500,,SG10,C,D,99,1,3,Zugeordnete Marktpartner
+0510,00231,CCI,M,M,1,1,3,Zugeordnete Marktpartner
+0520,00232,CAV,C,R,99,1,4,Lieferant
+0500,,SG10,C,D,99,1,3,Bilanzkreis
+0510,00233,CCI,M,M,1,1,3,Bilanzkreis
+0500,,SG10,C,D,99,1,3,Empfänger der Vergütung zur Einspeisung
+0510,00234,CCI,M,M,1,1,3,Empfänger der Vergütung zur Einspeisung
+0520,00235,CAV,C,R,99,1,4,Empfänger der Vergütung zur Einspeisung
+0500,,SG10,C,D,99,1,3,Basis zur Bildung der Tranchengröße
+0510,00236,CCI,M,M,1,1,3,Basis zur Bildung der Tranchengröße
+0410,,SG8,C,D,99999,99999,2,Daten der Tranche der beteiligten Marktrolle
+0420,00237,SEQ,M,M,1,1,2,Daten der Tranche der beteiligten Marktrolle
+0500,,SG10,C,R,99,1,3,Bilanzkreis
+0510,00238,CCI,M,M,1,1,3,Bilanzkreis
+0410,,SG8,C,D,99999,99999,2,Erforderliches Messprodukt der Tranche
+0420,00239,SEQ,M,M,1,1,2,Erforderliches Messprodukt der Tranche
+0430,00240,RFF,C,R,9,1,3,Referenz auf die ID der Tranche
+0440,00241,PIA,C,R,9,1,3,Erforderliches Messprodukt der Tranche
+0500,,SG10,C,R,99,1,3,Messprodukt für Netzbetreiber relevant
+0510,00242,CCI,M,M,1,1,3,Werte für Netzbetreiber relevant
+0520,00243,CAV,C,R,99,2,4,Verwendungszweck der Werte
+0500,,SG10,C,R,99,1,3,Messprodukt für Lieferant relevant
+0510,00244,CCI,M,M,1,1,3,Werte für Lieferant relevant
+0520,00245,CAV,C,R,99,2,4,Verwendungszweck der Werte
+0500,,SG10,C,R,99,1,3,Messprodukt für Übertragungsnetzbetreiber relevant
+0510,00246,CCI,M,M,1,1,3,Werte für Übertragungsnetzbetreiber relevant
+0520,00247,CAV,C,R,99,2,4,Verwendungszweck der Werte
+0410,,SG8,C,D,99999,99999,2,OBIS-Daten der Tranche
+0420,00248,SEQ,M,M,1,1,2,OBIS-Daten der Tranche
+0430,00249,RFF,C,D,9,1,3,Referenz auf die ID einer Tranche
+0440,00250,PIA,C,R,9,1,3,OBIS-Kennzahl der Tranche
+0500,,SG10,C,D,99,1,3,OBIS Daten für Netzbetreiber relevant
+0510,00251,CCI,M,M,1,1,3,OBIS Daten für Netzbetreiber relevant
+0520,00252,CAV,C,R,99,2,4,Verwendungszweck der Werte
+0500,,SG10,C,D,99,1,3,OBIS Daten für Lieferant relevant
+0510,00253,CCI,M,M,1,1,3,OBIS Daten für Lieferant relevant
+0520,00254,CAV,C,R,99,2,4,Verwendungszweck der Werte
+0500,,SG10,C,D,99,1,3,OBIS Daten für Übertragungsnetzbetreiber relevant
+0510,00255,CCI,M,M,1,1,3,OBIS Daten für Übertragungsnetzbetreiber relevant
+0520,00256,CAV,C,R,99,2,4,Verwendungszweck der Werte
+0410,,SG8,C,D,99999,99999,2,OBIS-Daten der Tranche der beteiligten Marktrolle
+0420,00257,SEQ,M,M,1,1,2,OBIS-Daten der Tranche der beteiligten Marktrolle
+0440,00258,PIA,C,R,9,1,3,OBIS-Kennzahl der Tranche
+0410,,SG8,C,D,99999,99999,2,Daten der Technischen Ressource
+0420,00259,SEQ,M,M,1,1,2,Daten der Technischen Ressource
+0430,00260,RFF,C,R,9,1,3,Referenz auf die ID der Technischen Ressource
+0430,00261,RFF,C,D,9,9,3,Referenz auf die ID der vorgelagerten Messlokation 
+0430,00262,RFF,C,D,9,2,3,"Referenz auf die der Technischen Ressource
+zugeordneten Marktlokation "
+0430,00263,RFF,C,D,9,1,3,"Referenz auf die der Technischen Ressource
+zugeordneten Steuerbaren Ressource"
+0430,00264,RFF,C,D,9,1,3,"Referenz auf die der Technischen Ressource
+zugeordneten Netzlokation"
+0450,,SG9,C,D,99,1,3,Nennleistung (Aufnahme)
+0460,00265,QTY,M,M,1,1,3,Nennleistung (Aufnahme)
+0450,,SG9,C,D,99,1,3,Nennleistung (Abgabe)
+0460,00266,QTY,M,M,1,1,3,Nennleistung (Abgabe)
+0450,,SG9,C,D,99,1,3,Speicherkapazität
+0460,00267,QTY,M,M,1,1,3,Speicherkapazität
+0500,,SG10,C,R,99,1,3,Art und Nutzung der Technischen Ressource
+0510,00268,CCI,M,M,1,1,3,Art und Nutzung der Technischen Ressource
+0520,00269,CAV,C,D,99,5,4,Verbrauchsart
+0520,00270,CAV,C,D,99,1,4,Wärme-/Kältenutzung
+0520,00271,CAV,C,D,99,1,4,Art der E-Mobilität
+0520,00272,CAV,C,D,99,1,4,Erzeugungsart
+0520,00273,CAV,C,D,99,1,4,Speicherart
+0520,00274,CAV,C,D,99,1,4,Kategorie der verbrauchenden Technischen Ressource
+0520,00275,CAV,C,D,99,1,4,"Inbetriebsetzungsdatum der verbrauchenden
+Technischen Ressource nach § 14a EnWG"
+0520,00276,CAV,C,D,99,1,4,"Einordnung der verbrauchenden Technischen Ressource
+nach § 14a EnWG mit Inbetriebsetzung vor 2024"
+0500,,SG10,C,D,99,1,3,Information zu weiteren technischen Einrichtungen
+0510,00277,CCI,M,M,1,1,3,Information zu weiteren technischen Einrichtungen
+0520,00278,CAV,C,R,99,1,4,Information zu weiteren technischen Einrichtungen
+0410,,SG8,C,D,99999,99999,2,Daten der Steuerbaren Ressource
+0420,00279,SEQ,M,M,1,1,2,Daten der Steuerbaren Ressource
+0430,00280,RFF,C,R,9,1,3,Referenz auf die ID der Steuerbaren Ressource
+0500,,SG10,C,D,99,1,3,Steuerkanal
+0510,00281,CCI,M,M,1,1,3,Steuerkanal
+0520,00282,CAV,C,R,99,1,4,Leistungsbeschreibung des Steuerkanals
+0500,,SG10,C,D,99,1,3,Zugeordnete Marktpartner
+0510,00283,CCI,M,M,1,1,3,Zugeordnete Marktpartner
+0520,00284,CAV,C,R,99,1,4,Messstellenbetreiber
+0410,,SG8,C,D,99999,99999,2,Produkt-Daten der Steuerbaren Ressource
+0420,00285,SEQ,M,M,1,1,2,Produkt-Daten der Steuerbaren Ressource
+0430,00286,RFF,C,R,9,1,3,Referenz auf die ID der Steuerbaren Ressource
+0440,00287,PIA,C,R,9,1,3,Produkt-Daten der Steuerbaren Ressource
+0500,,SG10,C,R,99,1,3,Zugeordnete Definition
+0510,00288,CCI,M,M,1,1,3,Zugeordnete Definition
+0500,,SG10,C,R,99,1,3,Auftraggebender Marktpartner
+0510,00289,CCI,M,M,1,1,3,Auftraggebender Marktpartner
+0520,00290,CAV,C,D,99,1,4,Auftraggebender Marktpartner
+0500,,SG10,C,R,99,2,3,Produkt-Daten für Marktrolle relevant
+0510,00291,CCI,M,M,1,1,3,Produkt-Daten für Marktrolle relevant
+0410,,SG8,C,D,99999,99999,2,Daten der Messlokation
+0420,00292,SEQ,M,M,1,1,2,Daten der Messlokation
+0430,00293,RFF,C,D,9,1,3,Referenz auf die ID der Messlokation
+0430,00294,RFF,C,D,9,9,3,"Referenz auf die der Messlokation zugeordneten
+Marktlokation "
+0430,00295,RFF,C,D,9,1,3,Abrechnung des Messstellenbetriebs über NNE
+0500,,SG10,C,D,99,1,3,Zugeordnete Marktpartner
+0510,00296,CCI,M,M,1,1,3,Zugeordnete Marktpartner
+0520,00297,CAV,C,D,99,1,4,Messstellenbetreiber
+0520,00298,CAV,C,D,99,1,4,Grundzuständiger Messstellenbetreiber
+0520,00299,CAV,C,D,99,1,4,Messstellenbetreiber Alt
+0500,,SG10,C,D,99,1,3,Spannungsebene der Messlokation
+0510,00300,CCI,M,M,1,1,3,Spannungsebene der Messlokation
+0520,00301,CAV,C,R,99,1,4,Spannungsebene der Messlokation
+0500,,SG10,C,D,99,1,3,Verwendungsumfang
+0510,00302,CCI,M,M,1,1,3,Verwendungsumfang
+0500,,SG10,C,D,99,1,3,Betriebszustand der Messlokation
+0510,00303,CCI,M,M,1,1,3,Betriebszustand der Messlokation
+0410,,SG8,C,D,99999,99999,2,Erforderliches Messprodukt der Messlokation
+0420,00304,SEQ,M,M,1,1,2,Erforderliches Messprodukt der Messlokation
+0430,00305,RFF,C,R,9,1,3,Referenz auf die ID einer Messlokation
+0430,00306,RFF,C,D,9,9,3,Referenz auf die ID einer Marktlokation
+0440,00307,PIA,C,R,9,1,3,Erforderliches Messprodukt der Messlokation
+0500,,SG10,C,R,99,1,3,Weitere Beschreibung erforderliches Messprodukt
+0510,00308,CCI,M,M,1,1,3,Weitere Beschreibung erforderliches Messprodukt
+0520,00309,CAV,C,R,99,1,4,Notwendigkeit einer zweiten Messung
+0520,00310,CAV,C,R,99,1,4,"Werteübermittlung an den NB aufgrund weiterem
+Verwendungszweck"
+0500,,SG10,C,D,99,1,3,Zugeordnete Zählzeitdefinition
+0510,00311,CCI,M,M,1,1,3,Zugeordnete Zählzeitdefinition
+0410,,SG8,C,D,99999,99999,2,Zähleinrichtungsdaten
+0420,00312,SEQ,M,M,1,1,2,Zähleinrichtungsdaten
+0430,00313,RFF,C,D,9,1,3,Referenz auf die ID einer Messlokation
+0430,00314,RFF,C,D,9,1,3,Referenz auf das Smartmeter-Gateway
+0500,,SG10,C,D,99,1,3,Zähleinrichtung
+0510,00315,CCI,M,M,1,1,3,Zählertyp
+0520,00316,CAV,C,D,99,1,4,Zählertyp
+0520,00317,CAV,C,R,99,1,4,Identifikation / Nummer des Gerätes
+0520,00318,CAV,C,D,99,1,4,Registeranzahl
+0520,00319,CAV,C,D,99,1,4,Energierichtung
+0520,00320,CAV,C,D,99,1,4,Fernschaltung der Zähleinrichtung
+0500,,SG10,C,D,99,1,3,Befestigungsart
+0510,00321,CCI,M,M,1,1,3,Befestigungsart Zähleinrichtung
+0520,00322,CAV,C,R,99,1,4,Befestigungsart Zähleinrichtung
+0500,,SG10,C,D,99,1,3,Messwerterfassung an der Zähleinrichtung
+0510,00323,CCI,M,M,1,1,3,Messwerterfassung an der Zähleinrichtung
+0520,00324,CAV,C,R,99,1,4,Messwerterfassung an der Zähleinrichtung
+0410,,SG8,C,D,99999,99999,2,OBIS-Daten der Zähleinrichtung / Smartmeter-Gateway
+0420,00325,SEQ,M,M,1,1,2,OBIS-Daten der Zähleinrichtung / Smartmeter-Gateway
+0430,00326,RFF,C,R,9,1,3,Referenz auf die Gerätenummer
+0430,00327,RFF,C,D,9,1,3,Referenz auf die ID einer Messlokation
+0430,00328,RFF,C,D,9,9,3,Referenz auf die ID einer Marktlokation
+0430,00329,RFF,C,D,9,1,3,Konfigurations-ID
+0440,00330,PIA,C,R,9,1,3,"OBIS-Kennzahl der Zähleinrichtung / Smartmeter-
+Gateway"
+0500,,SG10,C,D,99,1,3,Wertegranularität
+0510,00331,CCI,M,M,1,1,3,Wertegranularität
+0520,00332,CAV,C,R,99,1,4,Wertegranularität
+0500,,SG10,C,D,99,1,3,Zugeordnete Zählzeitdefinition
+0510,00333,CCI,M,M,1,1,3,Zugeordnete Zählzeitdefinition
+0500,,SG10,C,D,99,1,3,Zugeordnetes Zählzeitregister 
+0510,00334,CCI,M,M,1,1,3,Zugeordnetes Zählzeitregister 
+0500,,SG10,C,D,99,1,3,Vor- und Nachkommastellen des Zählwerks
+0510,00335,CCI,M,M,1,1,3,Vor- und Nachkommastellen des Zählwerks
+0520,00336,CAV,C,R,99,1,4,Vor- und Nachkommastellen des Zählwerks
+0500,,SG10,C,D,99,1,3,Bezeichnung des Zählwerks auf dem Gerät
+0510,00337,CCI,M,M,1,1,3,Bezeichnung des Zählwerks auf dem Gerät
+0500,,SG10,C,D,99,1,3,Schwachlastfähigkeit
+0510,00338,CCI,M,M,1,1,3,Schwachlastfähigkeit
+0410,,SG8,C,D,99999,99999,2,Wandlerdaten
+0420,00339,SEQ,M,M,1,1,2,Wandlerdaten
+0430,00340,RFF,C,D,9,9,3,Referenz auf die Gerätenummer
+0500,,SG10,C,D,99,1,3,Wandler
+0510,00341,CCI,M,M,1,1,3,Wandler
+0520,00342,CAV,C,D,99,3,4,Identifikation / Nummer des Gerätes
+0520,00343,CAV,C,D,99,1,4,Wandlertyp und Faktor
+0410,,SG8,C,D,99999,99999,2,Kommunikationseinrichtungsdaten
+0420,00344,SEQ,M,M,1,1,2,Kommunikationseinrichtungsdaten
+0430,00345,RFF,C,D,9,9,3,Referenz auf die Gerätenummer
+0500,,SG10,C,D,99,1,3,Kommunikationseinrichtung
+0510,00346,CCI,M,M,1,1,3,Kommunikationseinrichtung
+0520,00347,CAV,C,R,99,1,4,Identifikation / Nummer des Gerätes
+0520,00348,CAV,C,D,99,1,4,Kommunikationseinrichtungstyp
+0410,,SG8,C,D,99999,99999,2,Daten der technischen Steuereinrichtung
+0420,00349,SEQ,M,M,1,1,2,Daten der technischen Steuereinrichtung
+0430,00350,RFF,C,D,9,9,3,Referenz auf die Gerätenummer
+0500,,SG10,C,D,99,1,3,Technische Steuereinrichtung
+0510,00351,CCI,M,M,1,1,3,Technische Steuereinrichtung
+0520,00352,CAV,C,R,99,1,4,Identifikation / Nummer des Gerätes
+0520,00353,CAV,C,D,99,1,4,Technische Steuereinrichtungstyp
+0410,,SG8,C,D,99999,99999,2,Smartmeter-Gateway
+0420,00354,SEQ,M,M,1,1,2,Smartmeter-Gateway
+0500,,SG10,C,R,99,1,3,Smartmeter-Gateway
+0510,00355,CCI,M,M,1,1,3,Smartmeter-Gateway
+0520,00356,CAV,C,R,99,1,4,Identifikation / Nummer des Gerätes
+0410,,SG8,C,D,99999,99999,2,Daten der Steuerbox
+0420,00357,SEQ,M,M,1,1,2,Daten der Steuerbox
+0430,00358,RFF,C,D,9,1,3,Referenz auf das Smartmeter-Gateway
+0430,00359,RFF,C,D,9,9,3,Referenz auf die ID der Marktlokation
+0500,,SG10,C,R,99,1,3,Steuerbox
+0510,00360,CCI,M,M,1,1,3,Steuerbox
+0520,00361,CAV,C,R,99,1,4,Identifikation / Nummer des Gerätes
+0410,,SG8,C,D,99999,99999,2,Profildaten
+0420,00362,SEQ,M,M,1,1,2,Profildaten
+0430,00363,RFF,C,D,9,1,3,Versionsangabe des Profils
+0430,00364,RFF,C,D,9,1,3,Referenz auf die ID der Marktlokation
+0500,,SG10,C,D,99,1,3,Profiltyp
+0510,00365,CCI,M,M,1,1,3,Profiltyp
+0500,,SG10,C,D,99,1,3,Normiertes Profil
+0510,00366,CCI,M,M,1,1,3,Normiertes Profil
+0520,00367,CAV,C,R,99,1,4,Normiertes Profil
+0500,,SG10,C,D,99,1,3,Normierungsfaktor
+0510,00368,CCI,M,M,1,1,3,Normierungsfaktor
+0500,,SG10,C,D,99,99,3,Bilanzierungsgebiet
+0510,00369,CCI,M,M,1,1,3,Bilanzierungsgebiet
+0410,,SG8,C,D,99999,1,2,Profildaten der beteiligten Marktrolle
+0420,00370,SEQ,M,M,1,1,2,Profildaten der beteiligten Marktrolle
+0500,,SG10,C,R,99,1,3,Normiertes Profil
+0510,00371,CCI,M,M,1,1,3,Normiertes Profil
+0520,00372,CAV,C,R,99,1,4,Normiertes Profil
+0410,,SG8,C,D,99999,99999,2,Profilschardaten
+0420,00373,SEQ,M,M,1,1,2,Profilschardaten
+0430,00374,RFF,C,D,9,1,3,Versionsangabe des Profils
+0430,00375,RFF,C,D,9,1,3,Referenz auf die ID der Marktlokation
+0440,00376,PIA,C,D,9,1,3,Berechnung Tagesmitteltemperatur
+0450,,SG9,C,D,99,1,3,Anteil A der äquivalenten Tagesmitteltemperatur
+0460,00377,QTY,M,M,1,1,3,Anteil A
+0450,,SG9,C,D,99,1,3,Anteil B der äquivalenten Tagesmitteltemperatur
+0460,00378,QTY,M,M,1,1,3,Anteil B
+0450,,SG9,C,D,99,1,3,Anteil C der äquivalenten Tagesmitteltemperatur
+0460,00379,QTY,M,M,1,1,3,Anteil C
+0450,,SG9,C,D,99,1,3,Anteil D der äquivalenten Tagesmitteltemperatur
+0460,00380,QTY,M,M,1,1,3,Anteil D
+0450,,SG9,C,D,99,1,3,Begrenzungstemperatur
+0460,00381,QTY,M,M,1,1,3,Begrenzungstemperatur
+0500,,SG10,C,D,99,1,3,Profiltyp
+0510,00382,CCI,M,M,1,1,3,Profiltyp
+0500,,SG10,C,D,99,1,3,Profilschar
+0510,00383,CCI,M,M,1,1,3,Profilschar
+0520,00384,CAV,C,R,99,1,4,Profilschar
+0500,,SG10,C,D,99,1,3,Normiertes Profil
+0510,00385,CCI,M,M,1,1,3,Normiertes Profil
+0520,00386,CAV,C,R,99,1,4,Normiertes Profil
+0500,,SG10,C,D,99,1,3,Normierungsfaktor
+0510,00387,CCI,M,M,1,1,3,Normierungsfaktor
+0500,,SG10,C,D,99,1,3,Begrenzungskonstante
+0510,00388,CCI,M,M,1,1,3,Begrenzungskonstante
+0500,,SG10,C,D,99,1,3,Klimazone / Temperaturmessstelle
+0510,00389,CCI,M,M,1,1,3,Klimazone / Temperaturmessstelle
+0500,,SG10,C,D,99,99,3,Bilanzierungsgebiet
+0510,00390,CCI,M,M,1,1,3,Bilanzierungsgebiet
+0410,,SG8,C,D,99999,99999,2,Referenzprofildaten
+0420,00391,SEQ,M,M,1,1,2,Referenzprofildaten
+0430,00392,RFF,C,D,9,1,3,Versionsangabe des Profils
+0430,00393,RFF,C,D,9,1,3,Referenz auf die ID der Marktlokation
+0500,,SG10,C,D,99,1,3,Profiltyp
+0510,00394,CCI,M,M,1,1,3,Profiltyp
+0500,,SG10,C,D,99,1,3,Referenzprofil
+0510,00395,CCI,M,M,1,1,3,Referenzprofil
+0520,00396,CAV,C,R,99,1,4,Referenzprofil
+0500,,SG10,C,D,99,1,3,Normierungsfaktor
+0510,00397,CCI,M,M,1,1,3,Normierungsfaktor
+0500,,SG10,C,D,99,99,3,Bilanzierungsgebiet
+0510,00398,CCI,M,M,1,1,3,Bilanzierungsgebiet
+0410,,SG8,C,D,99999,99999,2,Daten der Summenzeitreihe
+0420,00399,SEQ,M,M,1,1,2,Daten der Summenzeitreihe
+0430,00400,RFF,C,D,9,1,3,Referenz auf die ID der Summenzeitreihe
+0430,00401,RFF,C,D,9,1,3,Versionsangabe der Summenzeitreihe
+0500,,SG10,C,D,99,1,3,Bezeichnung der Summenzeitreihe
+0510,00402,CCI,M,M,1,1,3,Bezeichnung der Summenzeitreihe
+0520,00403,CAV,C,R,99,1,4,Bezeichnung der Summenzeitreihe
+0500,,SG10,C,D,99,1,3,Verantwortliche Marktrolle für Summenzeitreihe
+0510,00404,CCI,M,M,1,1,3,Verantwortliche Marktrolle für Summenzeitreihe
+0500,,SG10,C,D,99,1,3,Regelzone
+0510,00405,CCI,M,M,1,1,3,Regelzone
+0500,,SG10,C,D,99,2,3,Bilanzierungsgebiet
+0510,00406,CCI,M,M,1,1,3,Bilanzierungsgebiet
+0500,,SG10,C,D,99,1,3,Bilanzkreis
+0510,00407,CCI,M,M,1,1,3,Bilanzkreis
+0500,,SG10,C,D,99,1,3,Zeitreihentyp
+0510,00408,CCI,M,M,1,1,3,Zeitreihentyp
+0520,00409,CAV,C,R,99,1,4,Zeitreihentyp
+0500,,SG10,C,D,99,1,3,Bezugszeitraum der Summenzeitreihe
+0510,00410,CCI,M,M,1,1,3,Bezugszeitraum der Summenzeitreihe
+0520,00411,CAV,C,R,99,1,4,Bezugszeitraum der Summenzeitreihe
+0500,,SG10,C,D,99,1,3,Spannungsebene der Summenzeitreihe
+0510,00412,CCI,M,M,1,1,3,Spannungsebene der Summenzeitreihe
+0520,00413,CAV,C,R,99,1,4,Spannungsebene der Summenzeitreihe
+0520,00414,CAV,C,D,99,1,4,Umspannung
+0500,,SG10,C,D,99,1,3,Datenstatus zur Zeitreihe für Bilanzkreissummen
+0510,00415,CCI,M,M,1,1,3,Datenstatus zur Zeitreihe für Bilanzkreissummen
+0500,,SG10,C,D,99,1,3,Zuordnungs Regel des ZP der NGZ zur NZR
+0510,00416,CCI,M,M,1,1,3,Zuordnungs Regel des ZP der NGZ zur NZR
+0410,,SG8,C,D,99999,99999,2,Produkt-Daten der Summenzeitreihe
+0420,00417,SEQ,M,M,1,1,2,Produkt-Daten der Summenzeitreihe
+0440,00418,PIA,C,R,9,1,3,Produktidentifikation der Summenzeitreihe
+0450,,SG9,C,D,99,1,3,Energiemenge
+0460,00419,QTY,M,M,1,1,3,Energiemenge
+0470,00420,DTM,C,R,9,1,4,Beginn Messperiode
+0470,00421,DTM,C,R,9,1,4,Ende Messperiode
+0450,,SG9,C,D,99,1,3,Korrekturfaktor
+0460,00422,QTY,M,M,1,1,3,Korrekturfaktor
+0410,,SG8,C,D,99999,99999,2,Daten der Überführungszeitreihe
+0420,00423,SEQ,M,M,1,1,2,Daten der Überführungszeitreihe
+0430,00424,RFF,C,D,9,1,3,Versionsangabe der Zeitreihe
+0500,,SG10,C,R,99,1,3,Überführungszeitreihentyp
+0510,00425,CCI,M,M,1,1,3,Überführungszeitreihentyp
+0520,00426,CAV,C,R,99,1,4,Überführungszeitreihentyp
+0500,,SG10,C,D,99,1,3,Regelzone
+0510,00427,CCI,M,M,1,1,3,Regelzone
+0500,,SG10,C,D,99,1,3,Bilanzkreis
+0510,00428,CCI,M,M,1,1,3,Bilanzkreis
+0500,,SG10,C,D,99,1,3,Bilanzkreis-an
+0510,00429,CCI,M,M,1,1,3,Bilanzkreis-an
+0500,,SG10,C,D,99,1,3,Bilanzkreis-von
+0510,00430,CCI,M,M,1,1,3,Bilanzkreis-von
+0500,,SG10,C,D,99,1,3,Bilanzierungsgebiet
+0510,00431,CCI,M,M,1,1,3,Bilanzierungsgebiet
+0500,,SG10,C,D,99,1,3,Datenstatus zur Überführungszeitreihe
+0510,00432,CCI,M,M,1,1,3,Datenstatus zur Überführungszeitreihe
+0410,,SG8,C,D,99999,99999,2,Produkt-Daten der Überführungszeitreihe
+0420,00433,SEQ,M,M,1,1,2,Produkt-Daten der Überführungszeitreihe
+0440,00434,PIA,C,R,9,1,3,Produktidentifikation der Überführungszeitreihe
+0450,,SG9,C,D,99,1,3,Energiemenge
+0460,00435,QTY,M,M,1,1,3,Energiemenge
+0470,00436,DTM,C,R,9,1,4,Beginn Messperiode
+0470,00437,DTM,C,R,9,1,4,Ende Messperiode
+0410,,SG8,C,D,99999,1,2,Datenstand des ÜNB
+0420,00438,SEQ,M,M,1,1,2,Datenstand des ÜNB
+0450,,SG9,C,D,99,1,3,Veranschlagte Jahresmenge gesamt
+0460,00439,QTY,M,M,1,1,3,Veranschlagte Jahresmenge gesamt
+0450,,SG9,C,R,99,1,3,Energiemenge DZÜ Anteil
+0460,00440,QTY,M,M,1,1,3,Energiemenge DZÜ Anteil
+0470,00441,DTM,C,R,9,1,4,Bilanzierungsbeginn
+0470,00442,DTM,C,R,9,1,4,Bilanzierungsende
+0450,,SG9,C,D,99,1,3,Zu bilanzierende Energiemenge
+0460,00443,QTY,M,M,1,1,3,Zu bilanzierende Energiemenge
+0470,00444,DTM,C,R,9,1,4,Bilanzierungsbeginn
+0470,00445,DTM,C,R,9,1,4,Bilanzierungsende
+0500,,SG10,C,D,99,1,3,Bilanzkreis
+0510,00446,CCI,M,M,1,1,3,Bilanzkreis
+0500,,SG10,C,D,99,1,3,Bilanzierungsgebiet
+0510,00447,CCI,M,M,1,1,3,Bilanzierungsgebiet
+0500,,SG10,C,D,99,1,3,Zeitreihentyp
+0510,00448,CCI,M,M,1,1,3,Zeitreihentyp
+0520,00449,CAV,C,R,99,1,4,Zeitreihentyp
+0500,,SG10,C,D,99,1,3,Normiertes Profil
+0510,00450,CCI,M,M,1,1,3,Normiertes Profil
+0520,00451,CAV,C,R,99,1,4,Normiertes Profil
+0500,,SG10,C,R,99,1,3,Aggregationsverantwortung in MaBiS
+0510,00452,CCI,M,M,1,1,3,Aggregationsverantwortung in MaBiS
+0520,00453,CAV,C,R,99,1,4,Betriebssituation der Lokation
+0410,,SG8,C,D,99999,99999,2,Datenstand des NB
+0420,00454,SEQ,M,M,1,1,2,Datenstand des NB
+0450,,SG9,C,D,99,1,3,Veranschlagte Jahresmenge gesamt
+0460,00455,QTY,M,M,1,1,3,Veranschlagte Jahresmenge gesamt
+0450,,SG9,C,D,99,1,3,Zu bilanzierende Energiemenge
+0460,00456,QTY,M,M,1,1,3,Zu bilanzierende Energiemenge
+0470,00457,DTM,C,R,9,1,4,Bilanzierungsbeginn
+0470,00458,DTM,C,R,9,1,4,Bilanzierungsende
+0500,,SG10,C,D,99,1,3,Bilanzkreis
+0510,00459,CCI,M,M,1,1,3,Bilanzkreis
+0500,,SG10,C,D,99,1,3,Bilanzierungsgebiet
+0510,00460,CCI,M,M,1,1,3,Bilanzierungsgebiet
+0500,,SG10,C,D,99,1,3,Zeitreihentyp
+0510,00461,CCI,M,M,1,1,3,Zeitreihentyp
+0520,00462,CAV,C,R,99,1,4,Zeitreihentyp
+0500,,SG10,C,D,99,1,3,Normiertes Profil
+0510,00463,CCI,M,M,1,1,3,Normiertes Profil
+0520,00464,CAV,C,R,99,1,4,Normiertes Profil
+0500,,SG10,C,R,99,1,3,Aggregationsverantwortung in MaBiS
+0510,00465,CCI,M,M,1,1,3,Aggregationsverantwortung in MaBiS
+0520,00466,CAV,C,R,99,1,4,Betriebssituation der Lokation
+0410,,SG8,C,D,99999,99,2,Abgerechnete Daten der Bilanzkreissummenzeitreihe 
+0420,00467,SEQ,M,M,1,1,2,Abgerechnete Daten der Bilanzkreissummenzeitreihe 
+0430,00468,RFF,C,D,9,1,3,Referenz auf die ID der Bilanzkreissummenzeitreihe
+0430,00469,RFF,C,D,9,1,3,Versionsangabe der Summenzeitreihe
+0450,,SG9,C,D,99,1,3,Veranschlagte Jahresmenge gesamt
+0460,00470,QTY,M,M,1,1,3,Veranschlagte Jahresmenge gesamt
+0450,,SG9,C,D,99,1,3,Tatsächlich bilanzierte Energiemenge
+0460,00471,QTY,M,M,1,1,3,Tatsächlich bilanzierte Energiemenge
+0470,00472,DTM,C,R,9,1,4,Bilanzierungsbeginn
+0470,00473,DTM,C,R,9,1,4,Bilanzierungsende
+0500,,SG10,C,D,99,1,3,Bilanzkreis
+0510,00474,CCI,M,M,1,1,3,Bilanzkreis
+0500,,SG10,C,D,99,1,3,Bilanzierungsgebiet
+0510,00475,CCI,M,M,1,1,3,Bilanzierungsgebiet
+0500,,SG10,C,D,99,1,3,Zeitreihentyp
+0510,00476,CCI,M,M,1,1,3,Zeitreihentyp
+0520,00477,CAV,C,R,99,1,4,Zeitreihentyp
+0500,,SG10,C,D,99,1,3,Normiertes Profil
+0510,00478,CCI,M,M,1,1,3,Normiertes Profil
+0520,00479,CAV,C,R,99,1,4,Normiertes Profil
+0410,,SG8,C,D,99999,99,2,"Abgerechnete Daten der
+Bilanzierungsgebietssummenzeitreihe"
+0420,00480,SEQ,M,M,1,1,2,"Abgerechnete Daten der
+Bilanzierungsgebietssummenzeitreihe"
+0430,00481,RFF,C,D,9,1,3,"Referenz auf die ID der
+Bilanzierungsgebietssummenzeitreihe"
+0430,00482,RFF,C,D,9,1,3,Versionsangabe der Summenzeitreihe
+0450,,SG9,C,D,99,1,3,Veranschlagte Jahresmenge gesamt
+0460,00483,QTY,M,M,1,1,3,Veranschlagte Jahresmenge gesamt
+0450,,SG9,C,D,99,1,3,Tatsächlich bilanzierte Energiemenge
+0460,00484,QTY,M,M,1,1,3,Tatsächlich bilanzierte Energiemenge
+0470,00485,DTM,C,R,9,1,4,Bilanzierungsbeginn
+0470,00486,DTM,C,R,9,1,4,Bilanzierungsende
+0500,,SG10,C,D,99,1,3,Bilanzierungsgebiet
+0510,00487,CCI,M,M,1,1,3,Bilanzierungsgebiet
+0500,,SG10,C,D,99,1,3,Zeitreihentyp
+0510,00488,CCI,M,M,1,1,3,Zeitreihentyp
+0520,00489,CAV,C,R,99,1,4,Zeitreihentyp
+0500,,SG10,C,D,99,1,3,Normiertes Profil
+0510,00490,CCI,M,M,1,1,3,Normiertes Profil
+0520,00491,CAV,C,R,99,1,4,Normiertes Profil
+0410,,SG8,C,D,99999,1,2,Daten des Kunden des Lieferanten
+0420,00492,SEQ,M,M,1,1,2,Daten des Kunden des Lieferanten
+0500,,SG10,C,R,99,1,3,Grundlage zur Verringerung der Umlagen nach EnFG
+0510,00493,CCI,M,M,1,1,3,Grundlage zur Verringerung der Umlagen nach EnFG
+0520,00494,CAV,C,D,99,5,4,Grund der Privilegierung nach EnFG
+0570,,SG12,C,D,99,99,2,Kunde des Lieferanten
+0580,00495,NAD,M,M,1,1,2,Kunde des Lieferanten
+0590,00496,RFF,C,D,9,1,3,Referenz auf Zeitraum.ID
+0590,00497,RFF,C,D,9,1,3,Kundennummer beim Lieferanten
+0590,00498,RFF,C,D,9,1,3,Referenz auf die ID der Marktlokation
+0570,,SG12,C,D,99,99,2,Korrespondenzanschrift des Kunden des Lieferanten
+0580,00499,NAD,M,M,1,1,2,Korrespondenzanschrift des Kunden des Lieferanten
+0590,00500,RFF,C,D,9,1,3,Referenz auf Zeitraum.ID
+0590,00501,RFF,C,D,9,1,3,Referenz auf die ID der Marktlokation
+0570,,SG12,C,D,99,1,2,Kunde des Messstellenbetreibers
+0580,00502,NAD,M,M,1,1,2,Kunde des Messstellenbetreibers
+0590,00503,RFF,C,D,9,1,3,Referenz auf Zeitraum.ID
+0590,00504,RFF,C,D,9,1,3,Referenz auf die ID der Messlokation
+0570,,SG12,C,D,99,1,2,"Korrespondenzanschrift des Kunden des
+Messstellenbetreibers"
+0580,00505,NAD,M,M,1,1,2,"Korrespondenzanschrift des Kunden des
+Messstellenbetreibers"
+0590,00506,RFF,C,D,9,1,3,Referenz auf Zeitraum.ID
+0570,,SG12,C,D,99,99,2,Kunde des Netzbetreibers
+0580,00507,NAD,M,M,1,1,2,Kunde des Netzbetreibers
+0590,00508,RFF,C,D,9,1,3,Referenz auf Zeitraum.ID
+0590,00509,RFF,C,D,9,1,3,Referenz auf die ID der Marktlokation
+0570,,SG12,C,D,99,99,2,Korrespondenzanschrift des Kunden des Netzbetreibers
+0580,00510,NAD,M,M,1,1,2,Korrespondenzanschrift des Kunde des Netzbetreibers
+0590,00511,RFF,C,D,9,1,3,Referenz auf Zeitraum.ID
+0590,00512,RFF,C,D,9,1,3,Referenz auf die ID der Marktlokation
+0570,,SG12,C,D,99,1,2,Anschlussnehmer
+0580,00513,NAD,M,M,1,1,2,Anschlussnehmer
+0590,00514,RFF,C,D,9,1,3,Referenz auf Zeitraum.ID
+0570,,SG12,C,D,99,1,2,Hausverwalter
+0580,00515,NAD,M,M,1,1,2,Hausverwalter
+0590,00516,RFF,C,D,9,1,3,Referenz auf Zeitraum.ID
+0570,,SG12,C,D,99,99,2,Beteiligter Marktpartner MP-ID
+0580,00517,NAD,M,M,1,1,2,Beteiligter Marktpartner MP-ID
+0590,00518,RFF,C,D,9,9,3,Referenz auf die ID einer Marktlokation / Tranche
+0570,,SG12,C,D,99,1,2,Marktlokationsanschrift
+0580,00519,NAD,M,M,1,1,2,Marktlokationsanschrift
+0590,00520,RFF,C,D,9,1,3,Referenz auf Zeitraum.ID
+0570,,SG12,C,D,99,1,2,Messlokationsadresse
+0580,00521,NAD,M,M,1,1,2,Messlokationsadresse
+0590,00522,RFF,C,D,9,1,3,Referenz auf Zeitraum.ID
+0590,00523,RFF,C,D,9,1,3,Referenz auf die ID einer Messlokation
+0570,,SG12,C,D,99,9,2,Name und Adresse für die Ablesekarte
+0580,00524,NAD,M,M,1,1,2,Name und Adresse für die Ablesekarte
+0590,00525,RFF,C,D,9,1,3,Referenz auf Zeitraum.ID
+0590,00526,RFF,C,D,9,9,3,Referenz auf die ID einer Messlokation
+0670,00527,UNT,M,M,1,1,0,Nachrichten-Endesegment

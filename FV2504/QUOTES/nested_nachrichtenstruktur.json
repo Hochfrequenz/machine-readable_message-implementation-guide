@@ -1,0 +1,1355 @@
+{
+  "header_linie": null,
+  "segmente": [
+    {
+      "zaehler": "0010",
+      "nr": "00001",
+      "bezeichnung": "UNH",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Kopfsegment"
+    },
+    {
+      "zaehler": "0020",
+      "nr": "00002",
+      "bezeichnung": "BGM",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Beginn der Nachricht"
+    },
+    {
+      "zaehler": "0030",
+      "nr": "00003",
+      "bezeichnung": "DTM",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 35,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Nachrichtendatum"
+    },
+    {
+      "zaehler": "0030",
+      "nr": "00004",
+      "bezeichnung": "DTM",
+      "standard_status": "M",
+      "bdew_status": "D",
+      "standard_maximale_wiederholungen": 35,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Datum zum geplanten Leistungsbeginn"
+    },
+    {
+      "zaehler": "0030",
+      "nr": "00005",
+      "bezeichnung": "DTM",
+      "standard_status": "M",
+      "bdew_status": "D",
+      "standard_maximale_wiederholungen": 35,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Ausf\u00fchrungsdatum"
+    },
+    {
+      "zaehler": "0030",
+      "nr": "00006",
+      "bezeichnung": "DTM",
+      "standard_status": "M",
+      "bdew_status": "D",
+      "standard_maximale_wiederholungen": 35,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Beginn zum (n\u00e4chstm\u00f6glichen Termin)"
+    },
+    {
+      "zaehler": "0030",
+      "nr": "00007",
+      "bezeichnung": "DTM",
+      "standard_status": "M",
+      "bdew_status": "D",
+      "standard_maximale_wiederholungen": 35,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Erforderliche Zeitspanne zur Einrichtung der\n\u00dcbermittlung von Werten ab Bestellung"
+    },
+    {
+      "zaehler": "0030",
+      "nr": "00008",
+      "bezeichnung": "DTM",
+      "standard_status": "M",
+      "bdew_status": "D",
+      "standard_maximale_wiederholungen": 35,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "G\u00fcltigkeitsdauer (Bindungsfrist des Angebots)"
+    },
+    {
+      "zaehler": "0060",
+      "nr": "00009",
+      "bezeichnung": "IMD",
+      "standard_status": "C",
+      "bdew_status": "D",
+      "standard_maximale_wiederholungen": 999,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Produkt-/Leistungsbeschreibung"
+    },
+    {
+      "zaehler": "0080",
+      "nr": "00010",
+      "bezeichnung": "FTX",
+      "standard_status": "C",
+      "bdew_status": "D",
+      "standard_maximale_wiederholungen": 99,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Allgemeine Information (Feld f\u00fcr allgemeine Hinweise)"
+    },
+    {
+      "zaehler": "2270",
+      "nr": "00073",
+      "bezeichnung": "UNS",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Abschnitts-Kontrollsegment"
+    },
+    {
+      "zaehler": "2340",
+      "nr": "00074",
+      "bezeichnung": "UNT",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Endesegment"
+    }
+  ],
+  "segmentgruppen": [
+    {
+      "header_linie": {
+        "zaehler": "0100",
+        "nr": null,
+        "bezeichnung": "SG1",
+        "standard_status": "C",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 9999,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "Referenz der Anfrage"
+      },
+      "segmente": [
+        {
+          "zaehler": "0110",
+          "nr": "00011",
+          "bezeichnung": "RFF",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Nachrichtennummer der Anfrage"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0100",
+        "nr": null,
+        "bezeichnung": "SG1",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 9999,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "Pr\u00fcfidentifikator"
+      },
+      "segmente": [
+        {
+          "zaehler": "0110",
+          "nr": "00012",
+          "bezeichnung": "RFF",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Pr\u00fcfidentifikator"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0200",
+        "nr": null,
+        "bezeichnung": "SG4",
+        "standard_status": "C",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 5,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "W\u00e4hrungsangaben"
+      },
+      "segmente": [
+        {
+          "zaehler": "0210",
+          "nr": "00013",
+          "bezeichnung": "CUX",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "W\u00e4hrungsangaben"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0530",
+        "nr": null,
+        "bezeichnung": "SG11",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 99,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "MP-ID Absender"
+      },
+      "segmente": [
+        {
+          "zaehler": "0540",
+          "nr": "00014",
+          "bezeichnung": "NAD",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "MP-ID Absender"
+        }
+      ],
+      "segmentgruppen": [
+        {
+          "header_linie": {
+            "zaehler": "0640",
+            "nr": null,
+            "bezeichnung": "SG14",
+            "standard_status": "C",
+            "bdew_status": "R",
+            "standard_maximale_wiederholungen": 5,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Kontaktinformationen"
+          },
+          "segmente": [
+            {
+              "zaehler": "0650",
+              "nr": "00015",
+              "bezeichnung": "CTA",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Ansprechpartner"
+            },
+            {
+              "zaehler": "0660",
+              "nr": "00016",
+              "bezeichnung": "COM",
+              "standard_status": "C",
+              "bdew_status": "R",
+              "standard_maximale_wiederholungen": 5,
+              "bdew_maximale_wiederholungen": 5,
+              "ebene": 3,
+              "inhalt": "Kommunikationsverbindung"
+            }
+          ],
+          "segmentgruppen": []
+        }
+      ]
+    },
+    {
+      "header_linie": {
+        "zaehler": "0530",
+        "nr": null,
+        "bezeichnung": "SG11",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 99,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "MP-ID Empf\u00e4nger"
+      },
+      "segmente": [
+        {
+          "zaehler": "0540",
+          "nr": "00017",
+          "bezeichnung": "NAD",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "MP-ID Empf\u00e4nger"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0530",
+        "nr": null,
+        "bezeichnung": "SG11",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 99,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "Liefer-, bzw. Bezugsort"
+      },
+      "segmente": [
+        {
+          "zaehler": "0540",
+          "nr": "00018",
+          "bezeichnung": "NAD",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Liefer-, bzw. Bezugsort"
+        },
+        {
+          "zaehler": "0550",
+          "nr": "00019",
+          "bezeichnung": "LOC",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 99,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Meldepunkt"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "1060",
+        "nr": null,
+        "bezeichnung": "SG27",
+        "standard_status": "M",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 200000,
+        "bdew_maximale_wiederholungen": 200000,
+        "ebene": 1,
+        "inhalt": "Positionsteil"
+      },
+      "segmente": [
+        {
+          "zaehler": "1070",
+          "nr": "00020",
+          "bezeichnung": "LIN",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Positionsdaten"
+        },
+        {
+          "zaehler": "1080",
+          "nr": "00021",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "D",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Zus\u00e4tzliche Produktidentifikation"
+        },
+        {
+          "zaehler": "1090",
+          "nr": "00022",
+          "bezeichnung": "IMD",
+          "standard_status": "C",
+          "bdew_status": "D",
+          "standard_maximale_wiederholungen": 99,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Produkt-/Leistungsbeschreibung"
+        },
+        {
+          "zaehler": "1140",
+          "nr": "00023",
+          "bezeichnung": "DTM",
+          "standard_status": "C",
+          "bdew_status": "D",
+          "standard_maximale_wiederholungen": 35,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Baujahr/Jahr des In Verkehrs bringen"
+        },
+        {
+          "zaehler": "1140",
+          "nr": "00024",
+          "bezeichnung": "DTM",
+          "standard_status": "C",
+          "bdew_status": "D",
+          "standard_maximale_wiederholungen": 35,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Eichg\u00fcltigkeitsdauer bis"
+        },
+        {
+          "zaehler": "1150",
+          "nr": "00025",
+          "bezeichnung": "GIN",
+          "standard_status": "C",
+          "bdew_status": "D",
+          "standard_maximale_wiederholungen": 1000,
+          "bdew_maximale_wiederholungen": 3,
+          "ebene": 2,
+          "inhalt": "Herstellernummer"
+        },
+        {
+          "zaehler": "1180",
+          "nr": "00026",
+          "bezeichnung": "FTX",
+          "standard_status": "C",
+          "bdew_status": "D",
+          "standard_maximale_wiederholungen": 99,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Allgemeine Information (Feld f\u00fcr allgemeine Hinweise)"
+        }
+      ],
+      "segmentgruppen": [
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Z\u00e4hleinrichtung"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00027",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Z\u00e4hleinrichtung"
+            },
+            {
+              "zaehler": "1250",
+              "nr": "00028",
+              "bezeichnung": "CAV",
+              "standard_status": "C",
+              "bdew_status": "R",
+              "standard_maximale_wiederholungen": 10,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Z\u00e4hleinrichtung/Z\u00e4hlertyp"
+            },
+            {
+              "zaehler": "1250",
+              "nr": "00029",
+              "bezeichnung": "CAV",
+              "standard_status": "C",
+              "bdew_status": "D",
+              "standard_maximale_wiederholungen": 10,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Z\u00e4hleinrichtung/Z\u00e4hlergr\u00f6\u00dfe (Gas)"
+            },
+            {
+              "zaehler": "1250",
+              "nr": "00030",
+              "bezeichnung": "CAV",
+              "standard_status": "C",
+              "bdew_status": "D",
+              "standard_maximale_wiederholungen": 10,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Z\u00e4hleinrichtung/Tarifanzahl"
+            },
+            {
+              "zaehler": "1250",
+              "nr": "00031",
+              "bezeichnung": "CAV",
+              "standard_status": "C",
+              "bdew_status": "D",
+              "standard_maximale_wiederholungen": 10,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Z\u00e4hleinrichtung/Energierichtung"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Wandler"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00032",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Wandler"
+            },
+            {
+              "zaehler": "1250",
+              "nr": "00033",
+              "bezeichnung": "CAV",
+              "standard_status": "C",
+              "bdew_status": "R",
+              "standard_maximale_wiederholungen": 10,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Wandlertyp und Faktor"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Mengenumwerter"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00034",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Mengenumwerter"
+            },
+            {
+              "zaehler": "1250",
+              "nr": "00035",
+              "bezeichnung": "CAV",
+              "standard_status": "C",
+              "bdew_status": "R",
+              "standard_maximale_wiederholungen": 10,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Mengenumwertertyp"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Kommunikationseinrichtung"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00036",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Kommunikationseinrichtung"
+            },
+            {
+              "zaehler": "1250",
+              "nr": "00037",
+              "bezeichnung": "CAV",
+              "standard_status": "C",
+              "bdew_status": "R",
+              "standard_maximale_wiederholungen": 10,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Kommunikationseinrichtung"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Technische Steuereinrichtung"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00038",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Technische Steuereinrichtung"
+            },
+            {
+              "zaehler": "1250",
+              "nr": "00039",
+              "bezeichnung": "CAV",
+              "standard_status": "C",
+              "bdew_status": "R",
+              "standard_maximale_wiederholungen": 10,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Technische Steuereinrichtung"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Smartmeter-Gateway"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00040",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Smartmeter-Gateway"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Steuerbox"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00041",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Steuerbox"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Befestigungsart"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00042",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Befestigungsart"
+            },
+            {
+              "zaehler": "1250",
+              "nr": "00043",
+              "bezeichnung": "CAV",
+              "standard_status": "C",
+              "bdew_status": "R",
+              "standard_maximale_wiederholungen": 10,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Befestigungsart"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Messwerterfassung"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00044",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Messwerterfassung"
+            },
+            {
+              "zaehler": "1250",
+              "nr": "00045",
+              "bezeichnung": "CAV",
+              "standard_status": "C",
+              "bdew_status": "R",
+              "standard_maximale_wiederholungen": 10,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Messwerterfassung"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1360",
+            "nr": null,
+            "bezeichnung": "SG31",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 99,
+            "bdew_maximale_wiederholungen": 2,
+            "ebene": 2,
+            "inhalt": "Preisangabe zur Position"
+          },
+          "segmente": [
+            {
+              "zaehler": "1370",
+              "nr": "00046",
+              "bezeichnung": "PRI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Preisangaben"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1420",
+            "nr": null,
+            "bezeichnung": "SG32",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 9999,
+            "bdew_maximale_wiederholungen": 9999,
+            "ebene": 2,
+            "inhalt": "Ger\u00e4tenummer"
+          },
+          "segmente": [
+            {
+              "zaehler": "1430",
+              "nr": "00047",
+              "bezeichnung": "RFF",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Ger\u00e4tenummer"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1420",
+            "nr": null,
+            "bezeichnung": "SG32",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 9999,
+            "bdew_maximale_wiederholungen": 9999,
+            "ebene": 2,
+            "inhalt": "Referenz auf ID weiterer Marktlokationen"
+          },
+          "segmente": [
+            {
+              "zaehler": "1430",
+              "nr": "00048",
+              "bezeichnung": "RFF",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Referenz auf ID weiterer Marktlokationen"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1420",
+            "nr": null,
+            "bezeichnung": "SG32",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 9999,
+            "bdew_maximale_wiederholungen": 9999,
+            "ebene": 2,
+            "inhalt": "Referenz auf ver\u00f6ffentlichte Preisliste"
+          },
+          "segmente": [
+            {
+              "zaehler": "1430",
+              "nr": "00049",
+              "bezeichnung": "RFF",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Referenz auf einen ver\u00f6ffentlichten Preiskatalog"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1840",
+            "nr": null,
+            "bezeichnung": "SG42",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Beteiligter Marktpartner MP-ID"
+          },
+          "segmente": [
+            {
+              "zaehler": "1850",
+              "nr": "00050",
+              "bezeichnung": "NAD",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Beteiligter Marktpartner MP-ID"
+            }
+          ],
+          "segmentgruppen": []
+        }
+      ]
+    },
+    {
+      "header_linie": {
+        "zaehler": "1060",
+        "nr": null,
+        "bezeichnung": "SG27",
+        "standard_status": "M",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 200000,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "Erforderliches Produkt Schaltzeitdefinitionen"
+      },
+      "segmente": [
+        {
+          "zaehler": "1070",
+          "nr": "00051",
+          "bezeichnung": "LIN",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Erforderliches Produkt Schaltzeitdefinitionen"
+        },
+        {
+          "zaehler": "1080",
+          "nr": "00052",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Erforderliches Produkt Schaltzeitdefinitionen"
+        },
+        {
+          "zaehler": "1080",
+          "nr": "00053",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 3,
+          "ebene": 2,
+          "inhalt": "Artikel-ID"
+        }
+      ],
+      "segmentgruppen": [
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "R",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Zugeordnete Schaltzeitdefinition"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00054",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Zugeordnete Schaltzeitdefinition"
+            }
+          ],
+          "segmentgruppen": []
+        }
+      ]
+    },
+    {
+      "header_linie": {
+        "zaehler": "1060",
+        "nr": null,
+        "bezeichnung": "SG27",
+        "standard_status": "M",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 200000,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "Erforderliches Produkt Leistungskurvendefinitionen"
+      },
+      "segmente": [
+        {
+          "zaehler": "1070",
+          "nr": "00055",
+          "bezeichnung": "LIN",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Erforderliches Produkt Leistungskurvendefinitionen"
+        },
+        {
+          "zaehler": "1080",
+          "nr": "00056",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Erforderliches Produkt Leistungskurvendefinitionen"
+        },
+        {
+          "zaehler": "1080",
+          "nr": "00057",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 3,
+          "ebene": 2,
+          "inhalt": "Artikel-ID"
+        }
+      ],
+      "segmentgruppen": [
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "R",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Zugeordnete Leistungskurvendefinitionen"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00058",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Zugeordnete Leistungskurvendefinition"
+            }
+          ],
+          "segmentgruppen": []
+        }
+      ]
+    },
+    {
+      "header_linie": {
+        "zaehler": "1060",
+        "nr": null,
+        "bezeichnung": "SG27",
+        "standard_status": "M",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 200000,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "Erforderliches Produkt Ad-hoc-Steuerkanal"
+      },
+      "segmente": [
+        {
+          "zaehler": "1070",
+          "nr": "00059",
+          "bezeichnung": "LIN",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Erforderliches Produkt Ad-hoc-Steuerkanal"
+        },
+        {
+          "zaehler": "1080",
+          "nr": "00060",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Erforderliches Produkt Ad-hoc-Steuerkanal"
+        },
+        {
+          "zaehler": "1080",
+          "nr": "00061",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 3,
+          "ebene": 2,
+          "inhalt": "Artikel-ID"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "1060",
+        "nr": null,
+        "bezeichnung": "SG27",
+        "standard_status": "M",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 200000,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "Erforderliches Messprodukt f\u00fcr Werte nach Typ 2 aus\nBackend"
+      },
+      "segmente": [
+        {
+          "zaehler": "1070",
+          "nr": "00062",
+          "bezeichnung": "LIN",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Erforderliches Messprodukt f\u00fcr Werte nach Typ 2 aus\nBackend"
+        },
+        {
+          "zaehler": "1080",
+          "nr": "00063",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Erforderliches Messprodukt f\u00fcr Werte nach Typ 2 aus\nBackend"
+        },
+        {
+          "zaehler": "1080",
+          "nr": "00064",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 3,
+          "ebene": 2,
+          "inhalt": "Artikel-ID"
+        },
+        {
+          "zaehler": "1080",
+          "nr": "00065",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "D",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 23,
+          "ebene": 2,
+          "inhalt": "OBIS-Kennzahl f\u00fcr Werte nach Typ 2 Backend"
+        }
+      ],
+      "segmentgruppen": [
+        {
+          "header_linie": {
+            "zaehler": "1360",
+            "nr": null,
+            "bezeichnung": "SG31",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 99,
+            "bdew_maximale_wiederholungen": 3,
+            "ebene": 2,
+            "inhalt": "Preisangabe zur Position"
+          },
+          "segmente": [
+            {
+              "zaehler": "1370",
+              "nr": "00066",
+              "bezeichnung": "PRI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Preisangaben"
+            }
+          ],
+          "segmentgruppen": []
+        }
+      ]
+    },
+    {
+      "header_linie": {
+        "zaehler": "1060",
+        "nr": null,
+        "bezeichnung": "SG27",
+        "standard_status": "M",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 200000,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "Erforderliches Produkt Konfigurationserlaubnis f\u00fcr\nWerte nach Typ 2 aus SMGW"
+      },
+      "segmente": [
+        {
+          "zaehler": "1070",
+          "nr": "00067",
+          "bezeichnung": "LIN",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Erforderliches Produkt Konfigurationserlaubnis f\u00fcr Werte\nnach Typ 2 aus SMGW"
+        },
+        {
+          "zaehler": "1080",
+          "nr": "00068",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Erforderliches Produkt Konfigurationserlaubnis f\u00fcr Werte\nnach Typ 2 aus SMGW"
+        },
+        {
+          "zaehler": "1080",
+          "nr": "00069",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 3,
+          "ebene": 2,
+          "inhalt": "Artikel-ID"
+        }
+      ],
+      "segmentgruppen": [
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "R",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "\u00c4nderungsm\u00f6glichkeit der Konfiguration im SMGW"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00070",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "\u00c4nderungsm\u00f6glichkeit der Konfiguration im SMGW"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1230",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 999,
+            "ebene": 2,
+            "inhalt": "Schwellwerte"
+          },
+          "segmente": [
+            {
+              "zaehler": "1240",
+              "nr": "00071",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Schwellwerte"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "1360",
+            "nr": null,
+            "bezeichnung": "SG31",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 99,
+            "bdew_maximale_wiederholungen": 3,
+            "ebene": 2,
+            "inhalt": "Preisangabe zur Position"
+          },
+          "segmente": [
+            {
+              "zaehler": "1370",
+              "nr": "00072",
+              "bezeichnung": "PRI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Preisangaben"
+            }
+          ],
+          "segmentgruppen": []
+        }
+      ]
+    }
+  ]
+}

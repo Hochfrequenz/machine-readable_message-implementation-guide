@@ -1,0 +1,33 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00001,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00002,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00003,DTM,C,R,9,1,1,Dokumentendatum
+0090,,SG2,C,R,9,1,1,Referenznummer/-version mit Datum
+0100,00004,RFF,M,M,1,1,1,Referenzangaben
+0110,00005,DTM,C,R,9,1,2,Referenzdatum
+0090,,SG2,C,D,9,1,1,Dokumentennummer der referenzierten Nachricht
+0100,00006,RFF,M,M,1,1,1,Dokumentennummer der referenzierten Nachricht
+0090,,SG2,C,D,9,1,1,Referenznummer des Vorgangs
+0100,00007,RFF,M,M,1,1,1,Referenznummer des Vorgangs
+0120,,SG3,C,R,9,1,1,MP-ID Absender
+0130,00008,NAD,M,M,1,1,1,MP-ID Absender
+0140,00009,CTA,C,O,9,1,2,Ansprechpartner
+0150,00010,COM,C,D,9,5,2,Kommunikationsverbindung
+0120,,SG3,C,R,9,1,1,MP-ID Empfänger
+0130,00011,NAD,M,M,1,1,1,MP-ID Empfänger
+0160,,SG4,C,D,99999,99999,1,Fehlerbeschreibung
+0170,00012,ERC,M,M,1,1,1,Fehlercode
+0180,00013,FTX,C,D,1,1,2,Freier Text
+0190,,SG5,C,R,9,1,2,Referenznummer der Nachricht
+0200,00014,RFF,M,M,1,1,2,Referenznummer der Nachricht
+0190,,SG5,C,R,9,1,2,Information zur fehlerhaften Nachricht
+0200,00015,RFF,M,M,1,1,2,Dokumentennummer der referenzierten Nachricht
+0210,00016,FTX,C,O,9,1,3,Fehlerbeschreibung
+0210,00017,FTX,C,D,9,1,3,Ortsangabe des AHB-Fehlers
+0190,,SG5,C,D,9,1,2,Informationen zum fehlerhaften Vorgang
+0200,00018,RFF,M,M,1,1,2,Referenznummer des Vorgangs
+0210,00019,FTX,C,O,9,1,3,Fehlerbeschreibung
+0210,00020,FTX,C,D,9,1,3,Ortsangabe des AHB-Fehlers
+0190,,SG5,C,D,9,1,2,Netzbetreiber
+0200,00021,RFF,M,M,1,1,2,Netzbetreiber
+0220,00022,UNT,M,M,1,1,0,Nachrichten-Endesegment

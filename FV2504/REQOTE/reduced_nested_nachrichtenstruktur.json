@@ -1,0 +1,265 @@
+{
+  "header_linie": null,
+  "segmente": [
+    {
+      "zaehler": "0010",
+      "nr": "00001",
+      "bezeichnung": "UNH",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Kopfsegment"
+    },
+    {
+      "zaehler": "0020",
+      "nr": "00002",
+      "bezeichnung": "BGM",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Beginn der Nachricht"
+    },
+    {
+      "zaehler": "0030",
+      "nr": "00003",
+      "bezeichnung": "DTM",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 35,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Nachrichtendatum"
+    },
+    {
+      "zaehler": "0060",
+      "nr": "00007",
+      "bezeichnung": "IMD",
+      "standard_status": "C",
+      "bdew_status": "D",
+      "standard_maximale_wiederholungen": 999,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Grund des Angebots"
+    },
+    {
+      "zaehler": "0080",
+      "nr": "00008",
+      "bezeichnung": "FTX",
+      "standard_status": "C",
+      "bdew_status": "D",
+      "standard_maximale_wiederholungen": 99,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Allgemeine Information (Feld f\u00fcr allgemeine Hinweise)"
+    },
+    {
+      "zaehler": "2200",
+      "nr": "00041",
+      "bezeichnung": "UNS",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Abschnitts-Kontrollsegment"
+    },
+    {
+      "zaehler": "2270",
+      "nr": "00042",
+      "bezeichnung": "UNT",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Endesegment"
+    }
+  ],
+  "segmentgruppen": [
+    {
+      "header_linie": {
+        "zaehler": "0090",
+        "nr": null,
+        "bezeichnung": "SG1",
+        "standard_status": "C",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 9999,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "Pr\u00fcfidentifikator"
+      },
+      "segmente": [
+        {
+          "zaehler": "0100",
+          "nr": "00012",
+          "bezeichnung": "RFF",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Referenznummer des Vorgangs der betroffenen Antwort\nauf Bestellung"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0510",
+        "nr": null,
+        "bezeichnung": "SG11",
+        "standard_status": "C",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 99,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "MP-ID des NB des Vorgangs der Anmeldung nach WiM"
+      },
+      "segmente": [
+        {
+          "zaehler": "0520",
+          "nr": "00018",
+          "bezeichnung": "NAD",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Liefer-, bzw. Bezugsort"
+        },
+        {
+          "zaehler": "0530",
+          "nr": "00019",
+          "bezeichnung": "LOC",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 99,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Meldepunkt"
+        }
+      ],
+      "segmentgruppen": [
+        {
+          "header_linie": {
+            "zaehler": "0610",
+            "nr": null,
+            "bezeichnung": "SG14",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 5,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Kontaktinformationen"
+          },
+          "segmente": [
+            {
+              "zaehler": "0620",
+              "nr": "00015",
+              "bezeichnung": "CTA",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Ansprechpartner"
+            },
+            {
+              "zaehler": "0630",
+              "nr": "00016",
+              "bezeichnung": "COM",
+              "standard_status": "C",
+              "bdew_status": "R",
+              "standard_maximale_wiederholungen": 5,
+              "bdew_maximale_wiederholungen": 5,
+              "ebene": 3,
+              "inhalt": "Kommunikationsverbindung"
+            }
+          ],
+          "segmentgruppen": []
+        }
+      ]
+    },
+    {
+      "header_linie": {
+        "zaehler": "1020",
+        "nr": null,
+        "bezeichnung": "SG27",
+        "standard_status": "M",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 200000,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "LIN"
+      },
+      "segmente": [
+        {
+          "zaehler": "1030",
+          "nr": "00034",
+          "bezeichnung": "LIN",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Erforderliches Produkt Konfigurationserlaubnis f\u00fcr Werte\nnach Typ 2 aus SMGW"
+        },
+        {
+          "zaehler": "1040",
+          "nr": "00035",
+          "bezeichnung": "PIA",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 25,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Erforderliches Produkt Konfigurationserlaubnis f\u00fcr Werte\nnach Typ 2 aus SMGW"
+        },
+        {
+          "zaehler": "1140",
+          "nr": "00036",
+          "bezeichnung": "FTX",
+          "standard_status": "C",
+          "bdew_status": "R",
+          "standard_maximale_wiederholungen": 99,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 2,
+          "inhalt": "Zieladresse URI"
+        }
+      ],
+      "segmentgruppen": [
+        {
+          "header_linie": {
+            "zaehler": "1170",
+            "nr": null,
+            "bezeichnung": "SG28",
+            "standard_status": "C",
+            "bdew_status": "R",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Zugeordnete Schaltzeitdefinition"
+          },
+          "segmente": [
+            {
+              "zaehler": "1180",
+              "nr": "00040",
+              "bezeichnung": "CCI",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Schwellwerte"
+            }
+          ],
+          "segmentgruppen": []
+        }
+      ]
+    }
+  ]
+}

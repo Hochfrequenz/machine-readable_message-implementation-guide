@@ -1,0 +1,55 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0000,00002,UNB,M,M,1,1,0,Nutzdaten-Kopfsegment
+0010,00003,UNH,M,M,1,1,0,Nachrichtenkopfsegment
+0020,00004,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00005,DTM,M,M,9,1,1,Nachrichtendatum
+0050,,SG1,C,D,9,1,1,Referenz
+0060,00006,RFF,M,M,1,1,1,Referenzangaben
+0070,00007,DTM,C,D,9,1,2,"Versionsangabe marktlokationsscharfe Allokationsliste
+Gas (MMMA)"
+0050,,SG1,C,R,9,1,1,Prüfidentifikator
+0060,00008,RFF,M,M,1,1,1,Prüfidentifikator
+0080,,SG2,C,R,99,1,1,MP-ID Absender
+0090,00009,NAD,M,M,1,1,1,MP-ID Absender
+0130,,SG4,C,D,9,1,2,Kontaktinformation
+0140,00010,CTA,M,M,1,1,2,Ansprechpartner
+0150,00011,COM,C,R,9,5,3,Kommunikationsverbindung
+0080,,SG2,C,R,99,1,1,MP-ID Empfänger
+0090,00012,NAD,M,M,1,1,1,MP-ID Empfänger
+0160,00013,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
+0170,,SG5,M,M,99999,99999,1,"Liefer-, bzw. Bezugsort"
+0180,00014,NAD,M,M,1,1,1,Name und Adresse
+0190,,SG6,M,D,99999,1,2,Bilanzkreis
+0200,00015,LOC,M,M,1,1,2,Bilanzkreis
+0190,,SG6,M,M,99999,1,2,Wert- und Erfassungsangaben zum Objekt
+0200,00016,LOC,M,M,1,1,2,Identifikationsangabe
+0210,00017,DTM,C,D,9,1,3,Beginn Messperiode Übertragungszeitraum
+0210,00018,DTM,C,D,9,1,3,Ende Messperiode Übertragungszeitraum
+0210,00019,DTM,C,D,9,1,3,Bilanzierungsmonat
+0210,00020,DTM,C,D,9,1,3,Versionsangabe 
+0210,00021,DTM,C,D,9,1,3,"Gültigkeit, Beginndatum Profilschar"
+0220,,SG7,C,D,99,1,3,Referenzangaben
+0230,00022,RFF,M,M,1,1,3,Gerätenummer
+0220,,SG7,C,D,99,1,3,Referenzangaben
+0230,00023,RFF,M,M,1,1,3,Konfigurations-ID
+0250,,SG8,C,D,99,1,3,Zeitreihentyp
+0260,00024,CCI,M,M,1,1,3,Zeitreihentyp
+0280,,SG9,C,D,99999,99999,3,Positionsdaten
+0290,00025,LIN,M,M,1,1,3,lfd. Position
+0300,00026,PIA,C,R,9,1,4,Produktidentifikation
+0350,,SG10,M,M,9999,9999,4,Mengen- und Statusangaben
+0360,00027,QTY,M,M,1,1,4,Mengenangaben
+0370,00028,DTM,C,D,9,1,5,Beginn Messperiode
+0370,00029,DTM,C,D,9,1,5,Ende Messperiode
+0370,00030,DTM,C,D,9,1,5,Ablesedatum
+0370,00031,DTM,C,D,9,1,5,Nutzungszeitpunkt
+0370,00032,DTM,C,D,9,1,5,Ausführungs- / Änderungszeitpunkt
+0370,00033,DTM,C,D,9,1,5,Leistungsperiode
+0380,00034,STS,C,D,9,4,5,Plausibilisierungshinweis
+0380,00035,STS,C,D,9,1,5,Ersatzwertbildungsverfahren
+0380,00036,STS,C,D,9,1,5,Korrekturgrund
+0380,00037,STS,C,D,9,1,5,Grund der Ersatzwertbildung
+0380,00038,STS,C,D,9,1,5,Gasqualität
+0380,00039,STS,C,D,9,2,5,Grundlage der Energiemenge
+0440,00040,UNT,M,M,1,1,0,Nachrichten-Endesegment
+0000,00041,UNZ,M,M,1,1,0,Nutzdaten-Endesegment
