@@ -33,5 +33,5 @@ zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholun
 1320,00021,LIN,M,R,1,1,2,Positionsdaten
 1560,,SG40,C,R,100,1,3,Preisangabe
 1570,00022,PRI,M,M,1,1,3,Preisangaben
-1600,00023,RNG,C,D,1,1,4,Zonenintervallgrenzen
+1600,00023,RNG,C,R,1,1,4,Zonenintervallgrenzen
 2400,00024,UNT,M,M,1,1,0,Nachrichten-Endesegment

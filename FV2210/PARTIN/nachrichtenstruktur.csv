@@ -24,9 +24,9 @@ zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholun
 Marktkommunikation"
 0200,00016,FTX,C,R,9,1,2,E-Mail Adresse für den elektronischen Datenaustausch
 0200,00017,FTX,C,R,9,1,2,Internetseite (URL)
-0200,00018,FTX,C,D,9,1,2,Gericht und Handelsregister-Nummer
-0260,,SG6,C,R,15,2,2,"Steuernummer, Umsatzsteuernummer"
-0270,00019,RFF,M,M,1,1,2,"Steuernummer, Umsatzsteuernummer"
+0200,00018,FTX,C,R,9,1,2,Gericht und Handelsregister-Nummer
+0260,,SG6,C,R,15,1,2,Umsatzsteuer-ID
+0270,00019,RFF,M,M,1,1,2,Umsatzsteuer-ID
 0260,,SG6,C,D,15,1,2,Faxnummer
 0270,00020,RFF,M,D,1,1,2,Faxnummer
 0490,,SG12,C,R,999,1,2,Erreichbarkeit an Werktagen
