@@ -316,7 +316,7 @@
           "nr": "00018",
           "bezeichnung": "FTX",
           "standard_status": "C",
-          "bdew_status": "D",
+          "bdew_status": "R",
           "standard_maximale_wiederholungen": 9,
           "bdew_maximale_wiederholungen": 1,
           "ebene": 2,
@@ -332,9 +332,9 @@
             "standard_status": "C",
             "bdew_status": "R",
             "standard_maximale_wiederholungen": 15,
-            "bdew_maximale_wiederholungen": 2,
+            "bdew_maximale_wiederholungen": 1,
             "ebene": 2,
-            "inhalt": "Steuernummer, Umsatzsteuernummer"
+            "inhalt": "Umsatzsteuer-ID"
           },
           "segmente": [
             {
@@ -346,7 +346,7 @@
               "standard_maximale_wiederholungen": 1,
               "bdew_maximale_wiederholungen": 1,
               "ebene": 2,
-              "inhalt": "Steuernummer, Umsatzsteuernummer"
+              "inhalt": "Umsatzsteuer-ID"
             }
           ],
           "segmentgruppen": []
