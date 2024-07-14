@@ -32,103 +32,101 @@ zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholun
 0140,00023,LOC,C,D,99,1,2,Meldepunkt
 0160,,SG3,C,D,99,99,2,Referenz auf ID der Marktlokation
 0170,00024,RFF,M,M,1,1,2,Referenz auf ID der Marktlokation
-0160,,SG3,C,D,99,1,2,Konfigurations-ID
-0170,00025,RFF,M,M,1,1,2,Konfigurations-ID
 0120,,SG2,C,D,99,1,1,Marktlokationsadresse
-0130,00026,NAD,M,M,1,1,1,Marktlokationsadresse
+0130,00025,NAD,M,M,1,1,1,Marktlokationsadresse
 0120,,SG2,C,D,99,1,1,Messlokationsadresse
-0130,00027,NAD,M,M,1,1,1,Messlokationsadresse
+0130,00026,NAD,M,M,1,1,1,Messlokationsadresse
 0120,,SG2,C,D,99,1,1,Kunde des Lieferanten
-0130,00028,NAD,M,M,1,1,1,Kunde des Lieferanten
+0130,00027,NAD,M,M,1,1,1,Kunde des Lieferanten
 0160,,SG3,C,D,99,1,2,Kundennummer beim Lieferanten
-0170,00029,RFF,M,M,1,1,2,Kundennummer beim Lieferanten
+0170,00028,RFF,M,M,1,1,2,Kundennummer beim Lieferanten
 0120,,SG2,C,D,99,1,1,Kunde des Messstellenbetreibers
-0130,00030,NAD,M,M,1,1,1,Kunde des Messstellenbetreibers
+0130,00029,NAD,M,M,1,1,1,Kunde des Messstellenbetreibers
 0120,,SG2,C,D,99,1,1,Adresse für Treffpunkt
-0130,00031,NAD,M,M,1,1,1,Adresse für Treffpunkt
+0130,00030,NAD,M,M,1,1,1,Adresse für Treffpunkt
 0120,,SG2,C,D,99,1,1,MP-ID des Eigentümers der Liste der Zählzeitdefinitionen
-0130,00032,NAD,M,M,1,1,1,MP-ID des Eigentümers der Liste der Zählzeitdefinitionen
+0130,00031,NAD,M,M,1,1,1,MP-ID des Eigentümers der Liste der Zählzeitdefinitionen
 0290,,SG7,C,D,5,1,1,Währungsangaben
-0300,00033,CUX,M,M,1,1,1,Währungsangaben
+0300,00032,CUX,M,M,1,1,1,Währungsangaben
 1100,,SG29,C,D,200000,200000,1,Positionsteil
-1110,00034,LIN,M,M,1,1,1,Positionsdaten
-1120,00035,PIA,C,D,25,25,2,OBIS-Kennzahl
-1130,00036,IMD,C,D,99,1,2,Grund der Anforderung von Werten
-1150,00037,QTY,C,D,99,1,2,Menge
-1180,00038,DTM,C,D,35,1,2,Zeitpunkt für Wertanfrage
-1180,00039,DTM,C,D,35,1,2,Beginn Zeitraum für Wertanfrage
-1180,00040,DTM,C,D,35,1,2,Ende Zeitraum für Wertanfrage
-1190,00041,MOA,C,D,10,1,2,Positionsnettobetrag
-1270,00042,FTX,C,D,99,1,2,Allgemeine Information (Feld für allgemeine Hinweise)
-1270,00043,FTX,C,D,99,1,2,"Beschreibung der Reklamation von Werten und
+1110,00033,LIN,M,M,1,1,1,Positionsdaten
+1120,00034,PIA,C,D,25,25,2,OBIS-Kennzahl
+1130,00035,IMD,C,D,99,1,2,Grund der Anforderung von Werten
+1150,00036,QTY,C,D,99,1,2,Menge
+1180,00037,DTM,C,D,35,1,2,Zeitpunkt für Wertanfrage
+1180,00038,DTM,C,D,35,1,2,Beginn Zeitraum für Wertanfrage
+1180,00039,DTM,C,D,35,1,2,Ende Zeitraum für Wertanfrage
+1190,00040,MOA,C,D,10,1,2,Positionsnettobetrag
+1270,00041,FTX,C,D,99,1,2,Allgemeine Information (Feld für allgemeine Hinweise)
+1270,00042,FTX,C,D,99,1,2,"Beschreibung der Reklamation von Werten und
 Zählzeitdefinitionen"
 1280,,SG30,C,D,999,1,2,Profilgruppe
-1290,00044,CCI,M,M,1,1,2,Profilgruppe
+1290,00043,CCI,M,M,1,1,2,Profilgruppe
 1280,,SG30,C,D,999,1,2,Prognosegrundlage
-1290,00045,CCI,M,M,1,1,2,Prognosegrundlage
-1300,00046,CAV,C,R,10,1,3,Prognosegrundlage
+1290,00044,CCI,M,M,1,1,2,Prognosegrundlage
+1300,00045,CAV,C,R,10,1,3,Prognosegrundlage
 1280,,SG30,C,D,999,1,2,Konzessionsabgabe
-1290,00047,CCI,M,M,1,1,2,Konzessionsabgabe
-1300,00048,CAV,C,R,10,1,3,Konzessionsabgabe
+1290,00046,CCI,M,M,1,1,2,Konzessionsabgabe
+1300,00047,CAV,C,R,10,1,3,Konzessionsabgabe
 1280,,SG30,C,D,999,1,2,Zugeordnete Zählzeit
-1290,00049,CCI,M,M,1,1,2,Zugeordnete Zählzeit
+1290,00048,CCI,M,M,1,1,2,Zugeordnete Zählzeit
 1280,,SG30,C,D,999,1,2,Wertegranularität
-1290,00050,CCI,M,M,1,1,2,Wertegranularität
-1300,00051,CAV,C,R,10,1,3,Wertegranularität
+1290,00049,CCI,M,M,1,1,2,Wertegranularität
+1300,00050,CAV,C,R,10,1,3,Wertegranularität
 1280,,SG30,C,D,999,1,2,Geräteart
-1290,00052,CCI,M,M,1,1,2,Geräteart
+1290,00051,CCI,M,M,1,1,2,Geräteart
 1390,,SG33,C,D,25,1,2,Preis
-1400,00053,PRI,M,M,1,1,2,Preisangaben
+1400,00052,PRI,M,M,1,1,2,Preisangaben
 1450,,SG34,C,D,9999,1,2,Versionsangabe der Summenzeitreihe
-1460,00054,RFF,M,M,1,1,2,Versionsangabe der Summenzeitreihe
+1460,00053,RFF,M,M,1,1,2,Versionsangabe der Summenzeitreihe
 1450,,SG34,C,D,9999,3,2,Gerätenummer
-1460,00055,RFF,M,M,1,1,2,Gerätenummer
+1460,00054,RFF,M,M,1,1,2,Gerätenummer
 1450,,SG34,C,D,9999,1,2,Positionsnummer aus dem Angebot
-1460,00056,RFF,M,M,1,1,2,Positionsnummer aus dem Angebot
+1460,00055,RFF,M,M,1,1,2,Positionsnummer aus dem Angebot
 1630,,SG38,C,D,9999,1,2,MaBiS-ZP
-1640,00057,LOC,M,M,1,1,2,Meldepunkt
+1640,00056,LOC,M,M,1,1,2,Meldepunkt
 1630,,SG38,C,D,9999,1,2,Bilanzkreis für Strom
-1640,00058,LOC,M,M,1,1,2,Bilanzkreis für Strom
+1640,00057,LOC,M,M,1,1,2,Bilanzkreis für Strom
 1100,,SG29,C,D,200000,200000,1,Erforderliches Messprodukt der Marktlokation
-1110,00059,LIN,M,M,1,1,1,Erforderliches Messprodukt der Marktlokation
-1120,00060,PIA,C,R,25,1,2,Erforderliches Messprodukt der Marktlokation
+1110,00058,LIN,M,M,1,1,1,Erforderliches Messprodukt der Marktlokation
+1120,00059,PIA,C,R,25,1,2,Erforderliches Messprodukt der Marktlokation
 1280,,SG30,C,D,999,1,2,Zugeordnete Zählzeit
-1290,00061,CCI,M,M,1,1,2,Zugeordnete Zählzeit
+1290,00060,CCI,M,M,1,1,2,Zugeordnete Zählzeit
 1280,,SG30,C,D,999,1,2,Messprodukt für Netzbetreiber relevant
-1290,00062,CCI,M,M,1,1,2,Messprodukt für Netzbetreiber relevant
-1300,00063,CAV,C,R,10,4,3,Verwendungszweck der Werte
+1290,00061,CCI,M,M,1,1,2,Messprodukt für Netzbetreiber relevant
+1300,00062,CAV,C,R,10,4,3,Verwendungszweck der Werte
 1280,,SG30,C,D,999,1,2,Messprodukt für Lieferant relevant
-1290,00064,CCI,M,M,1,1,2,Messprodukt für Lieferant relevant
-1300,00065,CAV,C,R,10,4,3,Verwendungszweck der Werte
+1290,00063,CCI,M,M,1,1,2,Messprodukt für Lieferant relevant
+1300,00064,CAV,C,R,10,4,3,Verwendungszweck der Werte
 1280,,SG30,C,D,999,1,2,Messprodukt für Übertragungsnetzbetreiber relevant
-1290,00066,CCI,M,M,1,1,2,Messprodukt für Übertragungsnetzbetreiber relevant
-1300,00067,CAV,C,R,10,4,3,Verwendungszweck der Werte
+1290,00065,CCI,M,M,1,1,2,Messprodukt für Übertragungsnetzbetreiber relevant
+1300,00066,CAV,C,R,10,4,3,Verwendungszweck der Werte
 1100,,SG29,C,D,200000,200000,1,Erforderliches Messprodukt der Tranche
-1110,00068,LIN,M,M,1,1,1,Erforderliches Messprodukt der Tranche
-1120,00069,PIA,C,R,25,1,2,Erforderliches Messprodukt der Tranche
+1110,00067,LIN,M,M,1,1,1,Erforderliches Messprodukt der Tranche
+1120,00068,PIA,C,R,25,1,2,Erforderliches Messprodukt der Tranche
 1280,,SG30,C,D,999,1,2,Messprodukt für Netzbetreiber relevant
-1290,00070,CCI,M,M,1,1,2,Messprodukt für Netzbetreiber relevant
-1300,00071,CAV,C,R,10,4,3,Verwendungszweck der Werte
+1290,00069,CCI,M,M,1,1,2,Messprodukt für Netzbetreiber relevant
+1300,00070,CAV,C,R,10,4,3,Verwendungszweck der Werte
 1280,,SG30,C,D,999,1,2,Messprodukt für Lieferant relevant
-1290,00072,CCI,M,M,1,1,2,Messprodukt für Lieferant relevant
-1300,00073,CAV,C,R,10,4,3,Verwendungszweck der Werte
+1290,00071,CCI,M,M,1,1,2,Messprodukt für Lieferant relevant
+1300,00072,CAV,C,R,10,4,3,Verwendungszweck der Werte
 1280,,SG30,C,D,999,1,2,Messprodukt für Übertragungsnetzbetreiber relevant
-1290,00074,CCI,M,M,1,1,2,Messprodukt für Übertragungsnetzbetreiber relevant
-1300,00075,CAV,C,R,10,4,3,Verwendungszweck der Werte
+1290,00073,CCI,M,M,1,1,2,Messprodukt für Übertragungsnetzbetreiber relevant
+1300,00074,CAV,C,R,10,4,3,Verwendungszweck der Werte
 1450,,SG34,C,D,9999,1,2,Referenz auf ID der Tranche
-1460,00076,RFF,M,M,1,1,2,Referenz auf ID der Tranche
+1460,00075,RFF,M,M,1,1,2,Referenz auf ID der Tranche
 1100,,SG29,C,D,200000,200000,1,Erforderliches Messprodukt der Messlokation
-1110,00077,LIN,M,M,1,1,1,Erforderliches Messprodukt der Messlokation
-1120,00078,PIA,C,R,25,1,2,Erforderliches Messprodukt der Messlokation
+1110,00076,LIN,M,M,1,1,1,Erforderliches Messprodukt der Messlokation
+1120,00077,PIA,C,R,25,1,2,Erforderliches Messprodukt der Messlokation
 1280,,SG30,C,D,999,1,2,Weitere Beschreibung erforderliches Messprodukt
-1290,00079,CCI,M,M,1,1,2,Weitere Beschreibung erforderliches Messprodukt
-1300,00080,CAV,C,R,10,1,3,Notwendigkeit einer zweiten Messung
-1300,00081,CAV,C,R,10,1,3,"Werteübermittlung an den NB aufgrund weiterem
+1290,00078,CCI,M,M,1,1,2,Weitere Beschreibung erforderliches Messprodukt
+1300,00079,CAV,C,R,10,1,3,Notwendigkeit einer zweiten Messung
+1300,00080,CAV,C,R,10,1,3,"Werteübermittlung an den NB aufgrund weiterem
 Verwendungszweck"
 1280,,SG30,C,D,999,1,2,Zugeordnete Zählzeit
-1290,00082,CCI,M,M,1,1,2,Zugeordnete Zählzeit
+1290,00081,CCI,M,M,1,1,2,Zugeordnete Zählzeit
 1450,,SG34,C,D,9999,1,2,Referenz auf ID der Messlokation
-1460,00083,RFF,M,M,1,1,2,Referenz auf ID der Messlokation
-2490,00084,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
-2500,00085,MOA,C,D,99,1,1,Summenbetrag (netto)
-2560,00086,UNT,M,M,1,1,0,Nachrichten-Endesegment
+1460,00082,RFF,M,M,1,1,2,Referenz auf ID der Messlokation
+2490,00083,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
+2500,00084,MOA,C,D,99,1,1,Summenbetrag (netto)
+2560,00085,UNT,M,M,1,1,0,Nachrichten-Endesegment
