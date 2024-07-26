@@ -218,9 +218,9 @@
             "standard_status": "C",
             "bdew_status": "R",
             "standard_maximale_wiederholungen": 15,
-            "bdew_maximale_wiederholungen": 1,
+            "bdew_maximale_wiederholungen": 2,
             "ebene": 2,
-            "inhalt": "Umsatzsteuer-ID"
+            "inhalt": "Steuernummer, Umsatzsteuernummer"
           },
           "segmente": [
             {
