@@ -76,7 +76,7 @@ zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholun
 1430,00052,RFF,M,M,1,1,2,Referenz auf einen veröffentlichten Preiskatalog
 1840,,SG42,C,D,999,1,2,Beteiligter Marktpartner MP-ID
 1850,00053,NAD,M,M,1,1,2,Beteiligter Marktpartner MP-ID
-1060,,SG27,M,D,200000,2,1,Erforderliches Messprodukt der Marktlokation
+1060,,SG27,M,D,200000,3,1,Erforderliches Messprodukt der Marktlokation
 1070,00054,LIN,M,M,1,1,1,Erforderliches Messprodukt der Marktlokation
 1080,00055,PIA,C,R,25,1,2,Erforderliches Messprodukt der Marktlokation
 1080,00056,PIA,C,R,25,1,2,Artikel-ID
@@ -85,7 +85,7 @@ zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholun
 1280,00058,MOA,M,M,1,1,2,Geldbetrag
 1360,,SG31,C,R,99,1,2,Preisangabe zur Position
 1370,00059,PRI,M,M,1,1,2,Preisangaben
-1060,,SG27,M,D,200000,2,1,Erforderliches Messprodukt der Tranche
+1060,,SG27,M,D,200000,3,1,Erforderliches Messprodukt der Tranche
 1070,00060,LIN,M,M,1,1,1,Erforderliches Messprodukt der Tranche
 1080,00061,PIA,C,R,25,1,2,Erforderliches Messprodukt der Tranche
 1080,00062,PIA,C,R,25,1,2,Artikel-ID
@@ -94,7 +94,7 @@ zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholun
 1280,00064,MOA,M,M,1,1,2,Geldbetrag
 1360,,SG31,C,R,99,1,2,Preisangabe zur Position
 1370,00065,PRI,M,M,1,1,2,Preisangaben
-1060,,SG27,M,D,200000,2,1,Erforderliches Messprodukt der Messlokation
+1060,,SG27,M,D,200000,3,1,Erforderliches Messprodukt der Messlokation
 1070,00066,LIN,M,M,1,1,1,Erforderliches Messprodukt der Messlokation
 1080,00067,PIA,C,R,25,1,2,Erforderliches Messprodukt der Messlokation
 1080,00068,PIA,C,R,25,1,2,Artikel-ID
@@ -103,7 +103,7 @@ zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholun
 1280,00070,MOA,M,M,1,1,2,Geldbetrag
 1360,,SG31,C,R,99,1,2,Preisangabe zur Position
 1370,00071,PRI,M,M,1,1,2,Preisangaben
-1060,,SG27,M,D,200000,2,1,Erforderliches Messprodukt der Netzlokation
+1060,,SG27,M,D,200000,3,1,Erforderliches Messprodukt der Netzlokation
 1070,00072,LIN,M,M,1,1,1,Erforderliches Messprodukt der Netzlokation
 1080,00073,PIA,C,R,25,1,2,Erforderliches Messprodukt der Netzlokation
 1080,00074,PIA,C,R,25,1,2,Artikel-ID
