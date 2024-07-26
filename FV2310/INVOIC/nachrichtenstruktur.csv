@@ -32,7 +32,7 @@ zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholun
 0270,,SG3,C,D,9999,1,2,"Steuernummer, Umsatzsteuernummer"
 0280,00026,RFF,M,M,1,1,2,"Steuernummer, Umsatzsteuernummer"
 0220,,SG2,C,D,99,1,1,Lieferanschrift
-0230,00027,NAD,M,M,1,1,1,Adresse der Leistungserbringung
+0230,00027,NAD,M,M,1,1,1,Adresse der Markt- oder Messlokation
 0240,00028,LOC,C,R,25,1,2,Meldepunkt
 0220,,SG2,C,D,99,1,1,Netzbetreiberkonto
 0230,00029,NAD,M,M,1,1,1,Netzbetreiberkontonummer

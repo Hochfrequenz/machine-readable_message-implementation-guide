@@ -441,7 +441,7 @@
           "standard_maximale_wiederholungen": 1,
           "bdew_maximale_wiederholungen": 1,
           "ebene": 1,
-          "inhalt": "Adresse der Leistungserbringung"
+          "inhalt": "Adresse der Markt- oder Messlokation"
         },
         {
           "zaehler": "0240",
