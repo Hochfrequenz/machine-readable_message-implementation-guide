@@ -1,0 +1,106 @@
+{
+  "header_linie": null,
+  "segmente": [
+    {
+      "zaehler": "0010",
+      "nr": "C0001",
+      "bezeichnung": "UNH",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Kopfsegment"
+    },
+    {
+      "zaehler": "0020",
+      "nr": "C0002",
+      "bezeichnung": "UCI",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "\u00dcbertragungsdatei-Antwort"
+    },
+    {
+      "zaehler": "0150",
+      "nr": "C0006",
+      "bezeichnung": "UNT",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Endesegment"
+    }
+  ],
+  "segmentgruppen": [
+    {
+      "header_linie": {
+        "zaehler": "0030",
+        "nr": null,
+        "bezeichnung": "SG1",
+        "standard_status": "C",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 999999,
+        "bdew_maximale_wiederholungen": 999999,
+        "ebene": 1,
+        "inhalt": "UCM-SG2"
+      },
+      "segmente": [
+        {
+          "zaehler": "0040",
+          "nr": "C0003",
+          "bezeichnung": "UCM",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Nachrichtenantwort"
+        }
+      ],
+      "segmentgruppen": [
+        {
+          "header_linie": {
+            "zaehler": "0050",
+            "nr": null,
+            "bezeichnung": "SG2",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 999,
+            "ebene": 2,
+            "inhalt": "UCS-UCD"
+          },
+          "segmente": [
+            {
+              "zaehler": "0060",
+              "nr": "C0004",
+              "bezeichnung": "UCS",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Segment-Fehleranzeige"
+            },
+            {
+              "zaehler": "0070",
+              "nr": "C0005",
+              "bezeichnung": "UCD",
+              "standard_status": "C",
+              "bdew_status": "D",
+              "standard_maximale_wiederholungen": 99,
+              "bdew_maximale_wiederholungen": 99,
+              "ebene": 3,
+              "inhalt": "Datenelement-Fehleranzeige"
+            }
+          ],
+          "segmentgruppen": []
+        }
+      ]
+    }
+  ]
+}

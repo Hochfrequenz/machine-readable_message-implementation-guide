@@ -1,0 +1,9 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,C0001,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,C0002,UCI,M,M,1,1,0,Übertragungsdatei-Antwort
+0030,,SG1,C,D,999999,999999,1,UCM-SG2
+0040,C0003,UCM,M,M,1,1,1,Nachrichtenantwort
+0050,,SG2,C,D,999,999,2,UCS-UCD
+0060,C0004,UCS,M,M,1,1,2,Segment-Fehleranzeige
+0070,C0005,UCD,C,D,99,99,3,Datenelement-Fehleranzeige
+0150,C0006,UNT,M,M,1,1,0,Nachrichten-Endesegment
