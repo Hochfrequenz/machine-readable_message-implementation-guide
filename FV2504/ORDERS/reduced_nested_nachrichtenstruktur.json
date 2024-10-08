@@ -58,7 +58,7 @@
     },
     {
       "zaehler": "2490",
-      "nr": "00139",
+      "nr": "00136",
       "bezeichnung": "UNS",
       "standard_status": "M",
       "bdew_status": "M",
@@ -69,7 +69,7 @@
     },
     {
       "zaehler": "2560",
-      "nr": "00140",
+      "nr": "00137",
       "bezeichnung": "UNT",
       "standard_status": "M",
       "bdew_status": "M",
@@ -226,7 +226,7 @@
       "segmente": [
         {
           "zaehler": "1110",
-          "nr": "00133",
+          "nr": "00130",
           "bezeichnung": "LIN",
           "standard_status": "M",
           "bdew_status": "M",
@@ -237,7 +237,7 @@
         },
         {
           "zaehler": "1120",
-          "nr": "00134",
+          "nr": "00131",
           "bezeichnung": "PIA",
           "standard_status": "C",
           "bdew_status": "R",
@@ -281,7 +281,7 @@
         },
         {
           "zaehler": "1270",
-          "nr": "00135",
+          "nr": "00132",
           "bezeichnung": "FTX",
           "standard_status": "C",
           "bdew_status": "D",
@@ -307,7 +307,7 @@
           "segmente": [
             {
               "zaehler": "1290",
-              "nr": "00136",
+              "nr": "00133",
               "bezeichnung": "CCI",
               "standard_status": "M",
               "bdew_status": "M",
@@ -318,7 +318,7 @@
             },
             {
               "zaehler": "1300",
-              "nr": "00137",
+              "nr": "00134",
               "bezeichnung": "CAV",
               "standard_status": "C",
               "bdew_status": "D",

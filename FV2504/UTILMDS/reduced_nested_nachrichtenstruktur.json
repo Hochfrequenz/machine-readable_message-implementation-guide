@@ -36,7 +36,7 @@
     },
     {
       "zaehler": "0670",
-      "nr": "00527",
+      "nr": "00526",
       "bezeichnung": "UNT",
       "standard_status": "M",
       "bdew_status": "M",
@@ -177,7 +177,7 @@
         },
         {
           "zaehler": "0250",
-          "nr": "00034",
+          "nr": "00035",
           "bezeichnung": "STS",
           "standard_status": "C",
           "bdew_status": "D",
@@ -188,7 +188,7 @@
         },
         {
           "zaehler": "0280",
-          "nr": "00037",
+          "nr": "00038",
           "bezeichnung": "FTX",
           "standard_status": "C",
           "bdew_status": "D",
@@ -199,7 +199,7 @@
         },
         {
           "zaehler": "0290",
-          "nr": "00046",
+          "nr": "00047",
           "bezeichnung": "AGR",
           "standard_status": "C",
           "bdew_status": "D",
@@ -225,7 +225,7 @@
           "segmente": [
             {
               "zaehler": "0330",
-              "nr": "00054",
+              "nr": "00055",
               "bezeichnung": "LOC",
               "standard_status": "M",
               "bdew_status": "M",
@@ -252,7 +252,7 @@
           "segmente": [
             {
               "zaehler": "0360",
-              "nr": "00068",
+              "nr": "00069",
               "bezeichnung": "RFF",
               "standard_status": "M",
               "bdew_status": "M",
@@ -263,7 +263,7 @@
             },
             {
               "zaehler": "0370",
-              "nr": "00069",
+              "nr": "00070",
               "bezeichnung": "DTM",
               "standard_status": "C",
               "bdew_status": "D",
@@ -290,7 +290,7 @@
           "segmente": [
             {
               "zaehler": "0420",
-              "nr": "00492",
+              "nr": "00491",
               "bezeichnung": "SEQ",
               "standard_status": "M",
               "bdew_status": "M",
@@ -301,7 +301,7 @@
             },
             {
               "zaehler": "0430",
-              "nr": "00481",
+              "nr": "00480",
               "bezeichnung": "RFF",
               "standard_status": "C",
               "bdew_status": "D",
@@ -312,7 +312,7 @@
             },
             {
               "zaehler": "0440",
-              "nr": "00434",
+              "nr": "00433",
               "bezeichnung": "PIA",
               "standard_status": "C",
               "bdew_status": "R",
@@ -338,7 +338,7 @@
               "segmente": [
                 {
                   "zaehler": "0460",
-                  "nr": "00484",
+                  "nr": "00483",
                   "bezeichnung": "QTY",
                   "standard_status": "M",
                   "bdew_status": "M",
@@ -349,7 +349,7 @@
                 },
                 {
                   "zaehler": "0470",
-                  "nr": "00485",
+                  "nr": "00484",
                   "bezeichnung": "DTM",
                   "standard_status": "C",
                   "bdew_status": "R",
@@ -376,7 +376,7 @@
               "segmente": [
                 {
                   "zaehler": "0510",
-                  "nr": "00493",
+                  "nr": "00492",
                   "bezeichnung": "CCI",
                   "standard_status": "M",
                   "bdew_status": "M",
@@ -387,7 +387,7 @@
                 },
                 {
                   "zaehler": "0520",
-                  "nr": "00494",
+                  "nr": "00493",
                   "bezeichnung": "CAV",
                   "standard_status": "C",
                   "bdew_status": "D",
@@ -416,7 +416,7 @@
           "segmente": [
             {
               "zaehler": "0580",
-              "nr": "00524",
+              "nr": "00523",
               "bezeichnung": "NAD",
               "standard_status": "M",
               "bdew_status": "M",
@@ -427,7 +427,7 @@
             },
             {
               "zaehler": "0590",
-              "nr": "00525",
+              "nr": "00524",
               "bezeichnung": "RFF",
               "standard_status": "C",
               "bdew_status": "D",

@@ -194,38 +194,35 @@ Verwendungszweck"
 1100,,SG29,C,D,200000,1,1,Erforderliches Produkt Ad-hoc-Steuerkanal
 1110,00116,LIN,M,M,1,1,1,Erforderliches Produkt Ad-hoc-Steuerkanal
 1120,00117,PIA,C,R,25,1,2,Erforderliches Produkt Ad-hoc-Steuerkanal
-1270,00118,FTX,C,R,99,1,2,Zieladresse URI
-1270,00119,FTX,C,R,99,1,2,Zertifikatsaussteller (Issuer)
-1270,00120,FTX,C,R,99,1,2,Zertifikatsnutzer (Subject)
-1270,00121,FTX,C,D,99,1,2,Beschreibung der Reklamation der Konfiguration
+1270,00118,FTX,C,D,99,1,2,Beschreibung der Reklamation der Konfiguration
 1100,,SG29,C,D,200000,1,1,"Erforderliches Messprodukt für Werte nach Typ 2 aus
 Backend"
-1110,00122,LIN,M,M,1,1,1,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+1110,00119,LIN,M,M,1,1,1,"Erforderliches Messprodukt für Werte nach Typ 2 aus
 Backend"
-1120,00123,PIA,C,R,25,1,2,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+1120,00120,PIA,C,R,25,1,2,"Erforderliches Messprodukt für Werte nach Typ 2 aus
 Backend"
-1270,00124,FTX,C,D,99,1,2,Beschreibung der Reklamation der Konfiguration
+1270,00121,FTX,C,D,99,1,2,Beschreibung der Reklamation der Konfiguration
 1100,,SG29,C,D,200000,1,1,"Erforderliches Produkt Konfigurationserlaubnis für
 Werte nach Typ 2 aus SMGW"
-1110,00125,LIN,M,M,1,1,1,"Erforderliches Produkt Konfigurationserlaubnis für Werte
+1110,00122,LIN,M,M,1,1,1,"Erforderliches Produkt Konfigurationserlaubnis für Werte
 nach Typ 2 aus SMGW"
-1120,00126,PIA,C,R,25,1,2,"Erforderliches Produkt Konfigurationserlaubnis für Werte
+1120,00123,PIA,C,R,25,1,2,"Erforderliches Produkt Konfigurationserlaubnis für Werte
 nach Typ 2 aus SMGW"
-1270,00127,FTX,C,R,99,1,2,Zieladresse URI
-1270,00128,FTX,C,R,99,1,2,Zertifikatsaussteller (Issuer)
-1270,00129,FTX,C,R,99,1,2,Zertifikatsnutzer (Subject)
-1270,00130,FTX,C,D,99,1,2,Beschreibung der Reklamation der Konfiguration
+1270,00124,FTX,C,R,99,1,2,Zieladresse URI
+1270,00125,FTX,C,R,99,1,2,Zertifikatsaussteller (Issuer)
+1270,00126,FTX,C,R,99,1,2,Zertifikatsnutzer (Subject)
+1270,00127,FTX,C,D,99,1,2,Beschreibung der Reklamation der Konfiguration
 1280,,SG30,C,R,999,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
-1290,00131,CCI,M,M,1,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
+1290,00128,CCI,M,M,1,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
 1280,,SG30,C,D,999,999,2,Schwellwerte
-1290,00132,CCI,M,M,1,1,2,Schwellwerte
+1290,00129,CCI,M,M,1,1,2,Schwellwerte
 1100,,SG29,C,D,200000,1,1,Erforderliches Produkt Abrechnungsdaten
-1110,00133,LIN,M,M,1,1,1,Erforderliches Produkt Abrechnungsdaten
-1120,00134,PIA,C,R,25,1,2,Erforderliches Produkt Abrechnungsdaten
-1270,00135,FTX,C,D,99,1,2,Link zur Abtretungserklärung / Vollmacht vom Kunden
+1110,00130,LIN,M,M,1,1,1,Erforderliches Produkt Abrechnungsdaten
+1120,00131,PIA,C,R,25,1,2,Erforderliches Produkt Abrechnungsdaten
+1270,00132,FTX,C,D,99,1,2,Link zur Abtretungserklärung / Vollmacht vom Kunden
 1280,,SG30,C,R,999,1,2,Produkteigenschaft
-1290,00136,CCI,M,M,1,1,2,Produkteigenschaft
-1300,00137,CAV,C,D,10,1,3,Code der Produkteigenschaft
-1300,00138,CAV,C,D,10,1,3,Wertedetails zum Produkt
-2490,00139,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
-2560,00140,UNT,M,M,1,1,0,Nachrichten-Endesegment
+1290,00133,CCI,M,M,1,1,2,Produkteigenschaft
+1300,00134,CAV,C,D,10,1,3,Code der Produkteigenschaft
+1300,00135,CAV,C,D,10,1,3,Wertedetails zum Produkt
+2490,00136,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
+2560,00137,UNT,M,M,1,1,0,Nachrichten-Endesegment

@@ -47,7 +47,7 @@
     },
     {
       "zaehler": "0160",
-      "nr": "00013",
+      "nr": "00014",
       "bezeichnung": "UNS",
       "standard_status": "M",
       "bdew_status": "M",
@@ -58,7 +58,7 @@
     },
     {
       "zaehler": "0440",
-      "nr": "00040",
+      "nr": "00041",
       "bezeichnung": "UNT",
       "standard_status": "M",
       "bdew_status": "M",
@@ -69,7 +69,7 @@
     },
     {
       "zaehler": "0000",
-      "nr": "00041",
+      "nr": "00042",
       "bezeichnung": "UNZ",
       "standard_status": "M",
       "bdew_status": "M",
@@ -124,6 +124,33 @@
         "nr": null,
         "bezeichnung": "SG1",
         "standard_status": "C",
+        "bdew_status": "D",
+        "standard_maximale_wiederholungen": 9,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "Referenz auf vorherige Stammdatenmeldung des MSB"
+      },
+      "segmente": [
+        {
+          "zaehler": "0060",
+          "nr": "00008",
+          "bezeichnung": "RFF",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Referenz auf vorherige Stammdatenmeldung des MSB"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0050",
+        "nr": null,
+        "bezeichnung": "SG1",
+        "standard_status": "C",
         "bdew_status": "R",
         "standard_maximale_wiederholungen": 9,
         "bdew_maximale_wiederholungen": 1,
@@ -133,7 +160,7 @@
       "segmente": [
         {
           "zaehler": "0060",
-          "nr": "00008",
+          "nr": "00009",
           "bezeichnung": "RFF",
           "standard_status": "M",
           "bdew_status": "M",
@@ -160,7 +187,7 @@
       "segmente": [
         {
           "zaehler": "0090",
-          "nr": "00009",
+          "nr": "00010",
           "bezeichnung": "NAD",
           "standard_status": "M",
           "bdew_status": "M",
@@ -186,7 +213,7 @@
           "segmente": [
             {
               "zaehler": "0140",
-              "nr": "00010",
+              "nr": "00011",
               "bezeichnung": "CTA",
               "standard_status": "M",
               "bdew_status": "M",
@@ -197,7 +224,7 @@
             },
             {
               "zaehler": "0150",
-              "nr": "00011",
+              "nr": "00012",
               "bezeichnung": "COM",
               "standard_status": "C",
               "bdew_status": "R",
@@ -226,7 +253,7 @@
       "segmente": [
         {
           "zaehler": "0090",
-          "nr": "00012",
+          "nr": "00013",
           "bezeichnung": "NAD",
           "standard_status": "M",
           "bdew_status": "M",
@@ -253,7 +280,7 @@
       "segmente": [
         {
           "zaehler": "0180",
-          "nr": "00014",
+          "nr": "00015",
           "bezeichnung": "NAD",
           "standard_status": "M",
           "bdew_status": "M",
@@ -279,7 +306,7 @@
           "segmente": [
             {
               "zaehler": "0200",
-              "nr": "00015",
+              "nr": "00016",
               "bezeichnung": "LOC",
               "standard_status": "M",
               "bdew_status": "M",
@@ -306,7 +333,7 @@
           "segmente": [
             {
               "zaehler": "0200",
-              "nr": "00016",
+              "nr": "00017",
               "bezeichnung": "LOC",
               "standard_status": "M",
               "bdew_status": "M",
@@ -317,7 +344,7 @@
             },
             {
               "zaehler": "0210",
-              "nr": "00017",
+              "nr": "00018",
               "bezeichnung": "DTM",
               "standard_status": "C",
               "bdew_status": "D",
@@ -328,7 +355,7 @@
             },
             {
               "zaehler": "0210",
-              "nr": "00018",
+              "nr": "00019",
               "bezeichnung": "DTM",
               "standard_status": "C",
               "bdew_status": "D",
@@ -339,7 +366,7 @@
             },
             {
               "zaehler": "0210",
-              "nr": "00019",
+              "nr": "00020",
               "bezeichnung": "DTM",
               "standard_status": "C",
               "bdew_status": "D",
@@ -350,7 +377,7 @@
             },
             {
               "zaehler": "0210",
-              "nr": "00020",
+              "nr": "00021",
               "bezeichnung": "DTM",
               "standard_status": "C",
               "bdew_status": "D",
@@ -361,7 +388,7 @@
             },
             {
               "zaehler": "0210",
-              "nr": "00021",
+              "nr": "00022",
               "bezeichnung": "DTM",
               "standard_status": "C",
               "bdew_status": "D",
@@ -387,7 +414,7 @@
               "segmente": [
                 {
                   "zaehler": "0230",
-                  "nr": "00022",
+                  "nr": "00023",
                   "bezeichnung": "RFF",
                   "standard_status": "M",
                   "bdew_status": "M",
@@ -414,7 +441,7 @@
               "segmente": [
                 {
                   "zaehler": "0230",
-                  "nr": "00023",
+                  "nr": "00024",
                   "bezeichnung": "RFF",
                   "standard_status": "M",
                   "bdew_status": "M",
@@ -441,7 +468,7 @@
               "segmente": [
                 {
                   "zaehler": "0260",
-                  "nr": "00024",
+                  "nr": "00025",
                   "bezeichnung": "CCI",
                   "standard_status": "M",
                   "bdew_status": "M",
@@ -468,7 +495,7 @@
               "segmente": [
                 {
                   "zaehler": "0290",
-                  "nr": "00025",
+                  "nr": "00026",
                   "bezeichnung": "LIN",
                   "standard_status": "M",
                   "bdew_status": "M",
@@ -479,7 +506,7 @@
                 },
                 {
                   "zaehler": "0300",
-                  "nr": "00026",
+                  "nr": "00027",
                   "bezeichnung": "PIA",
                   "standard_status": "C",
                   "bdew_status": "R",
@@ -505,7 +532,7 @@
                   "segmente": [
                     {
                       "zaehler": "0360",
-                      "nr": "00027",
+                      "nr": "00028",
                       "bezeichnung": "QTY",
                       "standard_status": "M",
                       "bdew_status": "M",
@@ -516,7 +543,7 @@
                     },
                     {
                       "zaehler": "0370",
-                      "nr": "00028",
+                      "nr": "00029",
                       "bezeichnung": "DTM",
                       "standard_status": "C",
                       "bdew_status": "D",
@@ -527,7 +554,7 @@
                     },
                     {
                       "zaehler": "0370",
-                      "nr": "00029",
+                      "nr": "00030",
                       "bezeichnung": "DTM",
                       "standard_status": "C",
                       "bdew_status": "D",
@@ -538,7 +565,7 @@
                     },
                     {
                       "zaehler": "0370",
-                      "nr": "00030",
+                      "nr": "00031",
                       "bezeichnung": "DTM",
                       "standard_status": "C",
                       "bdew_status": "D",
@@ -549,7 +576,7 @@
                     },
                     {
                       "zaehler": "0370",
-                      "nr": "00031",
+                      "nr": "00032",
                       "bezeichnung": "DTM",
                       "standard_status": "C",
                       "bdew_status": "D",
@@ -560,7 +587,7 @@
                     },
                     {
                       "zaehler": "0370",
-                      "nr": "00032",
+                      "nr": "00033",
                       "bezeichnung": "DTM",
                       "standard_status": "C",
                       "bdew_status": "D",
@@ -571,7 +598,7 @@
                     },
                     {
                       "zaehler": "0370",
-                      "nr": "00033",
+                      "nr": "00034",
                       "bezeichnung": "DTM",
                       "standard_status": "C",
                       "bdew_status": "D",
@@ -582,7 +609,7 @@
                     },
                     {
                       "zaehler": "0380",
-                      "nr": "00034",
+                      "nr": "00035",
                       "bezeichnung": "STS",
                       "standard_status": "C",
                       "bdew_status": "D",
@@ -593,7 +620,7 @@
                     },
                     {
                       "zaehler": "0380",
-                      "nr": "00035",
+                      "nr": "00036",
                       "bezeichnung": "STS",
                       "standard_status": "C",
                       "bdew_status": "D",
@@ -604,7 +631,7 @@
                     },
                     {
                       "zaehler": "0380",
-                      "nr": "00036",
+                      "nr": "00037",
                       "bezeichnung": "STS",
                       "standard_status": "C",
                       "bdew_status": "D",
@@ -615,7 +642,7 @@
                     },
                     {
                       "zaehler": "0380",
-                      "nr": "00037",
+                      "nr": "00038",
                       "bezeichnung": "STS",
                       "standard_status": "C",
                       "bdew_status": "D",
@@ -626,7 +653,7 @@
                     },
                     {
                       "zaehler": "0380",
-                      "nr": "00038",
+                      "nr": "00039",
                       "bezeichnung": "STS",
                       "standard_status": "C",
                       "bdew_status": "D",
@@ -637,7 +664,7 @@
                     },
                     {
                       "zaehler": "0380",
-                      "nr": "00039",
+                      "nr": "00040",
                       "bezeichnung": "STS",
                       "standard_status": "C",
                       "bdew_status": "D",

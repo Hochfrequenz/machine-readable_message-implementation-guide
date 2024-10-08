@@ -270,7 +270,7 @@
           "standard_status": "C",
           "bdew_status": "D",
           "standard_maximale_wiederholungen": 9,
-          "bdew_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 9,
           "ebene": 2,
           "inhalt": "Bemerkung (Feld f\u00fcr allgemeine Hinweise)"
         }
