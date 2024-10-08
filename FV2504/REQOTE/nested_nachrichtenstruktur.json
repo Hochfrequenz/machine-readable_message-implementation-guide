@@ -91,7 +91,7 @@
     },
     {
       "zaehler": "2200",
-      "nr": "00041",
+      "nr": "00038",
       "bezeichnung": "UNS",
       "standard_status": "M",
       "bdew_status": "M",
@@ -102,7 +102,7 @@
     },
     {
       "zaehler": "2270",
-      "nr": "00042",
+      "nr": "00039",
       "bezeichnung": "UNT",
       "standard_status": "M",
       "bdew_status": "M",
@@ -572,39 +572,6 @@
           "bdew_maximale_wiederholungen": 1,
           "ebene": 2,
           "inhalt": "Erforderliches Produkt Ad-hoc-Steuerkanal"
-        },
-        {
-          "zaehler": "1140",
-          "nr": "00029",
-          "bezeichnung": "FTX",
-          "standard_status": "C",
-          "bdew_status": "R",
-          "standard_maximale_wiederholungen": 99,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Zieladresse URI"
-        },
-        {
-          "zaehler": "1140",
-          "nr": "00030",
-          "bezeichnung": "FTX",
-          "standard_status": "C",
-          "bdew_status": "R",
-          "standard_maximale_wiederholungen": 99,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Zertifikatsaussteller (Issuer)"
-        },
-        {
-          "zaehler": "1140",
-          "nr": "00031",
-          "bezeichnung": "FTX",
-          "standard_status": "C",
-          "bdew_status": "R",
-          "standard_maximale_wiederholungen": 99,
-          "bdew_maximale_wiederholungen": 1,
-          "ebene": 2,
-          "inhalt": "Zertifikatsnutzer (Subject)"
         }
       ],
       "segmentgruppen": []
@@ -624,7 +591,7 @@
       "segmente": [
         {
           "zaehler": "1030",
-          "nr": "00032",
+          "nr": "00029",
           "bezeichnung": "LIN",
           "standard_status": "M",
           "bdew_status": "M",
@@ -635,7 +602,7 @@
         },
         {
           "zaehler": "1040",
-          "nr": "00033",
+          "nr": "00030",
           "bezeichnung": "PIA",
           "standard_status": "C",
           "bdew_status": "R",
@@ -662,7 +629,7 @@
       "segmente": [
         {
           "zaehler": "1030",
-          "nr": "00034",
+          "nr": "00031",
           "bezeichnung": "LIN",
           "standard_status": "M",
           "bdew_status": "M",
@@ -673,7 +640,7 @@
         },
         {
           "zaehler": "1040",
-          "nr": "00035",
+          "nr": "00032",
           "bezeichnung": "PIA",
           "standard_status": "C",
           "bdew_status": "R",
@@ -684,7 +651,7 @@
         },
         {
           "zaehler": "1140",
-          "nr": "00036",
+          "nr": "00033",
           "bezeichnung": "FTX",
           "standard_status": "C",
           "bdew_status": "R",
@@ -695,7 +662,7 @@
         },
         {
           "zaehler": "1140",
-          "nr": "00037",
+          "nr": "00034",
           "bezeichnung": "FTX",
           "standard_status": "C",
           "bdew_status": "R",
@@ -706,7 +673,7 @@
         },
         {
           "zaehler": "1140",
-          "nr": "00038",
+          "nr": "00035",
           "bezeichnung": "FTX",
           "standard_status": "C",
           "bdew_status": "R",
@@ -732,7 +699,7 @@
           "segmente": [
             {
               "zaehler": "1180",
-              "nr": "00039",
+              "nr": "00036",
               "bezeichnung": "CCI",
               "standard_status": "M",
               "bdew_status": "M",
@@ -759,7 +726,7 @@
           "segmente": [
             {
               "zaehler": "1180",
-              "nr": "00040",
+              "nr": "00037",
               "bezeichnung": "CCI",
               "standard_status": "M",
               "bdew_status": "M",
