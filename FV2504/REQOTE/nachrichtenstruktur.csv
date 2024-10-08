@@ -48,27 +48,24 @@ auf Bestellung"
 1020,,SG27,M,D,200000,1,1,Erforderliches Produkt Ad-hoc-Steuerkanal
 1030,00027,LIN,M,M,1,1,1,Erforderliches Produkt Ad-hoc-Steuerkanal
 1040,00028,PIA,C,R,25,1,2,Erforderliches Produkt Ad-hoc-Steuerkanal
-1140,00029,FTX,C,R,99,1,2,Zieladresse URI
-1140,00030,FTX,C,R,99,1,2,Zertifikatsaussteller (Issuer)
-1140,00031,FTX,C,R,99,1,2,Zertifikatsnutzer (Subject)
 1020,,SG27,M,D,200000,1,1,"Erforderliches Messprodukt für Werte nach Typ 2 aus
 Backend"
-1030,00032,LIN,M,M,1,1,1,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+1030,00029,LIN,M,M,1,1,1,"Erforderliches Messprodukt für Werte nach Typ 2 aus
 Backend"
-1040,00033,PIA,C,R,25,1,2,"Erforderliches Messprodukt für Werte nach Typ 2 aus
+1040,00030,PIA,C,R,25,1,2,"Erforderliches Messprodukt für Werte nach Typ 2 aus
 Backend"
 1020,,SG27,M,D,200000,1,1,"Erforderliches Produkt Konfigurationserlaubnis für
 Werte nach Typ 2 aus SMGW"
-1030,00034,LIN,M,M,1,1,1,"Erforderliches Produkt Konfigurationserlaubnis für Werte
+1030,00031,LIN,M,M,1,1,1,"Erforderliches Produkt Konfigurationserlaubnis für Werte
 nach Typ 2 aus SMGW"
-1040,00035,PIA,C,R,25,1,2,"Erforderliches Produkt Konfigurationserlaubnis für Werte
+1040,00032,PIA,C,R,25,1,2,"Erforderliches Produkt Konfigurationserlaubnis für Werte
 nach Typ 2 aus SMGW"
-1140,00036,FTX,C,R,99,1,2,Zieladresse URI
-1140,00037,FTX,C,R,99,1,2,Zertifikatsaussteller (Issuer)
-1140,00038,FTX,C,R,99,1,2,Zertifikatsnutzer (Subject)
+1140,00033,FTX,C,R,99,1,2,Zieladresse URI
+1140,00034,FTX,C,R,99,1,2,Zertifikatsaussteller (Issuer)
+1140,00035,FTX,C,R,99,1,2,Zertifikatsnutzer (Subject)
 1170,,SG28,C,D,999,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
-1180,00039,CCI,M,M,1,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
+1180,00036,CCI,M,M,1,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
 1170,,SG28,C,D,999,999,2,Schwellwerte
-1180,00040,CCI,M,M,1,1,2,Schwellwerte
-2200,00041,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
-2270,00042,UNT,M,M,1,1,0,Nachrichten-Endesegment
+1180,00037,CCI,M,M,1,1,2,Schwellwerte
+2200,00038,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
+2270,00039,UNT,M,M,1,1,0,Nachrichten-Endesegment
