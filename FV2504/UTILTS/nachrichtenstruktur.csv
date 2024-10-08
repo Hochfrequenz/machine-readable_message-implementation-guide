@@ -20,7 +20,7 @@ zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholun
 0300,00015,STS,C,D,9,9,2,Status der Antwort
 0300,00016,STS,C,D,9,9,2,Status der Berechnungsformel
 0300,00017,STS,C,D,9,1,2,Status der Nutzung von Definitionen
-0330,00018,FTX,C,D,9,1,2,Bemerkung (Feld für allgemeine Hinweise)
+0330,00018,FTX,C,D,9,9,2,Bemerkung (Feld für allgemeine Hinweise)
 0340,,SG6,C,R,99999,1,2,Prüfidentifikator
 0350,00019,RFF,M,M,1,1,2,Prüfidentifikator
 0340,,SG6,C,D,99999,1,2,Referenz auf Reklamation

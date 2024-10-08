@@ -1,0 +1,309 @@
+{
+  "header_linie": null,
+  "segmente": [
+    {
+      "zaehler": "0010",
+      "nr": "00001",
+      "bezeichnung": "UNH",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Kopfsegment"
+    },
+    {
+      "zaehler": "0020",
+      "nr": "00002",
+      "bezeichnung": "BGM",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Beginn der Nachricht"
+    },
+    {
+      "zaehler": "0030",
+      "nr": "00003",
+      "bezeichnung": "DTM",
+      "standard_status": "M",
+      "bdew_status": "R",
+      "standard_maximale_wiederholungen": 99,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 1,
+      "inhalt": "Dokumentendatum"
+    },
+    {
+      "zaehler": "0440",
+      "nr": "00026",
+      "bezeichnung": "UNT",
+      "standard_status": "M",
+      "bdew_status": "M",
+      "standard_maximale_wiederholungen": 1,
+      "bdew_maximale_wiederholungen": 1,
+      "ebene": 0,
+      "inhalt": "Nachrichten-Endesegment"
+    }
+  ],
+  "segmentgruppen": [
+    {
+      "header_linie": {
+        "zaehler": "0070",
+        "nr": null,
+        "bezeichnung": "SG2",
+        "standard_status": "M",
+        "bdew_status": "R",
+        "standard_maximale_wiederholungen": 99,
+        "bdew_maximale_wiederholungen": 1,
+        "ebene": 1,
+        "inhalt": "MP-ID Empf\u00e4nger"
+      },
+      "segmente": [
+        {
+          "zaehler": "0080",
+          "nr": "00005",
+          "bezeichnung": "NAD",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "MP-ID Absender"
+        }
+      ],
+      "segmentgruppen": []
+    },
+    {
+      "header_linie": {
+        "zaehler": "0100",
+        "nr": null,
+        "bezeichnung": "SG3",
+        "standard_status": "M",
+        "bdew_status": "M",
+        "standard_maximale_wiederholungen": 99,
+        "bdew_maximale_wiederholungen": 99,
+        "ebene": 1,
+        "inhalt": "Meldung"
+      },
+      "segmente": [
+        {
+          "zaehler": "0110",
+          "nr": "00006",
+          "bezeichnung": "DOC",
+          "standard_status": "M",
+          "bdew_status": "M",
+          "standard_maximale_wiederholungen": 1,
+          "bdew_maximale_wiederholungen": 1,
+          "ebene": 1,
+          "inhalt": "Dokument-/Nachricht-Einzelheiten"
+        }
+      ],
+      "segmentgruppen": [
+        {
+          "header_linie": {
+            "zaehler": "0120",
+            "nr": null,
+            "bezeichnung": "SG4",
+            "standard_status": "C",
+            "bdew_status": "R",
+            "standard_maximale_wiederholungen": 99,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Pr\u00fcfidentifikator"
+          },
+          "segmente": [
+            {
+              "zaehler": "0130",
+              "nr": "00008",
+              "bezeichnung": "RFF",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Referenzangaben"
+            }
+          ],
+          "segmentgruppen": []
+        },
+        {
+          "header_linie": {
+            "zaehler": "0150",
+            "nr": null,
+            "bezeichnung": "SG5",
+            "standard_status": "C",
+            "bdew_status": "D",
+            "standard_maximale_wiederholungen": 99,
+            "bdew_maximale_wiederholungen": 1,
+            "ebene": 2,
+            "inhalt": "Ansprechpartner beim Nachrichtenabsender"
+          },
+          "segmente": [
+            {
+              "zaehler": "0160",
+              "nr": "00012",
+              "bezeichnung": "NAD",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Ansprechpartner beim Kunden"
+            }
+          ],
+          "segmentgruppen": [
+            {
+              "header_linie": {
+                "zaehler": "0170",
+                "nr": null,
+                "bezeichnung": "SG6",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 99,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 3,
+                "inhalt": "Ansprechpartner"
+              },
+              "segmente": [
+                {
+                  "zaehler": "0180",
+                  "nr": "00013",
+                  "bezeichnung": "CTA",
+                  "standard_status": "M",
+                  "bdew_status": "M",
+                  "standard_maximale_wiederholungen": 1,
+                  "bdew_maximale_wiederholungen": 1,
+                  "ebene": 3,
+                  "inhalt": "Ansprechpartner"
+                },
+                {
+                  "zaehler": "0190",
+                  "nr": "00014",
+                  "bezeichnung": "COM",
+                  "standard_status": "C",
+                  "bdew_status": "R",
+                  "standard_maximale_wiederholungen": 99,
+                  "bdew_maximale_wiederholungen": 5,
+                  "ebene": 4,
+                  "inhalt": "Kommunikationsverbindung"
+                }
+              ],
+              "segmentgruppen": []
+            }
+          ]
+        },
+        {
+          "header_linie": {
+            "zaehler": "0200",
+            "nr": null,
+            "bezeichnung": "SG7",
+            "standard_status": "C",
+            "bdew_status": "R",
+            "standard_maximale_wiederholungen": 999,
+            "bdew_maximale_wiederholungen": 999,
+            "ebene": 2,
+            "inhalt": "LIN-DTM-DTM-DTM-DTM-STS-STS-FTX-SG8"
+          },
+          "segmente": [
+            {
+              "zaehler": "0210",
+              "nr": "00015",
+              "bezeichnung": "LIN",
+              "standard_status": "M",
+              "bdew_status": "M",
+              "standard_maximale_wiederholungen": 1,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 2,
+              "inhalt": "Positionsdaten"
+            },
+            {
+              "zaehler": "0240",
+              "nr": "00016",
+              "bezeichnung": "DTM",
+              "standard_status": "C",
+              "bdew_status": "D",
+              "standard_maximale_wiederholungen": 99,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Zeitpunkt zu dem der Ger\u00e4te-Status ermittelt wurde"
+            },
+            {
+              "zaehler": "0250",
+              "nr": "00020",
+              "bezeichnung": "STS",
+              "standard_status": "C",
+              "bdew_status": "D",
+              "standard_maximale_wiederholungen": 99,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Ger\u00e4testatus"
+            },
+            {
+              "zaehler": "0310",
+              "nr": "00022",
+              "bezeichnung": "FTX",
+              "standard_status": "C",
+              "bdew_status": "O",
+              "standard_maximale_wiederholungen": 9,
+              "bdew_maximale_wiederholungen": 1,
+              "ebene": 3,
+              "inhalt": "Freier Text"
+            }
+          ],
+          "segmentgruppen": [
+            {
+              "header_linie": {
+                "zaehler": "0320",
+                "nr": null,
+                "bezeichnung": "SG8",
+                "standard_status": "C",
+                "bdew_status": "R",
+                "standard_maximale_wiederholungen": 999,
+                "bdew_maximale_wiederholungen": 1,
+                "ebene": 3,
+                "inhalt": "NAD-LOC-RFF"
+              },
+              "segmente": [
+                {
+                  "zaehler": "0330",
+                  "nr": "00023",
+                  "bezeichnung": "NAD",
+                  "standard_status": "M",
+                  "bdew_status": "M",
+                  "standard_maximale_wiederholungen": 1,
+                  "bdew_maximale_wiederholungen": 1,
+                  "ebene": 3,
+                  "inhalt": "Messlokation"
+                },
+                {
+                  "zaehler": "0350",
+                  "nr": "00024",
+                  "bezeichnung": "LOC",
+                  "standard_status": "C",
+                  "bdew_status": "R",
+                  "standard_maximale_wiederholungen": 99,
+                  "bdew_maximale_wiederholungen": 1,
+                  "ebene": 4,
+                  "inhalt": "Meldepunkt"
+                },
+                {
+                  "zaehler": "0380",
+                  "nr": "00025",
+                  "bezeichnung": "RFF",
+                  "standard_status": "C",
+                  "bdew_status": "D",
+                  "standard_maximale_wiederholungen": 99,
+                  "bdew_maximale_wiederholungen": 99,
+                  "ebene": 4,
+                  "inhalt": "Gest\u00f6rte Messlokation "
+                }
+              ],
+              "segmentgruppen": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

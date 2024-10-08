@@ -1,0 +1,19 @@
+zaehler,nr,bezeichnung,standard_status,bdew_status,standard_maximale_wiederholungen,bdew_maximale_wiederholungen,ebene,inhalt
+0010,00001,UNH,M,M,1,1,0,Nachrichten-Kopfsegment
+0020,00002,BGM,M,M,1,1,0,Beginn der Nachricht
+0030,00003,DTM,M,M,35,1,1,Nachrichtendatum
+0090,,SG1,C,D,9999,1,1,Referenz der Anfrage/Bestellung
+0100,00004,RFF,M,M,1,1,1,Nachrichtennummer der Anfrage/Bestellung
+0090,,SG1,C,D,9999,1,1,Referenz des Vorgangs der Anfrage/Bestellung
+0100,00005,RFF,M,M,1,1,1,Vorgangsnummer der Anfrage/Bestellung
+0090,,SG1,C,R,9999,1,1,Prüfidentifikator
+0100,00006,RFF,M,M,1,1,1,Prüfidentifikator
+0150,,SG3,C,R,99,1,1,MP-ID Absender
+0160,00007,NAD,M,M,1,1,1,MP-ID Absender
+0250,,SG6,C,D,5,1,2,Kontaktinformationen
+0260,00008,CTA,M,M,1,1,2,Ansprechpartner
+0270,00009,COM,C,R,5,5,3,Kommunikationsverbindung
+0150,,SG3,C,R,99,1,1,MP-ID Empfänger
+0160,00010,NAD,M,M,1,1,1,MP-ID Empfänger
+2380,00011,UNS,M,M,1,1,0,Abschnitts-Kontrollsegment
+2450,00012,UNT,M,M,1,1,0,Nachrichten-Endesegment
