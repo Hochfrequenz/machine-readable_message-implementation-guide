@@ -2209,7 +2209,7 @@
         "standard_maximale_wiederholungen": 200000,
         "bdew_maximale_wiederholungen": 200000,
         "ebene": 1,
-        "inhalt": "Erforderliches Produkt der Technischen Ressource"
+        "inhalt": "Erforderliches Produkt der Steuerbaren Ressource"
       },
       "segmente": [
         {
@@ -2221,7 +2221,7 @@
           "standard_maximale_wiederholungen": 1,
           "bdew_maximale_wiederholungen": 1,
           "ebene": 1,
-          "inhalt": "Erforderliches Produkt der Technischen Ressource"
+          "inhalt": "Erforderliches Produkt der Steuerbaren Ressource"
         },
         {
           "zaehler": "1120",
@@ -2232,7 +2232,7 @@
           "standard_maximale_wiederholungen": 25,
           "bdew_maximale_wiederholungen": 1,
           "ebene": 2,
-          "inhalt": "Erforderliches Produkt der Technischen Ressource"
+          "inhalt": "Erforderliches Produkt der Steuerbaren Ressource"
         }
       ],
       "segmentgruppen": []
