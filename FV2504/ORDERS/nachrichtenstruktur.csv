@@ -176,9 +176,9 @@ Verwendungszweck"
 1280,,SG30,C,D,999,1,2,Messprodukt für Lieferant relevant
 1290,00104,CCI,M,M,1,1,2,Messprodukt für Lieferant relevant
 1300,00105,CAV,C,R,10,1,3,Verwendungszweck der Werte
-1100,,SG29,C,D,200000,200000,1,Erforderliches Produkt der Technischen Ressource
-1110,00106,LIN,M,M,1,1,1,Erforderliches Produkt der Technischen Ressource
-1120,00107,PIA,C,R,25,1,2,Erforderliches Produkt der Technischen Ressource
+1100,,SG29,C,D,200000,200000,1,Erforderliches Produkt der Steuerbaren Ressource
+1110,00106,LIN,M,M,1,1,1,Erforderliches Produkt der Steuerbaren Ressource
+1120,00107,PIA,C,R,25,1,2,Erforderliches Produkt der Steuerbaren Ressource
 1100,,SG29,C,D,200000,1,1,Erforderliches Produkt Schaltzeitdefinitionen
 1110,00108,LIN,M,M,1,1,1,Erforderliches Produkt Schaltzeitdefinitionen
 1120,00109,PIA,C,R,25,1,2,Erforderliches Produkt Schaltzeitdefinitionen

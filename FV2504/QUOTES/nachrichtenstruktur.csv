@@ -105,7 +105,7 @@ nach Typ 2 aus SMGW"
 1080,00068,PIA,C,R,25,1,2,"Erforderliches Produkt Konfigurationserlaubnis für Werte
 nach Typ 2 aus SMGW"
 1080,00069,PIA,C,R,25,3,2,Artikel-ID
-1230,,SG28,C,R,999,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
+1230,,SG28,C,D,999,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
 1240,00070,CCI,M,M,1,1,2,Änderungsmöglichkeit der Konfiguration im SMGW
 1230,,SG28,C,D,999,999,2,Schwellwerte
 1240,00071,CCI,M,M,1,1,2,Schwellwerte
