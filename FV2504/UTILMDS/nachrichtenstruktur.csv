@@ -134,7 +134,7 @@ zugeordneten Marktlokation "
 0520,00088,CAV,C,D,99,1,4,Priorisierung erforderliches Produktpaket
 0410,,SG8,C,D,99999,99999,2,Daten der Netzlokation
 0420,00089,SEQ,M,M,1,1,2,Daten der Netzlokation
-0430,00090,RFF,C,R,9,1,3,Referenz auf die ID der Netzlokation
+0430,00090,RFF,C,D,9,1,3,Referenz auf die ID der Netzlokation
 0500,,SG10,C,D,99,1,3,Steuerkanal
 0510,00091,CCI,M,M,1,1,3,Steuerkanal
 0500,,SG10,C,D,99,1,3,Zugeordnete Marktpartner
@@ -150,7 +150,7 @@ zugeordneten Marktlokation "
 0510,00098,CCI,M,M,1,1,3,Zahlung der Blindarbeit durch Lieferanten
 0410,,SG8,C,D,99999,99999,2,OBIS-Daten der Netzlokation
 0420,00099,SEQ,M,M,1,1,2,OBIS-Daten der Netzlokation
-0430,00100,RFF,C,R,9,1,3,Referenz auf die ID der Netzlokation
+0430,00100,RFF,C,D,9,1,3,Referenz auf die ID der Netzlokation
 0440,00101,PIA,C,R,9,1,3,OBIS-Kennzahl der Netzlokation
 0500,,SG10,C,D,99,1,3,Produkt-Daten für Netzbetreiber relevant
 0510,00102,CCI,M,M,1,1,3,Produkt-Daten für Netzbetreiber relevant
@@ -160,13 +160,13 @@ zugeordneten Marktlokation "
 0520,00105,CAV,C,R,99,2,4,Verwendungszweck der Werte
 0410,,SG8,C,D,99999,99999,2,Produkt-Daten der Netzlokation
 0420,00106,SEQ,M,M,1,1,2,Produkt-Daten der Netzlokation
-0430,00107,RFF,C,R,9,1,3,Referenz auf die ID der Netzlokation
+0430,00107,RFF,C,D,9,1,3,Referenz auf die ID der Netzlokation
 0440,00108,PIA,C,D,9,1,3,Produkt-Daten der Netzlokation
 0500,,SG10,C,D,99,1,3,Details zum Produkt der Netzlokation
 0510,00109,CCI,M,M,1,1,3,Details zum Produkt der Netzlokation
 0500,,SG10,C,D,99,1,3,Zugeordnete Leistungskurvendefinition
 0510,00110,CCI,M,M,1,1,3,Zugeordnete Leistungskurvendefinition
-0500,,SG10,C,R,99,1,3,Auftraggebender Marktpartner
+0500,,SG10,C,D,99,1,3,Auftraggebender Marktpartner
 0510,00111,CCI,M,M,1,1,3,Auftraggebender Marktpartner
 0520,00112,CAV,C,D,99,1,4,Auftraggebender Marktpartner
 0500,,SG10,C,D,99,2,3,Produkt-Daten für Marktrolle relevant
@@ -312,10 +312,10 @@ Artikel-ID"
 0440,00187,PIA,C,R,9,1,3,Erforderliches Messprodukt der Marktlokation
 0500,,SG10,C,D,99,1,3,Zugeordnete Zählzeitdefinition
 0510,00188,CCI,M,M,1,1,3,Zugeordnete Zählzeitdefinition
-0500,,SG10,C,R,99,1,3,Messprodukt für Netzbetreiber relevant
+0500,,SG10,C,D,99,1,3,Messprodukt für Netzbetreiber relevant
 0510,00189,CCI,M,M,1,1,3,Messprodukt für Netzbetreiber relevant
 0520,00190,CAV,C,R,99,2,4,Verwendungszweck des Wertes
-0500,,SG10,C,R,99,1,3,Messprodukt für Lieferant relevant
+0500,,SG10,C,D,99,1,3,Messprodukt für Lieferant relevant
 0510,00191,CCI,M,M,1,1,3,Messprodukt für Lieferant relevant
 0520,00192,CAV,C,R,99,3,4,Verwendungszweck des Wertes
 0500,,SG10,C,D,99,1,3,Messprodukt für Übertragungsnetzbetreiber relevant
@@ -349,7 +349,7 @@ Artikel-ID"
 0510,00211,CCI,M,M,1,1,3,Details zum Produkt der Marktlokation
 0500,,SG10,C,R,99,1,3,Zugeordnete Definition
 0510,00212,CCI,M,M,1,1,3,Zugeordnete Definition
-0500,,SG10,C,R,99,2,3,Produkt-Daten für Marktrolle relevant
+0500,,SG10,C,D,99,2,3,Produkt-Daten für Marktrolle relevant
 0510,00213,CCI,M,M,1,1,3,Produkt-Daten für Marktrolle relevant
 0410,,SG8,C,D,99999,99999,2,"Verbrauchsart und Nutzung der OBIS-Kennzahl der
 Marktlokation"
@@ -366,7 +366,7 @@ Marktlokation"
 0410,,SG8,C,D,99999,99999,2,OBIS-Daten der Marktlokation der beteiligten Marktrolle
 0420,00221,SEQ,M,M,1,1,2,OBIS-Daten der Marktlokation der beteiligten Marktrolle
 0440,00222,PIA,C,R,9,1,3,OBIS-Kennzahl der Marktlokation
-0410,,SG8,C,D,99999,1,2,Produkt-Daten der Marktlokation des NB
+0410,,SG8,C,D,99999,99999,2,Produkt-Daten der Marktlokation des NB
 0420,00223,SEQ,M,M,1,1,2,Produkt-Daten der Marktlokation des NB
 0440,00224,PIA,C,D,9,1,3,Produktidentifikation der Marktlokation
 0410,,SG8,C,D,99999,99999,2,Daten der Tranche
@@ -396,10 +396,10 @@ Marktlokation"
 0420,00238,SEQ,M,M,1,1,2,Erforderliches Messprodukt der Tranche
 0430,00239,RFF,C,R,9,1,3,Referenz auf die ID der Tranche
 0440,00240,PIA,C,R,9,1,3,Erforderliches Messprodukt der Tranche
-0500,,SG10,C,R,99,1,3,Messprodukt für Netzbetreiber relevant
+0500,,SG10,C,D,99,1,3,Messprodukt für Netzbetreiber relevant
 0510,00241,CCI,M,M,1,1,3,Werte für Netzbetreiber relevant
 0520,00242,CAV,C,R,99,2,4,Verwendungszweck der Werte
-0500,,SG10,C,R,99,1,3,Messprodukt für Lieferant relevant
+0500,,SG10,C,D,99,1,3,Messprodukt für Lieferant relevant
 0510,00243,CCI,M,M,1,1,3,Werte für Lieferant relevant
 0520,00244,CAV,C,R,99,2,4,Verwendungszweck der Werte
 0500,,SG10,C,R,99,1,3,Messprodukt für Übertragungsnetzbetreiber relevant
@@ -423,7 +423,7 @@ Marktlokation"
 0440,00257,PIA,C,R,9,1,3,OBIS-Kennzahl der Tranche
 0410,,SG8,C,D,99999,99999,2,Daten der Technischen Ressource
 0420,00258,SEQ,M,M,1,1,2,Daten der Technischen Ressource
-0430,00259,RFF,C,R,9,1,3,Referenz auf die ID der Technischen Ressource
+0430,00259,RFF,C,D,9,1,3,Referenz auf die ID der Technischen Ressource
 0430,00260,RFF,C,D,9,9,3,Referenz auf die ID der vorgelagerten Messlokation 
 0430,00261,RFF,C,D,9,2,3,"Referenz auf die der Technischen Ressource
 zugeordneten Marktlokation "
@@ -454,7 +454,7 @@ nach § 14a EnWG mit Inbetriebsetzung vor 2024"
 0520,00277,CAV,C,R,99,1,4,Information zu weiteren technischen Einrichtungen
 0410,,SG8,C,D,99999,99999,2,Daten der Steuerbaren Ressource
 0420,00278,SEQ,M,M,1,1,2,Daten der Steuerbaren Ressource
-0430,00279,RFF,C,R,9,1,3,Referenz auf die ID der Steuerbaren Ressource
+0430,00279,RFF,C,D,9,1,3,Referenz auf die ID der Steuerbaren Ressource
 0500,,SG10,C,D,99,1,3,Steuerkanal
 0510,00280,CCI,M,M,1,1,3,Steuerkanal
 0520,00281,CAV,C,R,99,1,4,Leistungsbeschreibung des Steuerkanals
@@ -463,14 +463,14 @@ nach § 14a EnWG mit Inbetriebsetzung vor 2024"
 0520,00283,CAV,C,R,99,1,4,Messstellenbetreiber
 0410,,SG8,C,D,99999,99999,2,Produkt-Daten der Steuerbaren Ressource
 0420,00284,SEQ,M,M,1,1,2,Produkt-Daten der Steuerbaren Ressource
-0430,00285,RFF,C,R,9,1,3,Referenz auf die ID der Steuerbaren Ressource
+0430,00285,RFF,C,D,9,1,3,Referenz auf die ID der Steuerbaren Ressource
 0440,00286,PIA,C,R,9,1,3,Produkt-Daten der Steuerbaren Ressource
 0500,,SG10,C,R,99,1,3,Zugeordnete Definition
 0510,00287,CCI,M,M,1,1,3,Zugeordnete Definition
-0500,,SG10,C,R,99,1,3,Auftraggebender Marktpartner
+0500,,SG10,C,D,99,1,3,Auftraggebender Marktpartner
 0510,00288,CCI,M,M,1,1,3,Auftraggebender Marktpartner
 0520,00289,CAV,C,D,99,1,4,Auftraggebender Marktpartner
-0500,,SG10,C,R,99,2,3,Produkt-Daten für Marktrolle relevant
+0500,,SG10,C,D,99,2,3,Produkt-Daten für Marktrolle relevant
 0510,00290,CCI,M,M,1,1,3,Produkt-Daten für Marktrolle relevant
 0410,,SG8,C,D,99999,99999,2,Daten der Messlokation
 0420,00291,SEQ,M,M,1,1,2,Daten der Messlokation
